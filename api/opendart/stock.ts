@@ -1,8 +1,17 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node'
+import type { IncomingMessage, ServerResponse } from 'node:http'
 import { getStockSnapshot } from '../../src/server/opendart'
 import { applyRateLimit, getClientIdentifier } from '../../src/server/request-security'
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+type VercelLikeRequest = IncomingMessage & {
+  query: Record<string, string | string[] | undefined>
+}
+
+type VercelLikeResponse = ServerResponse<IncomingMessage> & {
+  status: (code: number) => VercelLikeResponse
+  json: (body: unknown) => void
+}
+
+export default async function handler(req: VercelLikeRequest, res: VercelLikeResponse) {
   const symbol = typeof req.query.symbol === 'string' ? req.query.symbol : null
 
   if (!symbol) {
@@ -17,7 +26,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   })
 
   if (!rateLimitResult.ok) {
-    res.setHeader('Retry-After', String(rateLimitResult.retryAfterSeconds))
+    const retryAfterSeconds =
+      'retryAfterSeconds' in rateLimitResult ? rateLimitResult.retryAfterSeconds : 60
+
+    res.setHeader('Retry-After', String(retryAfterSeconds))
     res.status(429).json({ error: '요청이 너무 많아. 잠깐 뒤에 다시 시도해줘.' })
     return
   }

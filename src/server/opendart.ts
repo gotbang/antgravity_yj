@@ -646,7 +646,10 @@ export async function handleOpenDartRequest(req: IncomingMessage, res: ServerRes
     const rateLimitResult = applyPublicApiRateLimit(req, requestUrl.pathname)
 
     if (!rateLimitResult.ok) {
-      res.setHeader('Retry-After', String(rateLimitResult.retryAfterSeconds))
+      const retryAfterSeconds =
+        'retryAfterSeconds' in rateLimitResult ? rateLimitResult.retryAfterSeconds : 60
+
+      res.setHeader('Retry-After', String(retryAfterSeconds))
       return sendJson(res, 429, { error: '요청이 너무 많아. 잠깐 뒤에 다시 시도해줘.' })
     }
 
