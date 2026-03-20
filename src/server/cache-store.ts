@@ -17,8 +17,16 @@ const cacheStats = {
   fallbacks: 0,
 }
 
+function getDefaultCacheRoot() {
+  if (process.env.VERCEL === '1') {
+    return path.join('/tmp', 'ant-gravity-cache')
+  }
+
+  return path.join(process.cwd(), 'data', 'cache')
+}
+
 function getCacheRoot() {
-  return process.env.MARKET_CACHE_DIR ?? path.join(process.cwd(), 'data', 'cache')
+  return process.env.MARKET_CACHE_DIR ?? getDefaultCacheRoot()
 }
 
 function resolveCachePath(relativePath: string) {
@@ -44,6 +52,16 @@ async function writeFileCache<T>(relativePath: string, envelope: CacheEnvelope<T
   const filePath = resolveCachePath(relativePath)
   await mkdir(path.dirname(filePath), { recursive: true })
   await writeFile(filePath, JSON.stringify(envelope, null, 2), 'utf8')
+}
+
+async function tryWriteFileCache<T>(relativePath: string, envelope: CacheEnvelope<T>) {
+  try {
+    await writeFileCache(relativePath, envelope)
+    cacheStats.writes += 1
+  } catch {
+    // 서버리스 런타임에서는 파일 캐시 쓰기가 실패할 수 있어.
+    // 이 경우 fresh 데이터를 버리지 않고 메모리 캐시만 유지해.
+  }
 }
 
 export async function getCachedResource<T>(options: {
@@ -85,8 +103,7 @@ export async function getCachedResource<T>(options: {
     }
 
     memoryCache.set(cacheKey, envelope)
-    await writeFileCache(filePath, envelope)
-    cacheStats.writes += 1
+    await tryWriteFileCache(filePath, envelope)
 
     return data
   } catch (error) {
@@ -118,7 +135,7 @@ export async function writeCachedResource<T>(options: {
   }
 
   memoryCache.set(options.cacheKey, envelope)
-  await writeFileCache(options.filePath, envelope)
+  await tryWriteFileCache(options.filePath, envelope)
 }
 
 export function clearCacheStore() {

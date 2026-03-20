@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import path from 'node:path'
+import { mkdir, rm, writeFile } from 'node:fs/promises'
 import type { IncomingMessage } from 'node:http'
 import { getStockSnapshot, handleOpenDartRequest, resetServerCaches } from './opendart.ts'
 import { setYahooChartFetcherForTest } from './krx.ts'
@@ -171,6 +172,41 @@ describe('server security and data integration', () => {
     expect(stock.hasPriceData).toBe(true)
     expect(stock.priceSourceLabel).toContain('Yahoo')
     expect(stock.priceChangeRateLabel).toBe('+1.71%')
+  })
+
+  it('keeps fresh price data even when file cache writes fail in serverless-like runtime', async () => {
+    const blockerRoot = path.join(process.cwd(), '.tmp-test-cache-blocker')
+
+    await rm(blockerRoot, { recursive: true, force: true })
+    await mkdir(path.dirname(blockerRoot), { recursive: true })
+    await writeFile(blockerRoot, 'block-file', 'utf8')
+
+    vi.stubEnv('MARKET_CACHE_DIR', blockerRoot)
+    vi.stubEnv('YFINANCE_ENABLED', 'true')
+    setYahooChartFetcherForTest(async () =>
+      JSON.stringify({
+        chart: {
+          result: [
+            {
+              meta: {
+                regularMarketPrice: 71200,
+                chartPreviousClose: 70000,
+              },
+              timestamp: [1710979200],
+            },
+          ],
+        },
+      }),
+    )
+    vi.stubGlobal('fetch', createFetchMock())
+
+    const stock = await getStockSnapshot('NAVER', { forceRefresh: true })
+
+    expect(stock.hasPriceData).toBe(true)
+    expect(stock.priceSourceLabel).toContain('Yahoo')
+    expect(stock.currentPriceLabel).toContain('71,200')
+
+    await rm(blockerRoot, { recursive: true, force: true })
   })
 
   it('blocks debug endpoint outside development', async () => {
