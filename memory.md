@@ -274,3 +274,64 @@
   1. decide whether generated `data/cache/*` files should stay tracked or be excluded from normal feature commits
   2. review whether in-memory rate limiting is enough for deployment, or needs shared/external storage
   3. if `/debug` is needed outside DEV, split it into an authenticated admin-only route
+## 2026-03-21 Handoff Update
+
+- latest pushed commits
+  - `424f65e feat: sync project docs and harden market endpoints`
+  - `4be31f4 chore: stop tracking prompt and dev journals`
+  - `ebcc4e1 chore: remove tracked codex assets`
+
+- pushed remote
+  - `origin = https://github.com/gotbang/antgravity_yj.git`
+  - pushed branch: `main`
+
+- completed in recent sessions
+  - project docs synced to current code
+    - `docs/PRD.md`
+    - `research.md`
+    - `spec/ui-routes.md`
+  - React optimization applied
+    - `src/context/watchlist-storage.ts` added
+    - `src/context/WatchlistProvider.tsx` cross-tab sync fixed
+    - `src/pages/HomePage.tsx` and `src/pages/StockPage.tsx` switched repeated lookups to `Map`
+    - tests added:
+      - `src/context/watchlist-storage.test.ts`
+      - `src/context/WatchlistProvider.test.tsx`
+  - security hardening applied
+    - `src/server/request-security.ts` added
+    - public market endpoints now have in-memory rate limiting
+    - `/debug` endpoint restricted to development mode
+    - `src/components/AdminDebugPanel.tsx` changed to DEV-only
+    - API/server responses no longer expose raw internal error messages
+    - `src/server/krx.ts` now enforces HTTPS KRX endpoint config
+    - security tests expanded in `src/server/opendart.test.ts`
+  - repository hygiene changes
+    - `docs/개발일지/`, `docs/prompt/` removed from git tracking and ignored
+    - `.codex/` removed from git tracking and ignored
+
+- validation completed before latest commit
+  - `pnpm test -- --run`
+  - `pnpm typecheck`
+  - `pnpm lint`
+  - all passing
+
+- intentionally not pushed / still local only
+  - generated cache changes under `data/cache/*`
+  - deleted local file: `design/dashboard.png`
+
+- current local working tree still has
+  - modified:
+    - `data/cache/raw/prices/all.json`
+    - `data/cache/view/market-summary.json`
+    - `data/cache/view/stocks/000660.json`
+    - `data/cache/view/stocks/005380.json`
+    - `data/cache/view/stocks/005930.json`
+    - `data/cache/view/stocks/035420.json`
+    - `data/cache/view/stocks/035720.json`
+  - deleted:
+    - `design/dashboard.png`
+
+- recommended first checks in next session
+  1. decide whether `data/cache/*` should be discarded, refreshed, or committed separately
+  2. confirm whether `design/dashboard.png` deletion was intentional
+  3. if more deployment hardening is needed, review `src/server/opendart.ts`, `src/server/request-security.ts`, `src/server/krx.ts`
