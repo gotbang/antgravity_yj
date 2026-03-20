@@ -308,14 +308,14 @@ function StockListView() {
       <section className="content-section">
         <h2 className="section-title">🔎 종목 검색</h2>
         <article className="stock-source-card">
-          <strong>{hasPriceData ? 'OpenDART + KRX 시세 데이터' : '실제 OpenDART 공시/재무 데이터'}</strong>
+          <strong>{hasPriceData ? 'OpenDART + 시세 데이터' : '실제 OpenDART 공시/재무 데이터'}</strong>
           <p>
             현재 종목분석은 공시일, 최근 공시명, 매출액, 영업이익, 부채비율 기준으로 보여줘.
           </p>
           <span>
             {hasPriceData
-              ? '가격은 KRX OPEN API 일별 시세 기준으로 함께 보여줘.'
-              : 'KRX OPEN API 키가 발급되면 가격 시세도 여기서 바로 함께 보여줄게.'}
+              ? '가격은 현재 연결된 시세 소스 기준으로 함께 보여줘.'
+              : '시세 소스가 연결되면 가격 정보도 여기서 바로 함께 보여줄게.'}
           </span>
         </article>
         <label htmlFor="stock-search" className="visually-hidden">
@@ -395,7 +395,7 @@ function StockListView() {
         <div className="hint-card">💡 종목을 클릭하면 상세 분석을 확인할 수 있습니다</div>
         <article className="warning-chip">
           데이터 출처: {data?.sourceLabel ?? '샘플 데이터'} ·{' '}
-          {hasPriceData ? '가격은 KRX 일별 시세 기준이야.' : '가격/시세는 KRX 승인 대기 상태야.'}
+          {hasPriceData ? '가격 시세가 함께 반영된 상태야.' : '가격/시세는 아직 미연동 상태야.'}
         </article>
       </section>
     </div>

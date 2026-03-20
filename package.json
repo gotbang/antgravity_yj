@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "refresh-cache": "node --experimental-strip-types scripts/refresh-cache.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
   },

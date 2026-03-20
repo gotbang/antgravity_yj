@@ -1,5 +1,6 @@
 import { Suspense } from 'react'
 import { Outlet } from 'react-router-dom'
+import { AdminDebugPanel } from './AdminDebugPanel'
 
 function RouteFallback() {
   return (
@@ -34,6 +35,7 @@ export function AppShell() {
           <Outlet />
         </Suspense>
       </main>
+      <AdminDebugPanel />
     </div>
   )
 }

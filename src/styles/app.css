@@ -87,6 +87,60 @@ input {
   margin: 0 auto;
 }
 
+.admin-debug-panel {
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  z-index: 20;
+  display: grid;
+  gap: 8px;
+  width: min(320px, calc(100vw - 28px));
+}
+
+.admin-debug-toggle,
+.admin-debug-body {
+  border-radius: 18px;
+  background: rgba(20, 28, 52, 0.94);
+  color: #f8fbff;
+  box-shadow: 0 14px 28px rgba(18, 27, 52, 0.24);
+}
+
+.admin-debug-toggle {
+  min-height: 42px;
+  border: 0;
+  padding: 0 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.admin-debug-body {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  font-size: 0.78rem;
+}
+
+.admin-debug-file-list {
+  display: grid;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.admin-debug-file-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: rgba(248, 251, 255, 0.84);
+}
+
+.admin-debug-file-row span:first-child {
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .screen {
   display: grid;
   gap: 22px;

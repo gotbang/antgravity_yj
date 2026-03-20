@@ -13,8 +13,8 @@ const moodPoints = [
 ]
 
 const journalTrades = [
-  { symbol: '삼성전자', action: '매수', note: '저점에서 반등 기대', profit: '- ₩1,500,000' },
-  { symbol: '현대차', action: '매도', note: '수익 실현, 비중 축소', profit: '+ ₩700,000' },
+  { symbol: '삼성전자', action: '매수', note: '저점에서 반등 기대', profit: '-150만원' },
+  { symbol: '현대차', action: '매도', note: '수익 실현, 비중 축소', profit: '+70만원' },
 ]
 
 const journalTabs = [

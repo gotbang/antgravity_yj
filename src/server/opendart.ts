@@ -11,8 +11,10 @@ import {
   type StockPrediction,
   type TradeMemo,
   type Trend,
-} from '../lib/market'
-import { getKrxStockPrices, resetKrxCache, setYahooChartFetcherForTest, type KrxStockPrice } from './krx'
+} from '../lib/market.ts'
+import { formatKoreanWon, formatSignedKoreanWon } from '../lib/format.ts'
+import { clearCacheStore, getCacheDiagnostics, getCachedResource, writeCachedResource } from './cache-store.ts'
+import { getKrxStockPrices, resetKrxCache, setYahooChartFetcherForTest, type KrxStockPrice } from './krx.ts'
 
 type DartCompanyResponse = {
   status: string
@@ -49,39 +51,18 @@ type DartFinancialResponse = {
 }
 
 const OPEN_DART_BASE_URL = 'https://opendart.fss.or.kr/api'
-const CACHE_TTL_MS = 60_000
-
-const cache = new Map<string, { expiresAt: number; value: unknown }>()
+const COMPANY_TTL_MS = 24 * 60 * 60 * 1000
+const DISCLOSURES_TTL_MS = 2 * 60 * 60 * 1000
+const FINANCIALS_TTL_MS = 24 * 60 * 60 * 1000
+const PRICES_TTL_MS = 5 * 60 * 1000
+const STOCK_SNAPSHOT_TTL_MS = 20 * 60 * 1000
+const MARKET_SUMMARY_TTL_MS = 30 * 60 * 1000
 
 const POSITIVE_KEYWORDS = ['계약', '체결', '증가', '취득', '투자', '실적', '배당', '신규']
 const NEGATIVE_KEYWORDS = ['정정', '감소', '중단', '소송', '손실', '유상증자', '불성실', '지연']
 
 function getOpenDartApiKey() {
   return process.env.OPENDART_API_KEY ?? process.env.DART_API_KEY ?? ''
-}
-
-function getCached<T>(key: string) {
-  const entry = cache.get(key)
-
-  if (!entry) {
-    return null
-  }
-
-  if (entry.expiresAt < Date.now()) {
-    cache.delete(key)
-    return null
-  }
-
-  return entry.value as T
-}
-
-function setCached(key: string, value: unknown) {
-  cache.set(key, { expiresAt: Date.now() + CACHE_TTL_MS, value })
-}
-
-function formatSignedNumber(value: number) {
-  const sign = value > 0 ? '+' : value < 0 ? '-' : ''
-  return `${sign}${Math.abs(value).toLocaleString('ko-KR')}`
 }
 
 function formatPriceDate(raw: string) {
@@ -99,8 +80,8 @@ function buildPriceInfo(price: KrxStockPrice | null): StockPriceInfo {
 
   return {
     hasPriceData: true,
-    currentPriceLabel: `${price.currentPrice.toLocaleString('ko-KR')}원`,
-    priceChangeLabel: `${formatSignedNumber(price.change)}원`,
+    currentPriceLabel: formatKoreanWon(price.currentPrice),
+    priceChangeLabel: formatSignedKoreanWon(price.change),
     priceChangeRateLabel: `${price.changeRate > 0 ? '+' : price.changeRate < 0 ? '-' : ''}${Math.abs(price.changeRate).toFixed(2)}%`,
     priceAsOfLabel: formatPriceDate(price.asOfDate),
     priceSourceLabel: price.sourceLabel,
@@ -284,9 +265,8 @@ function buildStockSnapshot(
     riskScore >= 70 ? '변동성 확대 구간' : riskScore >= 55 ? '경계 구간' : '안정 구간'
   const riskComment =
     riskScore >= 70 ? '분할 접근 권장' : riskScore >= 55 ? '관망 우선' : '완만한 비중 확대 가능'
-  const revenueDisplay = revenue > 0 ? `${Math.round(revenue / 100000000)}억` : '확인 중'
-  const operatingIncomeDisplay =
-    operatingIncome !== 0 ? `${Math.round(operatingIncome / 100000000)}억` : '확인 중'
+  const revenueDisplay = revenue > 0 ? formatKoreanWon(revenue) : '확인 중'
+  const operatingIncomeDisplay = operatingIncome !== 0 ? formatKoreanWon(operatingIncome) : '확인 중'
   const debtRatioDisplay = `${Math.round(debtRatio)}%`
 
   return {
@@ -367,6 +347,16 @@ async function fetchCompany(metadata: StockMetadata) {
   })
 }
 
+async function getCachedCompany(metadata: StockMetadata, forceRefresh = false) {
+  return getCachedResource<DartCompanyResponse>({
+    cacheKey: `raw:company:${metadata.stockCode}`,
+    filePath: `raw/company/${metadata.stockCode}.json`,
+    ttlMs: COMPANY_TTL_MS,
+    forceRefresh,
+    loader: () => fetchCompany(metadata),
+  })
+}
+
 async function fetchDisclosures(metadata: StockMetadata) {
   const now = new Date()
   const endDate = now.toISOString().slice(0, 10).replace(/-/g, '')
@@ -382,6 +372,16 @@ async function fetchDisclosures(metadata: StockMetadata) {
   })
 
   return response.list ?? []
+}
+
+async function getCachedDisclosures(metadata: StockMetadata, forceRefresh = false) {
+  return getCachedResource<DartListItem[]>({
+    cacheKey: `raw:disclosures:${metadata.stockCode}`,
+    filePath: `raw/disclosures/${metadata.stockCode}.json`,
+    ttlMs: DISCLOSURES_TTL_MS,
+    forceRefresh,
+    loader: () => fetchDisclosures(metadata),
+  })
 }
 
 async function fetchFinancials(metadata: StockMetadata) {
@@ -421,48 +421,63 @@ async function fetchFinancials(metadata: StockMetadata) {
   return []
 }
 
-export async function getStockSnapshot(symbol: string) {
+async function getCachedFinancials(metadata: StockMetadata, forceRefresh = false) {
+  return getCachedResource<DartFinancialItem[]>({
+    cacheKey: `raw:financials:${metadata.stockCode}`,
+    filePath: `raw/financials/${metadata.stockCode}.json`,
+    ttlMs: FINANCIALS_TTL_MS,
+    forceRefresh,
+    loader: () => fetchFinancials(metadata),
+  })
+}
+
+async function getCachedPriceMap(forceRefresh = false) {
+  const prices = await getCachedResource<Record<string, KrxStockPrice>>({
+    cacheKey: 'raw:prices:all',
+    filePath: 'raw/prices/all.json',
+    ttlMs: PRICES_TTL_MS,
+    forceRefresh,
+    loader: async () => {
+      const nextMap = await getKrxStockPrices(STOCK_UNIVERSE)
+      return Object.fromEntries(nextMap.entries())
+    },
+  })
+
+  return new Map(Object.entries(prices))
+}
+
+export async function getStockSnapshot(symbol: string, options?: { forceRefresh?: boolean }) {
   const metadata = findStockMetadataBySymbol(symbol)
 
   if (!metadata) {
     throw new Error('지원하지 않는 종목이야.')
   }
 
-  const cacheKey = `stock:${metadata.symbol}`
-  const cached = getCached<StockPrediction>(cacheKey)
+  return getCachedResource<StockPrediction>({
+    cacheKey: `view:stock:${metadata.stockCode}`,
+    filePath: `view/stocks/${metadata.stockCode}.json`,
+    ttlMs: STOCK_SNAPSHOT_TTL_MS,
+    forceRefresh: options?.forceRefresh ?? false,
+    loader: async () => {
+      const [company, disclosures, financials, prices] = await Promise.all([
+        getCachedCompany(metadata, options?.forceRefresh),
+        getCachedDisclosures(metadata, options?.forceRefresh),
+        getCachedFinancials(metadata, options?.forceRefresh),
+        getCachedPriceMap(options?.forceRefresh).catch(() => new Map<string, KrxStockPrice>()),
+      ])
 
-  if (cached) {
-    return cached
-  }
-
-  const [company, disclosures, financials, prices] = await Promise.all([
-    fetchCompany(metadata),
-    fetchDisclosures(metadata),
-    fetchFinancials(metadata),
-    getKrxStockPrices([metadata]).catch(() => new Map<string, KrxStockPrice>()),
-  ])
-
-  const snapshot = buildStockSnapshot(
-    metadata,
-    company,
-    disclosures,
-    financials,
-    buildPriceInfo(prices.get(metadata.stockCode) ?? null),
-  )
-  setCached(cacheKey, snapshot)
-
-  return snapshot
+      return buildStockSnapshot(
+        metadata,
+        company,
+        disclosures,
+        financials,
+        buildPriceInfo(prices.get(metadata.stockCode) ?? null),
+      )
+    },
+  })
 }
 
-export async function getMarketSummary() {
-  const cacheKey = 'market-summary'
-  const cached = getCached<MarketSummary>(cacheKey)
-
-  if (cached) {
-    return cached
-  }
-
-  const stocks = await Promise.all(STOCK_UNIVERSE.map((stock) => getStockSnapshot(stock.symbol)))
+function buildMarketSummary(stocks: StockPrediction[]): MarketSummary {
   const averageUpProbability = Math.round(
     stocks.reduce((sum, stock) => sum + stock.upProbability, 0) / stocks.length,
   )
@@ -491,7 +506,7 @@ export async function getMarketSummary() {
     ),
   ).slice(0, 4)
 
-  const marketSummary: MarketSummary = {
+  return {
     moodTitle: averageRisk >= 65 ? '경계 증가' : averageUpProbability >= 55 ? '회복 기대' : '관망 유지',
     moodDescription:
       averageRisk >= 65
@@ -536,16 +551,47 @@ export async function getMarketSummary() {
         ? 'OpenDART 기반 재무/공시 해석 + KRX OPEN API 일별 시세'
         : 'OpenDART 기반 재무/공시 해석',
   }
+}
 
-  setCached(cacheKey, marketSummary)
+export async function getMarketSummary(options?: { forceRefresh?: boolean }) {
+  return getCachedResource<MarketSummary>({
+    cacheKey: 'view:market-summary',
+    filePath: 'view/market-summary.json',
+    ttlMs: MARKET_SUMMARY_TTL_MS,
+    forceRefresh: options?.forceRefresh ?? false,
+    loader: async () => {
+      const stocks = await Promise.all(
+        STOCK_UNIVERSE.map((stock) =>
+          getStockSnapshot(stock.symbol, { forceRefresh: options?.forceRefresh }),
+        ),
+      )
 
-  return marketSummary
+      return buildMarketSummary(stocks)
+    },
+  })
 }
 
 export function resetServerCaches() {
-  cache.clear()
   resetKrxCache()
   setYahooChartFetcherForTest(null)
+  clearCacheStore()
+}
+
+export async function refreshAllCaches(options?: { forceRefresh?: boolean }) {
+  const forceRefresh = options?.forceRefresh ?? true
+  const stocks = await Promise.all(
+    STOCK_UNIVERSE.map((stock) => getStockSnapshot(stock.symbol, { forceRefresh })),
+  )
+  const marketSummary = buildMarketSummary(stocks)
+
+  await writeCachedResource({
+    cacheKey: 'view:market-summary',
+    filePath: 'view/market-summary.json',
+    ttlMs: MARKET_SUMMARY_TTL_MS,
+    data: marketSummary,
+  })
+
+  return { stocks, marketSummary }
 }
 
 export async function sendJson(
@@ -565,6 +611,11 @@ export async function handleOpenDartRequest(req: IncomingMessage, res: ServerRes
     if (requestUrl.pathname.endsWith('/market-summary')) {
       const summary = await getMarketSummary()
       return sendJson(res, 200, summary)
+    }
+
+    if (requestUrl.pathname.endsWith('/debug')) {
+      const diagnostics = await getCacheDiagnostics()
+      return sendJson(res, 200, diagnostics)
     }
 
     if (requestUrl.pathname.endsWith('/stock')) {

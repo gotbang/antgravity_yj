@@ -1,0 +1,150 @@
+{
+  "key": "view:stock:005930",
+  "updatedAt": "2026-03-20T17:56:54.930Z",
+  "expiresAt": "2026-03-20T18:16:54.930Z",
+  "data": {
+    "symbol": "삼성전자",
+    "stockCode": "005930",
+    "corpCode": "00126380",
+    "companyName": "삼성전자(주)",
+    "sector": "반도체",
+    "latestDisclosureDate": "2026.03.20",
+    "latestDisclosureTitle": "최대주주등소유주식변동신고서              ",
+    "disclosureCount": 8,
+    "revenueSummary": "매출액 333조 6,059억",
+    "operatingIncomeSummary": "영업이익 43조 6,010억",
+    "debtRatioSummary": "부채비율 30%",
+    "hasPriceData": true,
+    "currentPriceLabel": "199,400원",
+    "priceChangeLabel": "+15,900원",
+    "priceChangeRateLabel": "+8.66%",
+    "priceAsOfLabel": "2026.03.20 기준",
+    "priceSourceLabel": "Yahoo Finance 개인용 시세",
+    "trend": "up",
+    "statusLabel": "상승 우위",
+    "forecastLabel": "상승 예상",
+    "upProbability": 66,
+    "downProbability": 34,
+    "volatilityRange": "±4.0%",
+    "rangeNote": "199,400원 · 전일 대비 +15,900원 (+8.66%)",
+    "riskScore": 39,
+    "riskStatusLabel": "안정 구간",
+    "riskComment": "완만한 비중 확대 가능",
+    "strategy": "분할 매수 관점 유지",
+    "confidenceLabel": "최근 공시 8건 분석",
+    "accuracyRate": "61.0%",
+    "recentNote": "최근 공시: 최대주주등소유주식변동신고서              ",
+    "history": [
+      {
+        "date": "2026.03.20",
+        "title": "최대주주등소유주식변동신고서              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320800948",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.03.20",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001393",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.03.19",
+        "title": "기업가치제고계획(자율공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319801333",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.03.18",
+        "title": "기타경영사항(자율공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318801867",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.03.18",
+        "title": "주요사항보고서(자기주식처분결정)",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001203",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      }
+    ],
+    "tradeMemos": [
+      {
+        "symbol": "삼성전자",
+        "action": "매수",
+        "note": "최대주주등소유주식변동신고서              ",
+        "profit": "+ 공시 우호"
+      },
+      {
+        "symbol": "삼성전자",
+        "action": "매수",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "profit": "+ 공시 우호"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "변동성 상태",
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.0%로 해석하고 있어."
+      },
+      {
+        "title": "추세 강도",
+        "description": "1건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
+      },
+      {
+        "title": "과거 유사 패턴 성공률",
+        "description": "현재 점수 기준 예상 적중률은 74% 수준으로 보고 있어."
+      }
+    ],
+    "strategyGuide": [
+      "공시 일정이 몰린 주간에는 비중 확대를 서두르지 않기",
+      "단기 급등 구간에서는 분할 진입과 분할 청산 유지",
+      "리스크 점수가 높을수록 손절 기준을 먼저 정하기"
+    ],
+    "financialMetrics": [
+      {
+        "label": "매출액",
+        "value": "333조 6,059억",
+        "description": "최근 재무 기준"
+      },
+      {
+        "label": "영업이익",
+        "value": "43조 6,010억",
+        "description": "최근 재무 기준"
+      },
+      {
+        "label": "부채비율",
+        "value": "30%",
+        "description": "자본 대비 부채"
+      }
+    ],
+    "consensus": {
+      "targetPrice": "OpenDART 미제공",
+      "opinion": "우호적 해석",
+      "coverage": "공시 기반"
+    },
+    "technicalIndicators": [
+      {
+        "label": "최근 공시 톤",
+        "value": "상승 우위",
+        "description": "공시 감정 해석"
+      },
+      {
+        "label": "리스크 점수",
+        "value": "39",
+        "description": "100점 기준"
+      }
+    ],
+    "backtestReturn": "62.0%",
+    "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
+    "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
+  }
+}

@@ -85,7 +85,7 @@ export function EmotionPage() {
             <strong>개미 순매수</strong>
           </div>
           <div className="signal-stat-row">
-            <strong>-1250억원</strong>
+            <strong>-1,250억</strong>
             <span className="signal-pill signal-pill-red">매도 우위 📉</span>
           </div>
           <p>개인 투자자들이 순매도 중이야</p>

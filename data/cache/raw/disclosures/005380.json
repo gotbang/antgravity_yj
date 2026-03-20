@@ -1,0 +1,95 @@
+{
+  "key": "raw:disclosures:005380",
+  "updatedAt": "2026-03-20T17:56:53.992Z",
+  "expiresAt": "2026-03-20T19:56:53.992Z",
+  "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "사업보고서 (2025.12)",
+      "rcept_no": "20260318001394",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260318",
+      "rm": "연"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "의결권대리행사권유참고서류",
+      "rcept_no": "20260312001188",
+      "flr_nm": "컨두잇",
+      "rcept_dt": "20260312",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인으로부터기타유가증권매수",
+      "rcept_no": "20260311004353",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260311",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260310002941",
+      "flr_nm": "오강록",
+      "rcept_dt": "20260310",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260310002917",
+      "flr_nm": "이우옥",
+      "rcept_dt": "20260310",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]의결권대리행사권유참고서류",
+      "rcept_no": "20260305001545",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260305",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주주총회소집공고",
+      "rcept_no": "20260305001412",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260305",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주주총회소집결의              ",
+      "rcept_no": "20260305801382",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260305",
+      "rm": "유"
+    }
+  ]
+}

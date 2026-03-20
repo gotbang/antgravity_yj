@@ -44,7 +44,7 @@ export function HomePage() {
               {predictionIcon}
             </div>
             <div>
-              <p>AI 개미의 예측</p>
+              <p>실데이터 기반 방향 추정</p>
               <h3>{summary.marketDirectionLabel}</h3>
             </div>
           </div>

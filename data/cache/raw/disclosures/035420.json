@@ -1,0 +1,95 @@
+{
+  "key": "raw:disclosures:035420",
+  "updatedAt": "2026-03-20T17:56:53.995Z",
+  "expiresAt": "2026-03-20T19:56:53.995Z",
+  "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260319000756",
+      "flr_nm": "황순배",
+      "rcept_dt": "20260319",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260319000681",
+      "flr_nm": "최지훈",
+      "rcept_dt": "20260319",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260319000666",
+      "flr_nm": "황순배",
+      "rcept_dt": "20260319",
+      "rm": "정"
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "사업보고서 (2025.12)",
+      "rcept_no": "20260313001021",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260313",
+      "rm": "연"
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260313001006",
+      "flr_nm": "김상범",
+      "rcept_dt": "20260313",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260313001000",
+      "flr_nm": "김영수",
+      "rcept_dt": "20260313",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260313000991",
+      "flr_nm": "김평송",
+      "rcept_dt": "20260313",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260313000982",
+      "flr_nm": "강경돈",
+      "rcept_dt": "20260313",
+      "rm": ""
+    }
+  ]
+}

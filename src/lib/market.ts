@@ -1,3 +1,5 @@
+import { formatKoreanWon } from './format.ts'
+
 export type Trend = 'up' | 'down' | 'neutral'
 
 export type DisclosureTone = 'positive' | 'neutral' | 'negative'
@@ -212,8 +214,8 @@ const SAMPLE_STOCK_DETAILS: Record<string, Partial<StockPrediction>> = {
     latestDisclosureDate: '2026.03.20',
     latestDisclosureTitle: '기업가치제고계획(자율공시)',
     disclosureCount: 8,
-    revenueSummary: '매출액 2,796,000억',
-    operatingIncomeSummary: '영업이익 65,000억',
+    revenueSummary: `매출액 ${formatKoreanWon(279600000000000)}`,
+    operatingIncomeSummary: `영업이익 ${formatKoreanWon(6500000000000)}`,
     debtRatioSummary: '부채비율 26%',
     trend: 'up',
     statusLabel: '상승 우위',
@@ -249,7 +251,7 @@ const SAMPLE_STOCK_DETAILS: Record<string, Partial<StockPrediction>> = {
       { label: 'PBR', value: '1.8', description: '주가/순자산' },
       { label: 'ROE', value: '12.4%', description: '자기자본이익률' },
     ],
-    consensus: { targetPrice: '82,000원', opinion: '매수', coverage: '28개사' },
+    consensus: { targetPrice: formatKoreanWon(82000), opinion: '매수', coverage: '28개사' },
     technicalIndicators: [
       { label: '볼린저 밴드', value: '중간 위치', description: '변동성 범위' },
       { label: 'RSI', value: '58.3', description: '과매수/과매도' },
@@ -263,8 +265,8 @@ const SAMPLE_STOCK_DETAILS: Record<string, Partial<StockPrediction>> = {
     latestDisclosureDate: '2026.03.19',
     latestDisclosureTitle: '주요사항보고서',
     disclosureCount: 7,
-    revenueSummary: '매출액 510,000억',
-    operatingIncomeSummary: '영업이익 92,000억',
+    revenueSummary: `매출액 ${formatKoreanWon(51000000000000)}`,
+    operatingIncomeSummary: `영업이익 ${formatKoreanWon(9200000000000)}`,
     debtRatioSummary: '부채비율 58%',
     trend: 'up',
     statusLabel: '상승 우위',
@@ -299,7 +301,7 @@ const SAMPLE_STOCK_DETAILS: Record<string, Partial<StockPrediction>> = {
       { label: 'PBR', value: '2.1', description: '주가/순자산' },
       { label: 'ROE', value: '11.1%', description: '자기자본이익률' },
     ],
-    consensus: { targetPrice: '255,000원', opinion: '매수', coverage: '24개사' },
+    consensus: { targetPrice: formatKoreanWon(255000), opinion: '매수', coverage: '24개사' },
     technicalIndicators: [
       { label: '볼린저 밴드', value: '상단 근접', description: '변동성 범위' },
       { label: 'RSI', value: '61.5', description: '과매수/과매도' },
@@ -312,8 +314,8 @@ const SAMPLE_STOCK_DETAILS: Record<string, Partial<StockPrediction>> = {
     latestDisclosureDate: '2026.03.18',
     latestDisclosureTitle: '사업보고서',
     disclosureCount: 6,
-    revenueSummary: '매출액 1,625,000억',
-    operatingIncomeSummary: '영업이익 151,000억',
+    revenueSummary: `매출액 ${formatKoreanWon(162500000000000)}`,
+    operatingIncomeSummary: `영업이익 ${formatKoreanWon(15100000000000)}`,
     debtRatioSummary: '부채비율 168%',
     trend: 'neutral',
     statusLabel: '중립',
@@ -338,8 +340,8 @@ const SAMPLE_STOCK_DETAILS: Record<string, Partial<StockPrediction>> = {
     latestDisclosureDate: '2026.03.17',
     latestDisclosureTitle: '정기주주총회 결과',
     disclosureCount: 5,
-    revenueSummary: '매출액 96,000억',
-    operatingIncomeSummary: '영업이익 15,000억',
+    revenueSummary: `매출액 ${formatKoreanWon(9600000000000)}`,
+    operatingIncomeSummary: `영업이익 ${formatKoreanWon(1500000000000)}`,
     debtRatioSummary: '부채비율 48%',
     trend: 'down',
     statusLabel: '하락 우위',
@@ -364,8 +366,8 @@ const SAMPLE_STOCK_DETAILS: Record<string, Partial<StockPrediction>> = {
     latestDisclosureDate: '2026.03.16',
     latestDisclosureTitle: '타법인주식취득결정',
     disclosureCount: 5,
-    revenueSummary: '매출액 82,000억',
-    operatingIncomeSummary: '영업이익 6,000억',
+    revenueSummary: `매출액 ${formatKoreanWon(8200000000000)}`,
+    operatingIncomeSummary: `영업이익 ${formatKoreanWon(600000000000)}`,
     debtRatioSummary: '부채비율 91%',
     trend: 'up',
     statusLabel: '약상승 우위',

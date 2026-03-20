@@ -1,0 +1,95 @@
+{
+  "key": "raw:disclosures:000660",
+  "updatedAt": "2026-03-20T17:56:53.978Z",
+  "expiresAt": "2026-03-20T19:56:53.978Z",
+  "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "사업보고서 (2025.12)",
+      "rcept_no": "20260317000635",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260317",
+      "rm": "연"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인으로부터부동산매수",
+      "rcept_no": "20260317000537",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260317",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "의결권대리행사권유참고서류",
+      "rcept_no": "20260312001157",
+      "flr_nm": "컨두잇",
+      "rcept_dt": "20260312",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260306000850",
+      "flr_nm": "송창석",
+      "rcept_dt": "20260306",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주주총회소집결의              ",
+      "rcept_no": "20260305801429",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260305",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]의결권대리행사권유참고서류",
+      "rcept_no": "20260305001262",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260305",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주주총회소집공고",
+      "rcept_no": "20260305001231",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260305",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "감사보고서제출              ",
+      "rcept_no": "20260304801318",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260304",
+      "rm": "유"
+    }
+  ]
+}

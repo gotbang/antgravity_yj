@@ -1,0 +1,95 @@
+{
+  "key": "raw:disclosures:035720",
+  "updatedAt": "2026-03-20T17:56:53.979Z",
+  "expiresAt": "2026-03-20T19:56:53.979Z",
+  "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]기타경영사항(자율공시)              ",
+      "rcept_no": "20260320801341",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260320",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260320000763",
+      "flr_nm": "황유지",
+      "rcept_dt": "20260320",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260320000748",
+      "flr_nm": "황선아",
+      "rcept_dt": "20260320",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260320000726",
+      "flr_nm": "윤지미",
+      "rcept_dt": "20260320",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260320000715",
+      "flr_nm": "양현서",
+      "rcept_dt": "20260320",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "사업보고서 (2025.12)",
+      "rcept_no": "20260318001423",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260318",
+      "rm": "연"
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "감사보고서제출              ",
+      "rcept_no": "20260318801762",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260318",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]기타경영사항(자율공시)              ",
+      "rcept_no": "20260317800503",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260317",
+      "rm": "유정"
+    }
+  ]
+}
