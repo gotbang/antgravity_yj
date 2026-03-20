@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { BrandHeader } from '../components/BrandHeader'
 import { AnalysisIcon, DiaryIcon, TodayIcon } from '../components/BrandIllustrations'
@@ -15,8 +16,13 @@ export function HomePage() {
   const { watchlist } = useWatchlistState()
   const { data } = useMarketSummary()
   const summary = data ?? DEFAULT_MARKET_SUMMARY
-  const watchlistStocks = watchlist.map(
-    (symbol) => summary.stocks.find((stock) => stock.symbol === symbol) ?? getStockPrediction(symbol),
+  const stocksBySymbol = useMemo(
+    () => new Map(summary.stocks.map((stock) => [stock.symbol, stock])),
+    [summary.stocks],
+  )
+  const watchlistStocks = useMemo(
+    () => watchlist.map((symbol) => stocksBySymbol.get(symbol) ?? getStockPrediction(symbol)),
+    [stocksBySymbol, watchlist],
   )
   const predictionIcon = summary.marketUpProbability >= summary.marketDownProbability ? '📈' : '📉'
 

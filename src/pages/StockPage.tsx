@@ -264,6 +264,11 @@ function StockListView() {
   const [query, setQuery] = useState('')
   const [tab, setTab] = useState<StockTab>('popular')
   const deferredQuery = useDeferredValue(query)
+  const liveStocks = data?.stocks ?? STOCK_PREDICTIONS
+  const liveStocksBySymbol = useMemo(
+    () => new Map(liveStocks.map((stock) => [stock.symbol, stock])),
+    [liveStocks],
+  )
 
   const suggestions = useMemo(() => {
     const normalizedQuery = deferredQuery.trim()
@@ -275,15 +280,16 @@ function StockListView() {
     return filterStocks(normalizedQuery).slice(0, 6)
   }, [deferredQuery])
 
-  const watchlistStocks = useMemo(
-    () =>
-      watchlist
-        .map((item) => data?.stocks.find((stock) => stock.symbol === item) ?? getStockPrediction(item))
-        .filter(Boolean),
-    [data?.stocks, watchlist],
-  )
+  const watchlistStocks = useMemo(() => {
+    const items: StockPrediction[] = []
 
-  const liveStocks = data?.stocks ?? STOCK_PREDICTIONS
+    for (const symbol of watchlist) {
+      items.push(liveStocksBySymbol.get(symbol) ?? getStockPrediction(symbol))
+    }
+
+    return items
+  }, [liveStocksBySymbol, watchlist])
+
   const listItems = tab === 'popular' ? liveStocks : watchlistStocks
   const hasPriceData = liveStocks.some((stock) => stock.hasPriceData)
   const listDescription =
@@ -337,7 +343,7 @@ function StockListView() {
               suggestions.map((item) => (
                 <StockListItem
                   key={item.symbol}
-                  stock={liveStocks.find((stock) => stock.symbol === item.symbol) ?? getStockPrediction(item.symbol)}
+                  stock={liveStocksBySymbol.get(item.symbol) ?? getStockPrediction(item.symbol)}
                   isWatched={watchlistSet.has(item.symbol)}
                   onSelectSymbol={handleSelectSymbol}
                   onToggleSymbol={toggleSymbol}

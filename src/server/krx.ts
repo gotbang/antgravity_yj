@@ -12,7 +12,7 @@ export type KrxStockPrice = {
 
 type KrxRow = Record<string, unknown>
 
-const DEFAULT_KRX_KOSPI_DAILY_API_URL = 'http://data-dbg.krx.co.kr/svc/apis/sto/stk_bydd_trd'
+const DEFAULT_KRX_KOSPI_DAILY_API_URL = 'https://data-dbg.krx.co.kr/svc/apis/sto/stk_bydd_trd'
 const KRX_SOURCE_LABEL = 'KRX OPEN API 일별매매정보'
 const YAHOO_SOURCE_LABEL = 'Yahoo Finance 개인용 시세'
 const CACHE_TTL_MS = 60_000
@@ -51,7 +51,14 @@ function isYahooFallbackEnabled() {
 }
 
 function getKrxKospiDailyApiUrl() {
-  return process.env.KRX_KOSPI_DAILY_API_URL ?? DEFAULT_KRX_KOSPI_DAILY_API_URL
+  const endpoint = process.env.KRX_KOSPI_DAILY_API_URL ?? DEFAULT_KRX_KOSPI_DAILY_API_URL
+  const parsedUrl = new URL(endpoint)
+
+  if (parsedUrl.protocol !== 'https:') {
+    throw new Error('KRX API URL은 HTTPS만 허용해.')
+  }
+
+  return parsedUrl.toString()
 }
 
 function toKstDate(offsetDays: number) {

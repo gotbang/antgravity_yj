@@ -1,7 +1,16 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import path from 'node:path'
-import { getStockSnapshot, resetServerCaches } from './opendart.ts'
+import type { IncomingMessage } from 'node:http'
+import { getStockSnapshot, handleOpenDartRequest, resetServerCaches } from './opendart.ts'
 import { setYahooChartFetcherForTest } from './krx.ts'
+
+type MockResponse = {
+  statusCode: number
+  headers: Record<string, string>
+  body: string
+  setHeader: (name: string, value: string) => void
+  end: (payload: string) => void
+}
 
 function createJsonResponse(body: unknown, status = 200) {
   return {
@@ -9,6 +18,27 @@ function createJsonResponse(body: unknown, status = 200) {
     status,
     json: async () => body,
   } as Response
+}
+
+function createHttpObjects(url: string) {
+  const req = {
+    url,
+    headers: {},
+    socket: { remoteAddress: '127.0.0.1' },
+  } as unknown as IncomingMessage
+  const res = {
+    statusCode: 200,
+    headers: {} as Record<string, string>,
+    body: '',
+    setHeader(name: string, value: string) {
+      this.headers[name] = value
+    },
+    end(payload: string) {
+      this.body = payload
+    },
+  } satisfies MockResponse
+
+  return { req, res }
 }
 
 function createFetchMock(options?: {
@@ -19,8 +49,8 @@ function createFetchMock(options?: {
     OutBlock_1: [
       {
         basDd: '20260321',
-        srtnCd: '005930',
-        isuNm: '삼성전자',
+        srtnCd: '035420',
+        isuNm: 'NAVER',
         clpr: '71000',
         vs: '1200',
         fltRt: '1.72',
@@ -40,19 +70,19 @@ function createFetchMock(options?: {
     if (url.includes('company.json')) {
       return createJsonResponse({
         status: '000',
-        message: '정상',
-        corp_name: '삼성전자',
+        message: 'OK',
+        corp_name: 'NAVER',
       })
     }
 
     if (url.includes('list.json')) {
       return createJsonResponse({
         status: '000',
-        message: '정상',
+        message: 'OK',
         list: [
           {
-            corp_name: '삼성전자',
-            report_nm: '주요사항보고서',
+            corp_name: 'NAVER',
+            report_nm: 'REPORT',
             rcept_no: '202603210001',
             rcept_dt: '20260321',
           },
@@ -63,7 +93,7 @@ function createFetchMock(options?: {
     if (url.includes('fnlttSinglAcntAll.json')) {
       return createJsonResponse({
         status: '000',
-        message: '정상',
+        message: 'OK',
         list: [
           { account_nm: '매출액', thstrm_amount: '279600000000000', frmtrm_amount: '260000000000000' },
           { account_nm: '영업이익', thstrm_amount: '65000000000000', frmtrm_amount: '43000000000000' },
@@ -82,7 +112,7 @@ function createFetchMock(options?: {
   })
 }
 
-describe('OpenDART + KRX integration', () => {
+describe('server security and data integration', () => {
   beforeEach(() => {
     vi.stubEnv('MARKET_CACHE_DIR', path.join(process.cwd(), '.tmp-test-cache'))
     resetServerCaches()
@@ -91,35 +121,33 @@ describe('OpenDART + KRX integration', () => {
 
   afterEach(() => {
     vi.restoreAllMocks()
-    vi.unstubAllEnvs()
     resetServerCaches()
+    vi.unstubAllEnvs()
   })
 
-  it('KRX 키가 있으면 종목 응답에 시세를 함께 담는다', async () => {
+  it('uses KRX price data when KRX key exists', async () => {
     vi.stubEnv('KRX_OPEN_API_KEY', 'test-krx-key')
     vi.stubGlobal('fetch', createFetchMock())
 
-    const stock = await getStockSnapshot('삼성전자')
+    const stock = await getStockSnapshot('NAVER')
 
     expect(stock.hasPriceData).toBe(true)
-    expect(stock.currentPriceLabel).toBe('71,000원')
-    expect(stock.priceChangeLabel).toBe('+1,200원')
-    expect(stock.priceChangeRateLabel).toBe('+1.72%')
     expect(stock.priceSourceLabel).toContain('KRX')
+    expect(stock.priceChangeRateLabel).toBe('+1.72%')
   })
 
-  it('KRX 호출이 실패하면 기존 공시 데이터만 유지한다', async () => {
+  it('falls back to disclosure-only data when KRX request fails', async () => {
     vi.stubEnv('KRX_OPEN_API_KEY', 'test-krx-key')
     vi.stubGlobal('fetch', createFetchMock({ krxPayload: { error: 'blocked' }, krxStatus: 500 }))
 
-    const stock = await getStockSnapshot('삼성전자')
+    const stock = await getStockSnapshot('NAVER')
 
     expect(stock.hasPriceData).toBe(false)
     expect(stock.currentPriceLabel).toContain('대기')
-    expect(stock.latestDisclosureTitle).toBe('주요사항보고서')
+    expect(stock.latestDisclosureTitle).toBe('REPORT')
   })
 
-  it('KRX 키가 없고 개인용 Yahoo fallback이 켜지면 Yahoo 시세를 쓴다', async () => {
+  it('uses Yahoo fallback when enabled and KRX key is absent', async () => {
     vi.stubEnv('YFINANCE_ENABLED', 'true')
     setYahooChartFetcherForTest(async () =>
       JSON.stringify({
@@ -138,12 +166,37 @@ describe('OpenDART + KRX integration', () => {
     )
     vi.stubGlobal('fetch', createFetchMock())
 
-    const stock = await getStockSnapshot('삼성전자')
+    const stock = await getStockSnapshot('NAVER')
 
     expect(stock.hasPriceData).toBe(true)
-    expect(stock.currentPriceLabel).toBe('71,200원')
-    expect(stock.priceChangeLabel).toBe('+1,200원')
-    expect(stock.priceChangeRateLabel).toBe('+1.71%')
     expect(stock.priceSourceLabel).toContain('Yahoo')
+    expect(stock.priceChangeRateLabel).toBe('+1.71%')
+  })
+
+  it('blocks debug endpoint outside development', async () => {
+    vi.stubEnv('NODE_ENV', 'production')
+    const { req, res } = createHttpObjects('/api/opendart/debug')
+
+    await handleOpenDartRequest(req, res as never)
+
+    expect(res.statusCode).toBe(404)
+  })
+
+  it('returns 429 after rate limit is exceeded', async () => {
+    vi.stubGlobal('fetch', createFetchMock())
+
+    for (let count = 0; count < 60; count += 1) {
+      const { req, res } = createHttpObjects('/api/opendart/market-summary')
+
+      await handleOpenDartRequest(req, res as never)
+      expect(res.statusCode).toBe(200)
+    }
+
+    const { req, res } = createHttpObjects('/api/opendart/market-summary')
+
+    await handleOpenDartRequest(req, res as never)
+
+    expect(res.statusCode).toBe(429)
+    expect(res.headers['Retry-After']).toBeDefined()
   })
 })

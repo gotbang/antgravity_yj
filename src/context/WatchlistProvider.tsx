@@ -6,34 +6,36 @@ import {
   type WatchlistActionsValue,
   type WatchlistStateValue,
 } from './WatchlistStore'
-
-const storageKey = 'ant-gravity.watchlist'
-
-function getInitialWatchlist(): string[] {
-  if (typeof window === 'undefined') {
-    return []
-  }
-
-  const storedValue = window.localStorage.getItem(storageKey)
-
-  if (!storedValue) {
-    return []
-  }
-
-  try {
-    return JSON.parse(storedValue) as string[]
-  } catch {
-    window.localStorage.removeItem(storageKey)
-    return []
-  }
-}
+import {
+  clearStoredWatchlistCache,
+  getStoredWatchlist,
+  setStoredWatchlist,
+  watchlistStorageKey,
+} from './watchlist-storage'
 
 export function WatchlistProvider({ children }: PropsWithChildren) {
-  const [watchlist, setWatchlist] = useState<string[]>(getInitialWatchlist)
+  const [watchlist, setWatchlist] = useState<string[]>(getStoredWatchlist)
 
   useEffect(() => {
-    window.localStorage.setItem(storageKey, JSON.stringify(watchlist))
+    setStoredWatchlist(watchlist)
   }, [watchlist])
+
+  useEffect(() => {
+    const handleStorage = (event: StorageEvent) => {
+      if (event.key !== null && event.key !== watchlistStorageKey) {
+        return
+      }
+
+      clearStoredWatchlistCache()
+      setWatchlist(getStoredWatchlist())
+    }
+
+    window.addEventListener('storage', handleStorage)
+
+    return () => {
+      window.removeEventListener('storage', handleStorage)
+    }
+  }, [])
 
   const stateValue = useMemo<WatchlistStateValue>(
     () => ({

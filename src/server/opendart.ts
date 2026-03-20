@@ -15,6 +15,7 @@ import {
 import { formatKoreanWon, formatSignedKoreanWon } from '../lib/format.ts'
 import { clearCacheStore, getCacheDiagnostics, getCachedResource, writeCachedResource } from './cache-store.ts'
 import { getKrxStockPrices, resetKrxCache, setYahooChartFetcherForTest, type KrxStockPrice } from './krx.ts'
+import { applyRateLimit, getClientIdentifier, resetRequestSecurityForTest } from './request-security.ts'
 
 type DartCompanyResponse = {
   status: string
@@ -57,6 +58,10 @@ const FINANCIALS_TTL_MS = 24 * 60 * 60 * 1000
 const PRICES_TTL_MS = 5 * 60 * 1000
 const STOCK_SNAPSHOT_TTL_MS = 20 * 60 * 1000
 const MARKET_SUMMARY_TTL_MS = 30 * 60 * 1000
+const PUBLIC_API_RATE_LIMIT = {
+  limit: 60,
+  windowMs: 60 * 1000,
+}
 
 const POSITIVE_KEYWORDS = ['계약', '체결', '증가', '취득', '투자', '실적', '배당', '신규']
 const NEGATIVE_KEYWORDS = ['정정', '감소', '중단', '소송', '손실', '유상증자', '불성실', '지연']
@@ -575,6 +580,36 @@ export function resetServerCaches() {
   resetKrxCache()
   setYahooChartFetcherForTest(null)
   clearCacheStore()
+  resetRequestSecurityForTest()
+}
+
+function getPublicErrorMessage(pathname: string) {
+  if (pathname.endsWith('/market-summary')) {
+    return '시장 요약을 지금 불러오지 못했어.'
+  }
+
+  if (pathname.endsWith('/stock')) {
+    return '종목 데이터를 지금 불러오지 못했어.'
+  }
+
+  if (pathname.endsWith('/debug')) {
+    return '디버그 정보를 지금 불러오지 못했어.'
+  }
+
+  return '요청을 처리하지 못했어.'
+}
+
+function isDebugEndpointAllowed() {
+  return process.env.NODE_ENV === 'development'
+}
+
+function applyPublicApiRateLimit(req: IncomingMessage, pathname: string) {
+  const clientId = getClientIdentifier(req)
+
+  return applyRateLimit({
+    key: `${pathname}:${clientId}`,
+    ...PUBLIC_API_RATE_LIMIT,
+  })
 }
 
 export async function refreshAllCaches(options?: { forceRefresh?: boolean }) {
@@ -605,8 +640,15 @@ export async function sendJson(
 }
 
 export async function handleOpenDartRequest(req: IncomingMessage, res: ServerResponse) {
+  const requestUrl = new URL(req.url ?? '/', 'http://localhost')
+
   try {
-    const requestUrl = new URL(req.url ?? '/', 'http://localhost')
+    const rateLimitResult = applyPublicApiRateLimit(req, requestUrl.pathname)
+
+    if (!rateLimitResult.ok) {
+      res.setHeader('Retry-After', String(rateLimitResult.retryAfterSeconds))
+      return sendJson(res, 429, { error: '요청이 너무 많아. 잠깐 뒤에 다시 시도해줘.' })
+    }
 
     if (requestUrl.pathname.endsWith('/market-summary')) {
       const summary = await getMarketSummary()
@@ -614,6 +656,10 @@ export async function handleOpenDartRequest(req: IncomingMessage, res: ServerRes
     }
 
     if (requestUrl.pathname.endsWith('/debug')) {
+      if (!isDebugEndpointAllowed()) {
+        return sendJson(res, 404, { error: '지원하지 않는 API 경로야.' })
+      }
+
       const diagnostics = await getCacheDiagnostics()
       return sendJson(res, 200, diagnostics)
     }
@@ -630,9 +676,9 @@ export async function handleOpenDartRequest(req: IncomingMessage, res: ServerRes
     }
 
     return sendJson(res, 404, { error: '지원하지 않는 API 경로야.' })
-  } catch (error) {
+  } catch {
     return sendJson(res, 500, {
-      error: error instanceof Error ? error.message : 'OpenDART 연동 중 오류가 났어.',
+      error: getPublicErrorMessage(requestUrl.pathname),
     })
   }
 }

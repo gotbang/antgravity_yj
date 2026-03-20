@@ -1,22 +1,17 @@
 import { useMemo, useState } from 'react'
-import { useLocation } from 'react-router-dom'
 import { useCacheDiagnostics } from '../lib/live-data'
 
 function formatTimestamp(value: string | null) {
   if (!value) {
-    return '없음'
+    return '?놁쓬'
   }
 
   return new Date(value).toLocaleString('ko-KR')
 }
 
 export function AdminDebugPanel() {
-  const location = useLocation()
   const [open, setOpen] = useState(false)
-  const enabled = useMemo(
-    () => import.meta.env.DEV || new URLSearchParams(location.search).get('admin') === '1',
-    [location.search],
-  )
+  const enabled = useMemo(() => import.meta.env.DEV, [])
   const { data, isLoading, error } = useCacheDiagnostics(enabled)
 
   if (!enabled) {
@@ -37,8 +32,8 @@ export function AdminDebugPanel() {
           <span>writes: {data?.stats.writes ?? 0}</span>
           <span>fallbacks: {data?.stats.fallbacks ?? 0}</span>
           <span>memory keys: {data?.memoryKeys.length ?? 0}</span>
-          {isLoading ? <span>불러오는 중...</span> : null}
-          {error ? <span>오류: {error}</span> : null}
+          {isLoading ? <span>불러오는 중..</span> : null}
+          {error ? <span>오류: 디버그 정보를 가져오지 못했어.</span> : null}
           <div className="admin-debug-file-list">
             {(data?.files ?? []).slice(0, 8).map((file) => (
               <div key={file.key} className="admin-debug-file-row">
