@@ -1,4 +1,4 @@
-import { formatKoreanWon } from './format.ts'
+import { formatKoreanWon } from './format.js'
 
 export type Trend = 'up' | 'down' | 'neutral'
 

@@ -1,5 +1,5 @@
 import { loadEnv } from 'vite'
-import { refreshAllCaches } from '../src/server/opendart.ts'
+import { refreshAllCaches } from '../src/server/opendart.js'
 
 async function main() {
   Object.assign(process.env, loadEnv(process.env.NODE_ENV ?? 'development', process.cwd(), ''))

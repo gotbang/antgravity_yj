@@ -1,5 +1,5 @@
 import { get } from 'node:https'
-import type { StockMetadata } from '../lib/market.ts'
+import type { StockMetadata } from '../lib/market.js'
 
 export type KrxStockPrice = {
   stockCode: string

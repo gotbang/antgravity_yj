@@ -1,6 +1,6 @@
 import type { IncomingMessage, ServerResponse } from 'node:http'
-import { getMarketSummary } from '../../src/server/opendart'
-import { applyRateLimit, getClientIdentifier } from '../../src/server/request-security'
+import { getMarketSummary } from '../../src/server/opendart.js'
+import { applyRateLimit, getClientIdentifier } from '../../src/server/request-security.js'
 
 type VercelLikeRequest = IncomingMessage
 

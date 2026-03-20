@@ -11,11 +11,11 @@ import {
   type StockPrediction,
   type TradeMemo,
   type Trend,
-} from '../lib/market.ts'
-import { formatKoreanWon, formatSignedKoreanWon } from '../lib/format.ts'
-import { clearCacheStore, getCacheDiagnostics, getCachedResource, writeCachedResource } from './cache-store.ts'
-import { getKrxStockPrices, resetKrxCache, setYahooChartFetcherForTest, type KrxStockPrice } from './krx.ts'
-import { applyRateLimit, getClientIdentifier, resetRequestSecurityForTest } from './request-security.ts'
+} from '../lib/market.js'
+import { formatKoreanWon, formatSignedKoreanWon } from '../lib/format.js'
+import { clearCacheStore, getCacheDiagnostics, getCachedResource, writeCachedResource } from './cache-store.js'
+import { getKrxStockPrices, resetKrxCache, setYahooChartFetcherForTest, type KrxStockPrice } from './krx.js'
+import { applyRateLimit, getClientIdentifier, resetRequestSecurityForTest } from './request-security.js'
 
 type DartCompanyResponse = {
   status: string

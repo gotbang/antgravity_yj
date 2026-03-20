@@ -1,6 +1,6 @@
 import type { IncomingMessage, ServerResponse } from 'node:http'
-import { getStockSnapshot } from '../../src/server/opendart'
-import { applyRateLimit, getClientIdentifier } from '../../src/server/request-security'
+import { getStockSnapshot } from '../../src/server/opendart.js'
+import { applyRateLimit, getClientIdentifier } from '../../src/server/request-security.js'
 
 type VercelLikeRequest = IncomingMessage & {
   query: Record<string, string | string[] | undefined>

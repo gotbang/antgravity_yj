@@ -25,3 +25,5 @@ dist-ssr
 .codex/
 docs/개발일지/
 docs/prompt/
+
+.vercel
