@@ -35,6 +35,15 @@ export type AnalystConsensus = {
   coverage: string
 }
 
+export type StockPriceInfo = {
+  hasPriceData: boolean
+  currentPriceLabel: string
+  priceChangeLabel: string
+  priceChangeRateLabel: string
+  priceAsOfLabel: string
+  priceSourceLabel: string
+}
+
 export type StockPrediction = {
   symbol: string
   stockCode: string
@@ -47,6 +56,12 @@ export type StockPrediction = {
   revenueSummary: string
   operatingIncomeSummary: string
   debtRatioSummary: string
+  hasPriceData: boolean
+  currentPriceLabel: string
+  priceChangeLabel: string
+  priceChangeRateLabel: string
+  priceAsOfLabel: string
+  priceSourceLabel: string
   trend: Trend
   statusLabel: string
   forecastLabel: string
@@ -108,6 +123,17 @@ export type StockMetadata = {
 }
 
 export const SAMPLE_SOURCE_LABEL = '샘플 데이터 기준 정보 구조'
+
+export function createPendingPriceInfo(): StockPriceInfo {
+  return {
+    hasPriceData: false,
+    currentPriceLabel: 'KRX 승인 대기',
+    priceChangeLabel: '시세 연동 대기',
+    priceChangeRateLabel: '-',
+    priceAsOfLabel: '키 발급 후 표시',
+    priceSourceLabel: 'KRX OPEN API 승인 대기',
+  }
+}
 
 export const STOCK_UNIVERSE: StockMetadata[] = [
   {
@@ -377,6 +403,7 @@ function buildPlaceholderPrediction(metadata: StockMetadata): StockPrediction {
     revenueSummary: sample?.revenueSummary ?? '매출액 확인 중',
     operatingIncomeSummary: sample?.operatingIncomeSummary ?? '영업이익 확인 중',
     debtRatioSummary: sample?.debtRatioSummary ?? '부채비율 확인 중',
+    ...createPendingPriceInfo(),
     trend: sample?.trend ?? 'neutral',
     statusLabel: sample?.statusLabel ?? '중립',
     forecastLabel: sample?.forecastLabel ?? '중립 예상',

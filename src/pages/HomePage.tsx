@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
+import { BrandHeader } from '../components/BrandHeader'
+import { AnalysisIcon, DiaryIcon, TodayIcon } from '../components/BrandIllustrations'
 import { useWatchlistState } from '../context/useWatchlist'
 import { DEFAULT_MARKET_SUMMARY, getStockPrediction } from '../lib/market'
 import { useMarketSummary } from '../lib/live-data'
 
 const quickLinks = [
-  { to: '/', icon: '📈', label: '오늘 판단', className: 'quick-card quick-card-blue' },
-  { to: '/stock', icon: '📊', label: '종목 분석', className: 'quick-card quick-card-yellow' },
-  { to: '/emotion', icon: '📝', label: '개미의 일기', className: 'quick-card quick-card-pink' },
+  { to: '/', icon: <TodayIcon />, label: '오늘 판단', className: 'quick-card quick-card-blue' },
+  { to: '/stock', icon: <AnalysisIcon />, label: '종목 분석', className: 'quick-card quick-card-yellow' },
+  { to: '/emotion', icon: <DiaryIcon />, label: '개미의 일기', className: 'quick-card quick-card-pink' },
 ]
 
 export function HomePage() {
@@ -20,15 +22,7 @@ export function HomePage() {
 
   return (
     <div className="screen screen-dashboard">
-      <section className="brand-hero-card">
-        <div className="brand-hero-avatar" aria-hidden="true">
-          🐜
-        </div>
-        <div>
-          <h1>Ant Gravity</h1>
-          <p>개미들의 똑똑한 투자 친구</p>
-        </div>
-      </section>
+      <BrandHeader />
 
       <section className="quick-card-grid" aria-label="주요 바로가기">
         {quickLinks.map((item) => (
@@ -92,6 +86,8 @@ export function HomePage() {
                   <p>{stock.statusLabel}</p>
                 </div>
                 <div className="home-watch-metrics">
+                  <span>{stock.currentPriceLabel}</span>
+                  <span>{stock.priceChangeRateLabel}</span>
                   <span>상승 {stock.upProbability}%</span>
                   <span>리스크 {stock.riskScore}</span>
                 </div>

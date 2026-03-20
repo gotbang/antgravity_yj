@@ -1,5 +1,6 @@
 import { BarChart3, BookText, ChevronLeft, ChevronRight, House, Settings } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
+import { BrandHeader } from '../components/BrandHeader'
 const moodPoints = [
   { left: '8%', top: '76%', emoji: '🙂', day: '1' },
   { left: '22%', top: '75%', emoji: '🙂', day: '7' },
@@ -26,11 +27,7 @@ const journalTabs = [
 export function JournalPage() {
   return (
     <div className="screen screen-journal journal-screen">
-      <header className="journal-app-bar">
-        <span>Ant Gravity</span>
-        <strong>Ant&apos;s Personal Journal</strong>
-        <span>8:54 PM</span>
-      </header>
+      <BrandHeader />
 
       <section className="month-switcher">
         <button type="button" className="month-arrow" aria-label="이전 달">

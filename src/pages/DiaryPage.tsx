@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { BrandHeader } from '../components/BrandHeader'
 
 const dates = [
   { day: '일', date: '21', selected: false },
@@ -18,16 +19,7 @@ const communityEntries = [
 export function DiaryPage() {
   return (
     <div className="screen screen-diary">
-      <section className="top-panel diary-top-panel">
-        <header className="top-brand-row">
-          <span className="top-brand-ant">🐜</span>
-          <div>
-            <span className="mini-brand-label">Ant Gravity</span>
-            <h1>Ant&apos;s Diary</h1>
-            <p>개미들의 똑똑한 투자 친구</p>
-          </div>
-        </header>
-      </section>
+      <BrandHeader />
 
       <section className="date-strip" aria-label="날짜 선택">
         {dates.map((item) => (

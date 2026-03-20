@@ -83,13 +83,13 @@ input {
 .phone-stage {
   position: relative;
   z-index: 1;
-  width: min(100% - 18px, 392px);
+  width: min(100% - 20px, 396px);
   margin: 0 auto;
 }
 
 .screen {
   display: grid;
-  gap: 20px;
+  gap: 22px;
 }
 
 .screen-dashboard .brand-hero-card {
@@ -102,6 +102,63 @@ input {
 
 .screen-dashboard .history-list {
   gap: 10px;
+}
+
+.brand-panel {
+  gap: 0;
+  padding: 22px 20px;
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top left, rgba(202, 214, 255, 0.14), transparent 34%),
+    linear-gradient(180deg, #23335f 0%, #1d2747 100%);
+  color: var(--primary-foreground);
+  box-shadow: 0 14px 28px rgba(57, 71, 112, 0.22);
+}
+
+.brand-header-link {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.brand-header-badge {
+  width: 72px;
+  height: 72px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(235, 245, 255, 0.12) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    0 10px 24px rgba(12, 17, 32, 0.18);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.brand-header-mascot,
+.brand-header-mascot-image {
+  width: 100%;
+  height: 100%;
+}
+
+.brand-header-mascot-image {
+  display: block;
+  object-fit: cover;
+}
+
+.brand-header-copy h1 {
+  margin: 0;
+  font-size: 2.24rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.brand-header-copy p {
+  margin: 10px 0 0;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 1.02rem;
+  font-weight: 700;
 }
 
 .brand-hero-card {
@@ -152,19 +209,20 @@ input {
 }
 
 .quick-card {
-  min-height: 104px;
-  border-radius: 22px;
+  min-height: 124px;
+  border-radius: 26px;
   display: grid;
   place-items: center;
-  gap: 8px;
-  padding: 12px 8px;
+  gap: 10px;
+  padding: 16px 10px;
   text-align: center;
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 12px 24px rgba(136, 148, 188, 0.18);
 }
 
 .quick-card strong {
-  font-size: 1.08rem;
+  font-size: 1.06rem;
   line-height: 1.2;
+  letter-spacing: -0.04em;
 }
 
 .quick-card-blue {
@@ -180,14 +238,21 @@ input {
 }
 
 .quick-card-icon {
-  width: 50px;
-  height: 50px;
+  width: 68px;
+  height: 68px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 18px;
-  background: var(--surface-white-58);
-  font-size: 1.45rem;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.5) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 8px 18px rgba(79, 105, 160, 0.12);
+}
+
+.quick-card-icon svg {
+  width: 58px;
+  height: 58px;
 }
 
 .dashboard-mood-grid {
@@ -469,7 +534,7 @@ input {
 }
 
 .section-title {
-  font-size: 1.44rem;
+  font-size: 1.52rem;
   line-height: 1.15;
   letter-spacing: -0.04em;
 }
@@ -507,7 +572,7 @@ input {
 .stat-box {
   border-radius: 18px;
   background: var(--card);
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 10px 22px rgba(136, 148, 188, 0.16);
 }
 
 .prediction-panel,
@@ -1180,6 +1245,7 @@ input {
   align-content: center;
 }
 
+.stock-metrics-real strong,
 .stock-metrics-real span {
   display: inline-flex;
   align-items: center;
@@ -1190,6 +1256,38 @@ input {
   color: var(--text-body-gray-mid);
   font-size: 0.78rem;
   font-weight: 800;
+}
+
+.stock-metrics-real strong {
+  background: linear-gradient(180deg, var(--surface-blue-soft-3) 0%, var(--surface-blue-soft-4) 100%);
+  color: var(--text-body-blue);
+}
+
+.stock-metrics-financial {
+  margin-top: 2px;
+}
+
+.stock-price-summary {
+  margin-top: 12px;
+  display: grid;
+  gap: 4px;
+}
+
+.stock-price-summary strong {
+  font-size: 1.45rem;
+  line-height: 1;
+  color: var(--text-title);
+}
+
+.stock-price-summary span {
+  color: var(--text-body-blue);
+  font-weight: 800;
+}
+
+.stock-price-summary p {
+  margin: 0;
+  color: var(--muted-foreground);
+  font-size: 0.8rem;
 }
 
 .stock-row-static {
@@ -1712,6 +1810,14 @@ input {
 }
 
 @media (max-width: 420px) {
+  .brand-panel {
+    padding: 20px 18px;
+  }
+
+  .brand-header-copy h1 {
+    font-size: 2rem;
+  }
+
   .section-title {
     font-size: 1.36rem;
   }

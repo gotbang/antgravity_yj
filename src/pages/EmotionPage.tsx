@@ -1,12 +1,6 @@
-import { NavLink } from 'react-router-dom'
+import { BrandHeader } from '../components/BrandHeader'
 import { DEFAULT_MARKET_SUMMARY } from '../lib/market'
 import { useMarketSummary } from '../lib/live-data'
-
-const homeTabs = [
-  { to: '/', label: '오늘 판단', icon: '↗' },
-  { to: '/stock', label: '종목 분석', icon: '📊' },
-  { to: '/emotion', label: '개미의 일기', icon: '🗒️' },
-]
 
 const strategyRows = [
   '급락 시 패닉 매도 자제',
@@ -31,30 +25,7 @@ export function EmotionPage() {
 
   return (
     <div className="screen">
-      <section className="top-panel">
-        <header className="top-brand-row">
-          <span className="top-brand-ant" aria-hidden="true">
-            🐜
-          </span>
-          <div>
-            <h1>Ant Gravity</h1>
-            <p>개미들의 똑똑한 투자 친구</p>
-          </div>
-        </header>
-
-        <nav className="home-tab-grid" aria-label="주요 탭">
-          {homeTabs.map((item) => (
-            <NavLink
-              key={item.label}
-              to={item.to}
-              className={({ isActive }) => `home-tab${isActive ? ' home-tab-active' : ''}`}
-            >
-              <span aria-hidden="true">{item.icon}</span>
-              <strong>{item.label}</strong>
-            </NavLink>
-          ))}
-        </nav>
-      </section>
+      <BrandHeader />
 
       <section className="content-section">
         <h2 className="section-title">🧠 오늘의 시장 감정</h2>

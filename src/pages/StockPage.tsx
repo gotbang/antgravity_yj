@@ -1,5 +1,6 @@
 import { useCallback, useDeferredValue, useMemo, useState } from 'react'
-import { NavLink, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
+import { BrandHeader } from '../components/BrandHeader'
 import { StockListItem } from '../components/StockListItem'
 import { useWatchlistActions, useWatchlistState } from '../context/useWatchlist'
 import { useMarketSummary, useStockSnapshot } from '../lib/live-data'
@@ -25,42 +26,22 @@ function StockDetailView({ stock }: StockDetailViewProps) {
 
   return (
     <div className="screen screen-prediction">
-      <section className="top-panel prediction-top-panel">
-        <header className="top-brand-row center-brand">
-          <div>
-            <h1>Ant Gravity</h1>
-            <p>{viewStock.symbol} 상세 분석</p>
-          </div>
-        </header>
-
-        <nav className="home-tab-grid" aria-label="상단 탭">
-          <NavLink
-            to={`/stock/${stock.symbol}`}
-            className={({ isActive }) => `home-tab${isActive ? ' home-tab-active' : ''}`}
-          >
-            <span aria-hidden="true">↑</span>
-            <strong>오늘 판단</strong>
-          </NavLink>
-          <NavLink
-            to="/stock"
-            end
-            className={({ isActive }) => `home-tab${isActive ? ' home-tab-active' : ''}`}
-          >
-            <span aria-hidden="true">📊</span>
-            <strong>종목 분석</strong>
-          </NavLink>
-          <NavLink to="/emotion" className="home-tab">
-            <span aria-hidden="true">🗒️</span>
-            <strong>개미의 일기</strong>
-          </NavLink>
-        </nav>
-      </section>
+      <BrandHeader />
 
       <section className="content-section">
         <article className="stock-hero-card">
           <div>
             <p className="stock-hero-kicker">📈 {viewStock.symbol}</p>
             <h2 className="section-title">방향 예상 (5일)</h2>
+            <div className="stock-price-summary">
+              <strong>{viewStock.currentPriceLabel}</strong>
+              <span>
+                {viewStock.priceChangeLabel} · {viewStock.priceChangeRateLabel}
+              </span>
+              <p>
+                {viewStock.priceAsOfLabel} · {viewStock.priceSourceLabel}
+              </p>
+            </div>
           </div>
           <button
             type="button"
@@ -304,6 +285,7 @@ function StockListView() {
 
   const liveStocks = data?.stocks ?? STOCK_PREDICTIONS
   const listItems = tab === 'popular' ? liveStocks : watchlistStocks
+  const hasPriceData = liveStocks.some((stock) => stock.hasPriceData)
   const listDescription =
     tab === 'popular'
       ? '인기 종목 목록을 보고 있어.'
@@ -321,24 +303,20 @@ function StockListView() {
 
   return (
     <div className="screen screen-analysis">
-      <section className="analysis-header">
-        <div className="top-brand-row">
-          <span className="top-brand-ant" aria-hidden="true">
-            🐜
-          </span>
-          <div>
-            <h1>Ant Gravity</h1>
-            <p>개미들의 똑똑한 투자 친구</p>
-          </div>
-        </div>
-      </section>
+      <BrandHeader />
 
       <section className="content-section">
         <h2 className="section-title">🔎 종목 검색</h2>
         <article className="stock-source-card">
-          <strong>실제 OpenDART 공시/재무 데이터</strong>
-          <p>현재 종목분석은 공시일, 최근 공시명, 매출액, 영업이익, 부채비율 기준으로 보여줘.</p>
-          <span>실시간 가격은 별도 시세 API가 필요해서 아직 연결하지 않았어.</span>
+          <strong>{hasPriceData ? 'OpenDART + KRX 시세 데이터' : '실제 OpenDART 공시/재무 데이터'}</strong>
+          <p>
+            현재 종목분석은 공시일, 최근 공시명, 매출액, 영업이익, 부채비율 기준으로 보여줘.
+          </p>
+          <span>
+            {hasPriceData
+              ? '가격은 KRX OPEN API 일별 시세 기준으로 함께 보여줘.'
+              : 'KRX OPEN API 키가 발급되면 가격 시세도 여기서 바로 함께 보여줄게.'}
+          </span>
         </article>
         <label htmlFor="stock-search" className="visually-hidden">
           종목 검색
@@ -359,7 +337,7 @@ function StockListView() {
               suggestions.map((item) => (
                 <StockListItem
                   key={item.symbol}
-                  stock={getStockPrediction(item.symbol)}
+                  stock={liveStocks.find((stock) => stock.symbol === item.symbol) ?? getStockPrediction(item.symbol)}
                   isWatched={watchlistSet.has(item.symbol)}
                   onSelectSymbol={handleSelectSymbol}
                   onToggleSymbol={toggleSymbol}
@@ -416,7 +394,8 @@ function StockListView() {
 
         <div className="hint-card">💡 종목을 클릭하면 상세 분석을 확인할 수 있습니다</div>
         <article className="warning-chip">
-          데이터 출처: {data?.sourceLabel ?? '샘플 데이터'} · 가격/시세는 아직 별도 연동 전이야.
+          데이터 출처: {data?.sourceLabel ?? '샘플 데이터'} ·{' '}
+          {hasPriceData ? '가격은 KRX 일별 시세 기준이야.' : '가격/시세는 KRX 승인 대기 상태야.'}
         </article>
       </section>
     </div>

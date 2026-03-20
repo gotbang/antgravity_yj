@@ -143,6 +143,7 @@
     radial-gradient(circle at top right, rgba(210, 236, 255, 0.72), transparent 26%),
     linear-gradient(180deg, var(--surface-canvas) 0%, #f4f5fb 56%, var(--background) 100%);
   --display-font:
+    'GmarketSans',
     'Arial Rounded MT Bold',
     'SUIT Variable',
     'Pretendard',
@@ -157,6 +158,24 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff')
+    format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 .dark {

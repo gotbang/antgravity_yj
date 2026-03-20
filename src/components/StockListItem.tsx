@@ -43,6 +43,11 @@ function StockListItemComponent({
           </div>
         </div>
         <div className="stock-metrics stock-metrics-real">
+          <strong>{stock.currentPriceLabel}</strong>
+          <span>{stock.priceChangeLabel}</span>
+          <span>{stock.priceChangeRateLabel}</span>
+        </div>
+        <div className="stock-metrics stock-metrics-real stock-metrics-financial">
           <span>{stock.revenueSummary}</span>
           <span>{stock.operatingIncomeSummary}</span>
           <span>{stock.debtRatioSummary}</span>

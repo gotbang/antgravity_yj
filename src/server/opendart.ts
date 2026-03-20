@@ -1,15 +1,18 @@
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import {
   STOCK_UNIVERSE,
+  createPendingPriceInfo,
   findStockMetadataBySymbol,
   type DisclosureHistoryItem,
   type DisclosureTone,
   type MarketSummary,
   type StockMetadata,
+  type StockPriceInfo,
   type StockPrediction,
   type TradeMemo,
   type Trend,
 } from '../lib/market'
+import { getKrxStockPrices, resetKrxCache, setYahooChartFetcherForTest, type KrxStockPrice } from './krx'
 
 type DartCompanyResponse = {
   status: string
@@ -74,6 +77,34 @@ function getCached<T>(key: string) {
 
 function setCached(key: string, value: unknown) {
   cache.set(key, { expiresAt: Date.now() + CACHE_TTL_MS, value })
+}
+
+function formatSignedNumber(value: number) {
+  const sign = value > 0 ? '+' : value < 0 ? '-' : ''
+  return `${sign}${Math.abs(value).toLocaleString('ko-KR')}`
+}
+
+function formatPriceDate(raw: string) {
+  if (!/^\d{8}$/.test(raw)) {
+    return raw
+  }
+
+  return `${raw.slice(0, 4)}.${raw.slice(4, 6)}.${raw.slice(6, 8)} 기준`
+}
+
+function buildPriceInfo(price: KrxStockPrice | null): StockPriceInfo {
+  if (!price) {
+    return createPendingPriceInfo()
+  }
+
+  return {
+    hasPriceData: true,
+    currentPriceLabel: `${price.currentPrice.toLocaleString('ko-KR')}원`,
+    priceChangeLabel: `${formatSignedNumber(price.change)}원`,
+    priceChangeRateLabel: `${price.changeRate > 0 ? '+' : price.changeRate < 0 ? '-' : ''}${Math.abs(price.changeRate).toFixed(2)}%`,
+    priceAsOfLabel: formatPriceDate(price.asOfDate),
+    priceSourceLabel: price.sourceLabel,
+  }
 }
 
 async function fetchOpenDartJson<T>(
@@ -211,6 +242,7 @@ function buildStockSnapshot(
   company: DartCompanyResponse,
   disclosures: DartListItem[],
   financialItems: DartFinancialItem[],
+  priceInfo: StockPriceInfo,
 ): StockPrediction {
   const positiveCount = disclosures.filter((item) => detectTone(item.report_nm) === 'positive').length
   const negativeCount = disclosures.filter((item) => detectTone(item.report_nm) === 'negative').length
@@ -245,7 +277,9 @@ function buildStockSnapshot(
   const tradeMemos = buildTradeMemos(metadata.symbol, history)
   const latestDisclosure = history[0]
   const forecastLabel = upProbability >= 54 ? '상승 예상' : upProbability <= 46 ? '하락 예상' : '중립 예상'
-  const rangeNote = '가격 목표는 제공하지 않습니다'
+  const rangeNote = priceInfo.hasPriceData
+    ? `${priceInfo.currentPriceLabel} · 전일 대비 ${priceInfo.priceChangeLabel} (${priceInfo.priceChangeRateLabel})`
+    : 'KRX OPEN API 키가 연결되면 가격 시세가 함께 보여.'
   const riskStatusLabel =
     riskScore >= 70 ? '변동성 확대 구간' : riskScore >= 55 ? '경계 구간' : '안정 구간'
   const riskComment =
@@ -267,6 +301,7 @@ function buildStockSnapshot(
     revenueSummary: `매출액 ${revenueDisplay}`,
     operatingIncomeSummary: `영업이익 ${operatingIncomeDisplay}`,
     debtRatioSummary: `부채비율 ${debtRatioDisplay}`,
+    ...priceInfo,
     trend,
     statusLabel,
     forecastLabel,
@@ -400,13 +435,20 @@ export async function getStockSnapshot(symbol: string) {
     return cached
   }
 
-  const [company, disclosures, financials] = await Promise.all([
+  const [company, disclosures, financials, prices] = await Promise.all([
     fetchCompany(metadata),
     fetchDisclosures(metadata),
     fetchFinancials(metadata),
+    getKrxStockPrices([metadata]).catch(() => new Map<string, KrxStockPrice>()),
   ])
 
-  const snapshot = buildStockSnapshot(metadata, company, disclosures, financials)
+  const snapshot = buildStockSnapshot(
+    metadata,
+    company,
+    disclosures,
+    financials,
+    buildPriceInfo(prices.get(metadata.stockCode) ?? null),
+  )
   setCached(cacheKey, snapshot)
 
   return snapshot
@@ -488,12 +530,22 @@ export async function getMarketSummary() {
       averageUpProbability >= 55 ? '양호한 공시 흐름이 이어지는 종목이 더 많아.' : '종목별 차이가 커서 개별 분석이 중요해.',
     stocks,
     generatedAt: new Date().toISOString(),
-    sourceLabel: 'OpenDART 기반 재무/공시 해석',
+    sourceLabel: stocks.some((stock) => stock.priceSourceLabel.includes('Yahoo'))
+      ? 'OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세'
+      : stocks.some((stock) => stock.hasPriceData)
+        ? 'OpenDART 기반 재무/공시 해석 + KRX OPEN API 일별 시세'
+        : 'OpenDART 기반 재무/공시 해석',
   }
 
   setCached(cacheKey, marketSummary)
 
   return marketSummary
+}
+
+export function resetServerCaches() {
+  cache.clear()
+  resetKrxCache()
+  setYahooChartFetcherForTest(null)
 }
 
 export async function sendJson(
