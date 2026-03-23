@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-03-23T21:55:30.779Z",
-  "expiresAt": "2026-03-23T22:25:30.779Z",
+  "updatedAt": "2026-03-23T23:04:37.301Z",
+  "expiresAt": "2026-03-23T23:34:37.301Z",
   "data": {
     "moodTitle": "경계 증가",
     "moodDescription": "최근 공시 흐름에서 경계 신호가 더 많이 보여. 무리한 추격보다 보수적으로 보는 게 좋아.",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-03-23T21:55:30.779Z",
+    "generatedAt": "2026-03-23T23:04:37.300Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
