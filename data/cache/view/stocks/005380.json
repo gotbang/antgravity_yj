@@ -1,7 +1,7 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-03-23T08:38:32.336Z",
-  "expiresAt": "2026-03-23T08:58:32.336Z",
+  "updatedAt": "2026-03-23T11:33:43.786Z",
+  "expiresAt": "2026-03-23T11:53:43.786Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
@@ -38,6 +38,14 @@
       {
         "date": "2026.03.23",
         "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001519",
+        "tone": "negative",
+        "success": false,
+        "statusLabel": "주의"
+      },
+      {
+        "date": "2026.03.23",
+        "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001488",
         "tone": "negative",
         "success": false,
@@ -66,14 +74,6 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.03.10",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002941",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
@@ -85,9 +85,9 @@
       },
       {
         "symbol": "현대차",
-        "action": "매수",
-        "note": "사업보고서 (2025.12)",
-        "profit": "+ 공시 우호"
+        "action": "매도",
+        "note": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+        "profit": "- 공시 주의"
       }
     ],
     "reasoning": [

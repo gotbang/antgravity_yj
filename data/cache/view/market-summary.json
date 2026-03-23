@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-03-23T08:38:32.337Z",
-  "expiresAt": "2026-03-23T09:08:32.337Z",
+  "updatedAt": "2026-03-23T11:33:43.786Z",
+  "expiresAt": "2026-03-23T12:03:43.786Z",
   "data": {
     "moodTitle": "경계 증가",
     "moodDescription": "최근 공시 흐름에서 경계 신호가 더 많이 보여. 무리한 추격보다 보수적으로 보는 게 좋아.",
@@ -400,6 +400,14 @@
           {
             "date": "2026.03.23",
             "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001519",
+            "tone": "negative",
+            "success": false,
+            "statusLabel": "주의"
+          },
+          {
+            "date": "2026.03.23",
+            "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
             "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001488",
             "tone": "negative",
             "success": false,
@@ -428,14 +436,6 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.03.10",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002941",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
@@ -447,9 +447,9 @@
           },
           {
             "symbol": "현대차",
-            "action": "매수",
-            "note": "사업보고서 (2025.12)",
-            "profit": "+ 공시 우호"
+            "action": "매도",
+            "note": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+            "profit": "- 공시 주의"
           }
         ],
         "reasoning": [
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-03-23T08:38:32.337Z",
+    "generatedAt": "2026-03-23T11:33:43.786Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
