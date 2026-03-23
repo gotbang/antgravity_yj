@@ -1,8 +1,74 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-03-23T05:47:56.228Z",
-  "expiresAt": "2026-03-23T07:47:56.228Z",
+  "updatedAt": "2026-03-23T08:38:22.503Z",
+  "expiresAt": "2026-03-23T10:38:22.503Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주요사항보고서(자기주식처분결정)",
+      "rcept_no": "20260323001314",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260323",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주요사항보고서(자기주식처분결정)",
+      "rcept_no": "20260323001243",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260323",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주요사항보고서(자기주식처분결정)",
+      "rcept_no": "20260323001224",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260323",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주요사항보고서(자기주식처분결정)",
+      "rcept_no": "20260323001206",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260323",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "정기주주총회결과              ",
+      "rcept_no": "20260323801486",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260323",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+      "rcept_no": "20260323001095",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260323",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -23,72 +89,6 @@
       "rcept_no": "20260319000681",
       "flr_nm": "최지훈",
       "rcept_dt": "20260319",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260319000666",
-      "flr_nm": "황순배",
-      "rcept_dt": "20260319",
-      "rm": "정"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "사업보고서 (2025.12)",
-      "rcept_no": "20260313001021",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260313",
-      "rm": "연"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260313001006",
-      "flr_nm": "김상범",
-      "rcept_dt": "20260313",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260313001000",
-      "flr_nm": "김영수",
-      "rcept_dt": "20260313",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260313000991",
-      "flr_nm": "김평송",
-      "rcept_dt": "20260313",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260313000982",
-      "flr_nm": "강경돈",
-      "rcept_dt": "20260313",
       "rm": ""
     }
   ]
