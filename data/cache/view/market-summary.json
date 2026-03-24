@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-03-24T00:02:29.481Z",
-  "expiresAt": "2026-03-24T00:32:29.481Z",
+  "updatedAt": "2026-03-24T05:38:34.572Z",
+  "expiresAt": "2026-03-24T06:08:34.572Z",
   "data": {
     "moodTitle": "경계 증가",
     "moodDescription": "최근 공시 흐름에서 경계 신호가 더 많이 보여. 무리한 추격보다 보수적으로 보는 게 좋아.",
@@ -15,8 +15,8 @@
     ],
     "marketDirectionLabel": "중립 예상",
     "marketDirectionSummary": "공시 흐름상 경계 신호가 많아서 단기 변동성에 주의해야 해.",
-    "marketUpProbability": 46,
-    "marketDownProbability": 54,
+    "marketUpProbability": 47,
+    "marketDownProbability": 53,
     "marketVolatilityRange": "±5.2%",
     "marketRiskScore": 67,
     "confidenceRecentAccuracy": "55.0%",
@@ -63,8 +63,8 @@
         "statusLabel": "중립"
       }
     ],
-    "positiveNewsRatio": 0,
-    "negativeNewsRatio": 100,
+    "positiveNewsRatio": 13,
+    "negativeNewsRatio": 87,
     "keywords": [
       "최대주주등소유주식변동신고서",
       "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "186,300원",
-        "priceChangeLabel": "-7,600원",
-        "priceChangeRateLabel": "-3.92%",
+        "currentPriceLabel": "188,500원",
+        "priceChangeLabel": "-5,400원",
+        "priceChangeRateLabel": "-2.78%",
         "priceAsOfLabel": "2026.03.24 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.0%",
-        "rangeNote": "186,300원 · 전일 대비 -7,600원 (-3.92%)",
+        "rangeNote": "188,500원 · 전일 대비 -5,400원 (-2.78%)",
         "riskScore": 39,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -225,33 +225,41 @@
         "corpCode": "00164779",
         "companyName": "에스케이하이닉스(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.03.17",
-        "latestDisclosureTitle": "사업보고서 (2025.12)",
+        "latestDisclosureDate": "2026.03.24",
+        "latestDisclosureTitle": "유형자산취득결정              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 97조 1,466억",
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "933,000원",
-        "priceChangeLabel": "-37,000원",
-        "priceChangeRateLabel": "-3.81%",
+        "currentPriceLabel": "977,000원",
+        "priceChangeLabel": "+7,000원",
+        "priceChangeRateLabel": "+0.72%",
         "priceAsOfLabel": "2026.03.24 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
         "statusLabel": "중립",
         "forecastLabel": "중립 예상",
-        "upProbability": 47,
-        "downProbability": 53,
-        "volatilityRange": "±5.0%",
-        "rangeNote": "933,000원 · 전일 대비 -37,000원 (-3.81%)",
-        "riskScore": 66,
+        "upProbability": 51,
+        "downProbability": 49,
+        "volatilityRange": "±4.9%",
+        "rangeNote": "977,000원 · 전일 대비 +7,000원 (+0.72%)",
+        "riskScore": 63,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
         "strategy": "관망 우선",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "52.0%",
-        "recentNote": "최근 공시: 사업보고서 (2025.12)",
+        "accuracyRate": "55.0%",
+        "recentNote": "최근 공시: 유형자산취득결정              ",
         "history": [
+          {
+            "date": "2026.03.24",
+            "title": "유형자산취득결정              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324800457",
+            "tone": "positive",
+            "success": true,
+            "statusLabel": "긍정"
+          },
           {
             "date": "2026.03.17",
             "title": "사업보고서 (2025.12)",
@@ -283,42 +291,34 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.03.05",
-            "title": "[기재정정]주주총회소집결의              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305801429",
-            "tone": "negative",
-            "success": false,
-            "statusLabel": "주의"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "사업보고서 (2025.12)",
+            "note": "유형자산취득결정              ",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "특수관계인으로부터부동산매수",
+            "note": "사업보고서 (2025.12)",
             "profit": "+ 공시 우호"
           }
         ],
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±5.0%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.9%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "0건의 우호 신호와 3건의 경계 신호를 함께 보고 있어."
+            "description": "1건의 우호 신호와 3건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 55% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 59% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -356,11 +356,11 @@
           },
           {
             "label": "리스크 점수",
-            "value": "66",
+            "value": "63",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "40.0%",
+        "backtestReturn": "45.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       },
@@ -377,9 +377,9 @@
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "485,000원",
-        "priceChangeLabel": "-37,000원",
-        "priceChangeRateLabel": "-7.09%",
+        "currentPriceLabel": "491,500원",
+        "priceChangeLabel": "-30,500원",
+        "priceChangeRateLabel": "-5.84%",
         "priceAsOfLabel": "2026.03.24 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "down",
@@ -388,7 +388,7 @@
         "upProbability": 38,
         "downProbability": 62,
         "volatilityRange": "±5.5%",
-        "rangeNote": "485,000원 · 전일 대비 -37,000원 (-7.09%)",
+        "rangeNote": "491,500원 · 전일 대비 -30,500원 (-5.84%)",
         "riskScore": 77,
         "riskStatusLabel": "변동성 확대 구간",
         "riskComment": "분할 접근 권장",
@@ -522,9 +522,9 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "209,000원",
-        "priceChangeLabel": "-15,000원",
-        "priceChangeRateLabel": "-6.70%",
+        "currentPriceLabel": "212,500원",
+        "priceChangeLabel": "-11,500원",
+        "priceChangeRateLabel": "-5.13%",
         "priceAsOfLabel": "2026.03.24 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "down",
@@ -533,7 +533,7 @@
         "upProbability": 35,
         "downProbability": 65,
         "volatilityRange": "±5.9%",
-        "rangeNote": "209,000원 · 전일 대비 -15,000원 (-6.70%)",
+        "rangeNote": "212,500원 · 전일 대비 -11,500원 (-5.13%)",
         "riskScore": 87,
         "riskStatusLabel": "변동성 확대 구간",
         "riskComment": "분할 접근 권장",
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "46,900원",
-        "priceChangeLabel": "-4,400원",
-        "priceChangeRateLabel": "-8.58%",
+        "currentPriceLabel": "47,850원",
+        "priceChangeLabel": "-3,450원",
+        "priceChangeRateLabel": "-6.73%",
         "priceAsOfLabel": "2026.03.24 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "down",
@@ -678,7 +678,7 @@
         "upProbability": 44,
         "downProbability": 56,
         "volatilityRange": "±5.1%",
-        "rangeNote": "46,900원 · 전일 대비 -4,400원 (-8.58%)",
+        "rangeNote": "47,850원 · 전일 대비 -3,450원 (-6.73%)",
         "riskScore": 68,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-03-24T00:02:29.481Z",
+    "generatedAt": "2026-03-24T05:38:34.572Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
