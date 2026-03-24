@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-03-24T08:07:29.405Z",
-  "expiresAt": "2026-03-24T10:07:29.405Z",
+  "updatedAt": "2026-03-24T11:12:42.709Z",
+  "expiresAt": "2026-03-24T13:12:42.709Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "최대주주등소유주식변동신고서              ",
+      "rcept_no": "20260324801547",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260324",
+      "rm": "유"
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -79,17 +90,6 @@
       "flr_nm": "삼성전자",
       "rcept_dt": "20260318",
       "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "정기주주총회결과              ",
-      "rcept_no": "20260318801211",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260318",
-      "rm": "유"
     }
   ]
 }

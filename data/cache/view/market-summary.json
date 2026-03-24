@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-03-24T08:07:40.091Z",
-  "expiresAt": "2026-03-24T08:37:40.091Z",
+  "updatedAt": "2026-03-24T11:12:53.076Z",
+  "expiresAt": "2026-03-24T11:42:53.076Z",
   "data": {
     "moodTitle": "경계 증가",
     "moodDescription": "최근 공시 흐름에서 경계 신호가 더 많이 보여. 무리한 추격보다 보수적으로 보는 게 좋아.",
@@ -22,6 +22,14 @@
     "confidenceRecentAccuracy": "55.0%",
     "confidenceOverallAccuracy": "60.0%",
     "marketHistory": [
+      {
+        "date": "2026.03.24",
+        "title": "최대주주등소유주식변동신고서              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324801547",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.03.20",
         "title": "최대주주등소유주식변동신고서              ",
@@ -53,14 +61,6 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.03.18",
-        "title": "주요사항보고서(자기주식처분결정)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001203",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "positiveNewsRatio": 13,
@@ -80,7 +80,7 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.03.20",
+        "latestDisclosureDate": "2026.03.24",
         "latestDisclosureTitle": "최대주주등소유주식변동신고서              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
@@ -107,6 +107,14 @@
         "accuracyRate": "61.0%",
         "recentNote": "최근 공시: 최대주주등소유주식변동신고서              ",
         "history": [
+          {
+            "date": "2026.03.24",
+            "title": "최대주주등소유주식변동신고서              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324801547",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.03.20",
             "title": "최대주주등소유주식변동신고서              ",
@@ -138,14 +146,6 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.03.18",
-            "title": "주요사항보고서(자기주식처분결정)",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001203",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
@@ -158,7 +158,7 @@
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "최대주주등소유주식변동신고서              ",
             "profit": "+ 공시 우호"
           }
         ],
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-03-24T08:07:40.091Z",
+    "generatedAt": "2026-03-24T11:12:53.076Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
