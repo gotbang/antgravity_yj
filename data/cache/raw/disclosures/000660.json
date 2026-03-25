@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-03-25T08:02:51.849Z",
-  "expiresAt": "2026-03-25T10:02:51.849Z",
+  "updatedAt": "2026-03-25T11:10:43.888Z",
+  "expiresAt": "2026-03-25T13:10:43.888Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "정기주주총회결과              ",
+      "rcept_no": "20260325801452",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260325",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+      "rcept_no": "20260325001282",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260325",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -67,28 +89,6 @@
       "rcept_no": "20260306000850",
       "flr_nm": "송창석",
       "rcept_dt": "20260306",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]주주총회소집결의              ",
-      "rcept_no": "20260305801429",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260305",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]의결권대리행사권유참고서류",
-      "rcept_no": "20260305001262",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260305",
       "rm": ""
     }
   ]
