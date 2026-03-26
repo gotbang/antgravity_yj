@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-03-26T00:00:47.698Z",
-  "expiresAt": "2026-03-26T02:00:47.698Z",
+  "updatedAt": "2026-03-26T05:56:06.580Z",
+  "expiresAt": "2026-03-26T07:56:06.580Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+      "rcept_no": "20260326000471",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260326",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]현금ㆍ현물배당결정              ",
+      "rcept_no": "20260326800754",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260326",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "정기주주총회결과              ",
+      "rcept_no": "20260326800654",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260326",
+      "rm": "유"
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -57,39 +90,6 @@
       "flr_nm": "양현서",
       "rcept_dt": "20260320",
       "rm": ""
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "사업보고서 (2025.12)",
-      "rcept_no": "20260318001423",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260318",
-      "rm": "연"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "감사보고서제출              ",
-      "rcept_no": "20260318801762",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260318",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]기타경영사항(자율공시)              ",
-      "rcept_no": "20260317800503",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260317",
-      "rm": "유정"
     }
   ]
 }
