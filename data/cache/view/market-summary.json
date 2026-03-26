@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-03-26T08:36:24.064Z",
-  "expiresAt": "2026-03-26T09:06:24.064Z",
+  "updatedAt": "2026-03-26T11:38:40.674Z",
+  "expiresAt": "2026-03-26T12:08:40.674Z",
   "data": {
     "moodTitle": "관망 유지",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -371,7 +371,7 @@
         "companyName": "현대자동차(주)",
         "sector": "자동차",
         "latestDisclosureDate": "2026.03.26",
-        "latestDisclosureTitle": "정기주주총회결과              ",
+        "latestDisclosureTitle": "주요사항보고서(자기주식처분결정)",
         "disclosureCount": 8,
         "revenueSummary": "매출액 186조 2,544억",
         "operatingIncomeSummary": "영업이익 11조 4,678억",
@@ -395,8 +395,16 @@
         "strategy": "관망 우선",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "54.0%",
-        "recentNote": "최근 공시: 정기주주총회결과              ",
+        "recentNote": "최근 공시: 주요사항보고서(자기주식처분결정)",
         "history": [
+          {
+            "date": "2026.03.26",
+            "title": "주요사항보고서(자기주식처분결정)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326001343",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.03.26",
             "title": "정기주주총회결과              ",
@@ -428,27 +436,19 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.03.23",
-            "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001519",
-            "tone": "negative",
-            "success": false,
-            "statusLabel": "주의"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "정기주주총회결과              ",
+            "note": "주요사항보고서(자기주식처분결정)",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+            "note": "정기주주총회결과              ",
             "profit": "+ 공시 우호"
           }
         ],
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-03-26T08:36:24.064Z",
+    "generatedAt": "2026-03-26T11:38:40.674Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
