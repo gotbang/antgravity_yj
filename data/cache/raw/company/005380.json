@@ -1,7 +1,7 @@
 {
   "key": "raw:company:005380",
-  "updatedAt": "2026-03-26T22:00:30.261Z",
-  "expiresAt": "2026-03-27T22:00:30.261Z",
+  "updatedAt": "2026-03-26T23:56:52.813Z",
+  "expiresAt": "2026-03-27T23:56:52.813Z",
   "data": {
     "status": "000",
     "message": "정상",
@@ -10,7 +10,7 @@
     "corp_name_eng": "HYUNDAI MOTOR CO",
     "stock_name": "현대자동차",
     "stock_code": "005380",
-    "ceo_nm": "정의선, 무뇨스 바르셀로 호세 안토니오(각자 대표이사)",
+    "ceo_nm": "정의선, 무뇨스 바르셀로 호세 안토니오, 최영일(각자 대표이사)",
     "corp_cls": "Y",
     "jurir_no": "1101110085450",
     "bizr_no": "1018109147",
