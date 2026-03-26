@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-03-26T05:56:05.815Z",
-  "expiresAt": "2026-03-26T07:56:05.815Z",
+  "updatedAt": "2026-03-26T08:36:22.866Z",
+  "expiresAt": "2026-03-26T10:36:22.866Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260326000944",
+      "flr_nm": "정인철",
+      "rcept_dt": "20260326",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260326000935",
+      "flr_nm": "설광수",
+      "rcept_dt": "20260326",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "최대주주등소유주식변동신고서              ",
+      "rcept_no": "20260326801940",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260326",
+      "rm": "유"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -57,39 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260317",
       "rm": "연"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인으로부터부동산매수",
-      "rcept_no": "20260317000537",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260317",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "의결권대리행사권유참고서류",
-      "rcept_no": "20260312001157",
-      "flr_nm": "컨두잇",
-      "rcept_dt": "20260312",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260306000850",
-      "flr_nm": "송창석",
-      "rcept_dt": "20260306",
-      "rm": ""
     }
   ]
 }
