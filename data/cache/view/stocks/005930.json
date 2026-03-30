@@ -1,7 +1,7 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-03-30T06:17:11.732Z",
-  "expiresAt": "2026-03-30T06:37:11.732Z",
+  "updatedAt": "2026-03-30T10:47:42.184Z",
+  "expiresAt": "2026-03-30T11:07:42.184Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
@@ -15,9 +15,9 @@
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
-    "currentPriceLabel": "175,400원",
-    "priceChangeLabel": "-10,900원",
-    "priceChangeRateLabel": "-5.85%",
+    "currentPriceLabel": "176,300원",
+    "priceChangeLabel": "-10,000원",
+    "priceChangeRateLabel": "-5.37%",
     "priceAsOfLabel": "2026.03.30 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
@@ -26,7 +26,7 @@
     "upProbability": 62,
     "downProbability": 38,
     "volatilityRange": "±4.1%",
-    "rangeNote": "175,400원 · 전일 대비 -10,900원 (-5.85%)",
+    "rangeNote": "176,300원 · 전일 대비 -10,000원 (-5.37%)",
     "riskScore": 42,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
@@ -39,14 +39,6 @@
         "date": "2026.03.30",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330000506",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.03.30",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330000470",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
@@ -71,6 +63,14 @@
         "date": "2026.03.24",
         "title": "최대주주등소유주식변동신고서              ",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324801547",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.03.20",
+        "title": "최대주주등소유주식변동신고서              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320800948",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"

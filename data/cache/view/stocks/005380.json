@@ -1,40 +1,56 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-03-30T06:17:14.602Z",
-  "expiresAt": "2026-03-30T06:37:14.602Z",
+  "updatedAt": "2026-03-30T10:47:45.213Z",
+  "expiresAt": "2026-03-30T11:07:45.213Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.03.26",
-    "latestDisclosureTitle": "주요사항보고서(자기주식처분결정)",
+    "latestDisclosureDate": "2026.03.30",
+    "latestDisclosureTitle": "최대주주등소유주식변동신고서              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
     "debtRatioSummary": "부채비율 189%",
     "hasPriceData": true,
-    "currentPriceLabel": "467,500원",
-    "priceChangeLabel": "-17,500원",
-    "priceChangeRateLabel": "-3.61%",
+    "currentPriceLabel": "469,500원",
+    "priceChangeLabel": "-15,500원",
+    "priceChangeRateLabel": "-3.20%",
     "priceAsOfLabel": "2026.03.30 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
-    "trend": "down",
+    "trend": "neutral",
     "statusLabel": "중립",
-    "forecastLabel": "하락 예상",
-    "upProbability": 43,
-    "downProbability": 57,
-    "volatilityRange": "±5.2%",
-    "rangeNote": "467,500원 · 전일 대비 -17,500원 (-3.61%)",
-    "riskScore": 69,
+    "forecastLabel": "중립 예상",
+    "upProbability": 48,
+    "downProbability": 52,
+    "volatilityRange": "±4.8%",
+    "rangeNote": "469,500원 · 전일 대비 -15,500원 (-3.20%)",
+    "riskScore": 61,
     "riskStatusLabel": "경계 구간",
     "riskComment": "관망 우선",
     "strategy": "관망 우선",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "54.0%",
-    "recentNote": "최근 공시: 주요사항보고서(자기주식처분결정)",
+    "accuracyRate": "56.0%",
+    "recentNote": "최근 공시: 최대주주등소유주식변동신고서              ",
     "history": [
+      {
+        "date": "2026.03.30",
+        "title": "최대주주등소유주식변동신고서              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330801391",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.03.30",
+        "title": "주식등의대량보유상황보고서(일반)",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001249",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.03.26",
         "title": "주요사항보고서(자기주식처분결정)",
@@ -58,50 +74,34 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.03.26",
-        "title": "대표이사(대표집행임원)변경(안내공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326802256",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.03.25",
-        "title": "특수관계인으로부터기타유가증권매수",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325001339",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "주요사항보고서(자기주식처분결정)",
+        "note": "최대주주등소유주식변동신고서              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "정기주주총회결과              ",
+        "note": "주식등의대량보유상황보고서(일반)",
         "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±5.2%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.8%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "0건의 우호 신호와 2건의 경계 신호를 함께 보고 있어."
+        "description": "0건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 52% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 56% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -139,11 +139,11 @@
       },
       {
         "label": "리스크 점수",
-        "value": "69",
+        "value": "61",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "36.0%",
+    "backtestReturn": "42.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }

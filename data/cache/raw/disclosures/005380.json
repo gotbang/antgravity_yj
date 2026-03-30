@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-03-30T06:17:05.638Z",
-  "expiresAt": "2026-03-30T08:17:05.638Z",
+  "updatedAt": "2026-03-30T10:47:35.828Z",
+  "expiresAt": "2026-03-30T12:47:35.828Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "최대주주등소유주식변동신고서              ",
+      "rcept_no": "20260330801391",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260330",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "rcept_no": "20260330001249",
+      "flr_nm": "현대모비스",
+      "rcept_dt": "20260330",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -68,28 +90,6 @@
       "flr_nm": "오강록",
       "rcept_dt": "20260323",
       "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260323001488",
-      "flr_nm": "오강록",
-      "rcept_dt": "20260323",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "사업보고서 (2025.12)",
-      "rcept_no": "20260318001394",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260318",
-      "rm": "연"
     }
   ]
 }

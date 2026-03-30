@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-03-30T06:17:05.763Z",
-  "expiresAt": "2026-03-30T08:17:05.763Z",
+  "updatedAt": "2026-03-30T10:47:35.992Z",
+  "expiresAt": "2026-03-30T12:47:35.992Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
+      "rcept_no": "20260330801993",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260330",
+      "rm": "유"
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -77,17 +88,6 @@
       "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260319000756",
       "flr_nm": "황순배",
-      "rcept_dt": "20260319",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260319000681",
-      "flr_nm": "최지훈",
       "rcept_dt": "20260319",
       "rm": ""
     }
