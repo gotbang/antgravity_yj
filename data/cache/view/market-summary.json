@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-04-01T06:14:18.769Z",
-  "expiresAt": "2026-04-01T06:44:18.769Z",
+  "updatedAt": "2026-04-01T10:16:05.814Z",
+  "expiresAt": "2026-04-01T10:46:05.814Z",
   "data": {
     "moodTitle": "관망 유지",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -15,8 +15,8 @@
     ],
     "marketDirectionLabel": "중립 예상",
     "marketDirectionSummary": "공시와 재무 흐름을 함께 보면 완만한 회복 가능성이 있어 보여.",
-    "marketUpProbability": 53,
-    "marketDownProbability": 47,
+    "marketUpProbability": 54,
+    "marketDownProbability": 46,
     "marketVolatilityRange": "±4.8%",
     "marketRiskScore": 56,
     "confidenceRecentAccuracy": "55.0%",
@@ -63,8 +63,8 @@
         "statusLabel": "중립"
       }
     ],
-    "positiveNewsRatio": 0,
-    "negativeNewsRatio": 100,
+    "positiveNewsRatio": 14,
+    "negativeNewsRatio": 86,
     "keywords": [
       "임원ㆍ주요주주특정증권등소유상황보고서",
       "주식소각결정",
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "189,850원",
-        "priceChangeLabel": "+850원",
-        "priceChangeRateLabel": "+0.45%",
+        "currentPriceLabel": "189,600원",
+        "priceChangeLabel": "+600원",
+        "priceChangeRateLabel": "+0.32%",
         "priceAsOfLabel": "2026.04.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "189,850원 · 전일 대비 +850원 (+0.45%)",
+        "rangeNote": "189,600원 · 전일 대비 +600원 (+0.32%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -232,9 +232,9 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "898,000원",
-        "priceChangeLabel": "-97,000원",
-        "priceChangeRateLabel": "-9.75%",
+        "currentPriceLabel": "893,000원",
+        "priceChangeLabel": "-102,000원",
+        "priceChangeRateLabel": "-10.25%",
         "priceAsOfLabel": "2026.04.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,7 +243,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.0%",
-        "rangeNote": "898,000원 · 전일 대비 -97,000원 (-9.75%)",
+        "rangeNote": "893,000원 · 전일 대비 -102,000원 (-10.25%)",
         "riskScore": 39,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -370,33 +370,41 @@
         "corpCode": "00164742",
         "companyName": "현대자동차(주)",
         "sector": "자동차",
-        "latestDisclosureDate": "2026.03.31",
-        "latestDisclosureTitle": "특수관계인으로부터기타유가증권매수",
+        "latestDisclosureDate": "2026.04.01",
+        "latestDisclosureTitle": "영업(잠정)실적(공정공시)              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 186조 2,544억",
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "490,500원",
-        "priceChangeLabel": "-10,500원",
-        "priceChangeRateLabel": "-2.10%",
+        "currentPriceLabel": "488,000원",
+        "priceChangeLabel": "-13,000원",
+        "priceChangeRateLabel": "-2.59%",
         "priceAsOfLabel": "2026.04.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
-        "trend": "neutral",
-        "statusLabel": "중립",
-        "forecastLabel": "중립 예상",
-        "upProbability": 53,
-        "downProbability": 47,
-        "volatilityRange": "±4.5%",
-        "rangeNote": "490,500원 · 전일 대비 -10,500원 (-2.10%)",
-        "riskScore": 53,
+        "trend": "up",
+        "statusLabel": "약상승 우위",
+        "forecastLabel": "상승 예상",
+        "upProbability": 57,
+        "downProbability": 43,
+        "volatilityRange": "±4.4%",
+        "rangeNote": "488,000원 · 전일 대비 -13,000원 (-2.59%)",
+        "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
-        "strategy": "보유 관점 유지",
+        "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "58.0%",
-        "recentNote": "최근 공시: 특수관계인으로부터기타유가증권매수",
+        "accuracyRate": "61.0%",
+        "recentNote": "최근 공시: 영업(잠정)실적(공정공시)              ",
         "history": [
+          {
+            "date": "2026.04.01",
+            "title": "영업(잠정)실적(공정공시)              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260401800905",
+            "tone": "positive",
+            "success": true,
+            "statusLabel": "긍정"
+          },
           {
             "date": "2026.03.31",
             "title": "특수관계인으로부터기타유가증권매수",
@@ -428,42 +436,34 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.03.26",
-            "title": "정기주주총회결과              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326802475",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "특수관계인으로부터기타유가증권매수",
+            "note": "영업(잠정)실적(공정공시)              ",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "최대주주등소유주식변동신고서              ",
+            "note": "특수관계인으로부터기타유가증권매수",
             "profit": "+ 공시 우호"
           }
         ],
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.5%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.4%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "0건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
+            "description": "1건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 61% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 65% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -490,22 +490,22 @@
         ],
         "consensus": {
           "targetPrice": "OpenDART 미제공",
-          "opinion": "보수적 해석",
+          "opinion": "우호적 해석",
           "coverage": "공시 기반"
         },
         "technicalIndicators": [
           {
             "label": "최근 공시 톤",
-            "value": "중립",
+            "value": "약상승 우위",
             "description": "공시 감정 해석"
           },
           {
             "label": "리스크 점수",
-            "value": "53",
+            "value": "50",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "48.0%",
+        "backtestReturn": "52.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       },
@@ -522,9 +522,9 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "211,000원",
-        "priceChangeLabel": "-4,500원",
-        "priceChangeRateLabel": "-2.09%",
+        "currentPriceLabel": "210,000원",
+        "priceChangeLabel": "-5,500원",
+        "priceChangeRateLabel": "-2.55%",
         "priceAsOfLabel": "2026.04.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "down",
@@ -533,7 +533,7 @@
         "upProbability": 35,
         "downProbability": 65,
         "volatilityRange": "±5.9%",
-        "rangeNote": "211,000원 · 전일 대비 -4,500원 (-2.09%)",
+        "rangeNote": "210,000원 · 전일 대비 -5,500원 (-2.55%)",
         "riskScore": 88,
         "riskStatusLabel": "변동성 확대 구간",
         "riskComment": "분할 접근 권장",
@@ -660,16 +660,16 @@
         "corpCode": "00258801",
         "companyName": "(주)카카오",
         "sector": "플랫폼",
-        "latestDisclosureDate": "2026.03.26",
-        "latestDisclosureTitle": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "latestDisclosureDate": "2026.04.01",
+        "latestDisclosureTitle": "주식등의대량보유상황보고서(약식)",
         "disclosureCount": 8,
         "revenueSummary": "매출액 8조 991억",
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "48,300원",
-        "priceChangeLabel": "-750원",
-        "priceChangeRateLabel": "-1.53%",
+        "currentPriceLabel": "48,250원",
+        "priceChangeLabel": "-800원",
+        "priceChangeRateLabel": "-1.63%",
         "priceAsOfLabel": "2026.04.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -678,15 +678,23 @@
         "upProbability": 49,
         "downProbability": 51,
         "volatilityRange": "±4.8%",
-        "rangeNote": "48,300원 · 전일 대비 -750원 (-1.53%)",
+        "rangeNote": "48,250원 · 전일 대비 -800원 (-1.63%)",
         "riskScore": 60,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
         "strategy": "관망 우선",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "56.0%",
-        "recentNote": "최근 공시: 사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "recentNote": "최근 공시: 주식등의대량보유상황보고서(약식)",
         "history": [
+          {
+            "date": "2026.04.01",
+            "title": "주식등의대량보유상황보고서(약식)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260401003804",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.03.26",
             "title": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
@@ -718,27 +726,19 @@
             "tone": "negative",
             "success": false,
             "statusLabel": "주의"
-          },
-          {
-            "date": "2026.03.20",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000763",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "카카오",
             "action": "매수",
-            "note": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+            "note": "주식등의대량보유상황보고서(약식)",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "카카오",
             "action": "매수",
-            "note": "[기재정정]현금ㆍ현물배당결정              ",
+            "note": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
             "profit": "+ 공시 우호"
           }
         ],
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-04-01T06:14:18.769Z",
+    "generatedAt": "2026-04-01T10:16:05.814Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
