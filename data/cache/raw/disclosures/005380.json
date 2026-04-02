@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-04-01T23:56:58.051Z",
-  "expiresAt": "2026-04-02T01:56:58.051Z",
+  "updatedAt": "2026-04-02T05:51:44.901Z",
+  "expiresAt": "2026-04-02T07:51:44.902Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "풍문또는보도에대한해명(미확정)              ",
+      "rcept_no": "20260402800224",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260402",
+      "rm": "유"
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -79,17 +90,6 @@
       "flr_nm": "현대자동차",
       "rcept_dt": "20260326",
       "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "대표이사(대표집행임원)변경(안내공시)              ",
-      "rcept_no": "20260326802256",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260326",
-      "rm": "유"
     }
   ]
 }

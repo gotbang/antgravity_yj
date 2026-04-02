@@ -1,24 +1,24 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-04-01T23:57:07.656Z",
-  "expiresAt": "2026-04-02T00:17:07.656Z",
+  "updatedAt": "2026-04-02T05:51:45.848Z",
+  "expiresAt": "2026-04-02T06:11:45.848Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.04.01",
-    "latestDisclosureTitle": "영업(잠정)실적(공정공시)              ",
+    "latestDisclosureDate": "2026.04.02",
+    "latestDisclosureTitle": "풍문또는보도에대한해명(미확정)              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
     "debtRatioSummary": "부채비율 189%",
     "hasPriceData": true,
-    "currentPriceLabel": "488,000원",
-    "priceChangeLabel": "-13,000원",
-    "priceChangeRateLabel": "-2.59%",
-    "priceAsOfLabel": "2026.04.01 기준",
+    "currentPriceLabel": "463,000원",
+    "priceChangeLabel": "-27,000원",
+    "priceChangeRateLabel": "-5.51%",
+    "priceAsOfLabel": "2026.04.02 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
     "statusLabel": "약상승 우위",
@@ -26,15 +26,23 @@
     "upProbability": 57,
     "downProbability": 43,
     "volatilityRange": "±4.4%",
-    "rangeNote": "488,000원 · 전일 대비 -13,000원 (-2.59%)",
+    "rangeNote": "463,000원 · 전일 대비 -27,000원 (-5.51%)",
     "riskScore": 50,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "61.0%",
-    "recentNote": "최근 공시: 영업(잠정)실적(공정공시)              ",
+    "recentNote": "최근 공시: 풍문또는보도에대한해명(미확정)              ",
     "history": [
+      {
+        "date": "2026.04.02",
+        "title": "풍문또는보도에대한해명(미확정)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402800224",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.04.01",
         "title": "영업(잠정)실적(공정공시)              ",
@@ -66,27 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.03.26",
-        "title": "주요사항보고서(자기주식처분결정)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326001343",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "영업(잠정)실적(공정공시)              ",
+        "note": "풍문또는보도에대한해명(미확정)              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "특수관계인으로부터기타유가증권매수",
+        "note": "영업(잠정)실적(공정공시)              ",
         "profit": "+ 공시 우호"
       }
     ],

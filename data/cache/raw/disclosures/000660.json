@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-04-01T23:56:58.043Z",
-  "expiresAt": "2026-04-02T01:56:58.043Z",
+  "updatedAt": "2026-04-02T05:51:44.930Z",
+  "expiresAt": "2026-04-02T07:51:44.930Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260402000918",
+      "flr_nm": "임의철",
+      "rcept_dt": "20260402",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260402000897",
+      "flr_nm": "이창수",
+      "rcept_dt": "20260402",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -68,28 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260325",
       "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
-      "rcept_no": "20260325800002",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260325",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "유형자산취득결정              ",
-      "rcept_no": "20260324800457",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260324",
-      "rm": "유"
     }
   ]
 }
