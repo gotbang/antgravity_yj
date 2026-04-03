@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-04-03T05:51:48.007Z",
-  "expiresAt": "2026-04-03T07:51:48.007Z",
+  "updatedAt": "2026-04-03T08:35:58.556Z",
+  "expiresAt": "2026-04-03T10:35:58.556Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "최대주주등소유주식변동신고서              ",
+      "rcept_no": "20260403801246",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260403",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260403003368",
+      "flr_nm": "연지현",
+      "rcept_dt": "20260403",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -68,28 +90,6 @@
       "flr_nm": "삼성전자",
       "rcept_dt": "20260324",
       "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "최대주주등소유주식변동신고서              ",
-      "rcept_no": "20260320800948",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260320",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260319001393",
-      "flr_nm": "이승민",
-      "rcept_dt": "20260320",
-      "rm": ""
     }
   ]
 }

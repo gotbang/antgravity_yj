@@ -1,23 +1,23 @@
 {
   "key": "view:stock:035420",
-  "updatedAt": "2026-04-03T05:51:54.635Z",
-  "expiresAt": "2026-04-03T06:11:54.635Z",
+  "updatedAt": "2026-04-03T08:35:59.778Z",
+  "expiresAt": "2026-04-03T08:55:59.778Z",
   "data": {
     "symbol": "NAVER",
     "stockCode": "035420",
     "corpCode": "00266961",
     "companyName": "네이버(주)",
     "sector": "플랫폼",
-    "latestDisclosureDate": "2026.03.30",
-    "latestDisclosureTitle": "[기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
+    "latestDisclosureDate": "2026.04.03",
+    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 12조 350억",
     "operatingIncomeSummary": "영업이익 2조 2,081억",
     "debtRatioSummary": "부채비율 142%",
     "hasPriceData": true,
-    "currentPriceLabel": "198,300원",
-    "priceChangeLabel": "-13,200원",
-    "priceChangeRateLabel": "-6.24%",
+    "currentPriceLabel": "197,500원",
+    "priceChangeLabel": "-14,000원",
+    "priceChangeRateLabel": "-6.62%",
     "priceAsOfLabel": "2026.04.03 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "down",
@@ -26,15 +26,23 @@
     "upProbability": 35,
     "downProbability": 65,
     "volatilityRange": "±5.9%",
-    "rangeNote": "198,300원 · 전일 대비 -13,200원 (-6.24%)",
-    "riskScore": 88,
+    "rangeNote": "197,500원 · 전일 대비 -14,000원 (-6.62%)",
+    "riskScore": 87,
     "riskStatusLabel": "변동성 확대 구간",
     "riskComment": "분할 접근 권장",
     "strategy": "관망 우선",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "51.0%",
-    "recentNote": "최근 공시: [기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
+    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.04.03",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260403002792",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.03.30",
         "title": "[기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
@@ -66,27 +74,19 @@
         "tone": "negative",
         "success": false,
         "statusLabel": "주의"
-      },
-      {
-        "date": "2026.03.23",
-        "title": "[기재정정]주요사항보고서(자기주식처분결정)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001206",
-        "tone": "negative",
-        "success": false,
-        "statusLabel": "주의"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "NAVER",
-        "action": "매도",
-        "note": "[기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
-        "profit": "- 공시 주의"
+        "action": "매수",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "profit": "+ 공시 우호"
       },
       {
         "symbol": "NAVER",
         "action": "매도",
-        "note": "[기재정정]주요사항보고서(자기주식처분결정)",
+        "note": "[기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
         "profit": "- 공시 주의"
       }
     ],
@@ -97,7 +97,7 @@
       },
       {
         "title": "추세 강도",
-        "description": "0건의 우호 신호와 6건의 경계 신호를 함께 보고 있어."
+        "description": "0건의 우호 신호와 5건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
@@ -139,7 +139,7 @@
       },
       {
         "label": "리스크 점수",
-        "value": "88",
+        "value": "87",
         "description": "100점 기준"
       }
     ],
