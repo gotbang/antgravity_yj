@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-04-06T06:14:28.193Z",
-  "expiresAt": "2026-04-06T06:44:28.193Z",
+  "updatedAt": "2026-04-06T10:37:35.461Z",
+  "expiresAt": "2026-04-06T11:07:35.461Z",
   "data": {
     "moodTitle": "관망 유지",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -22,6 +22,14 @@
     "confidenceRecentAccuracy": "56.0%",
     "confidenceOverallAccuracy": "61.0%",
     "marketHistory": [
+      {
+        "date": "2026.04.06",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406003839",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.04.03",
         "title": "최대주주등소유주식변동신고서              ",
@@ -53,21 +61,13 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.03.30",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330000506",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "positiveNewsRatio": 17,
     "negativeNewsRatio": 83,
     "keywords": [
-      "최대주주등소유주식변동신고서",
       "임원ㆍ주요주주특정증권등소유상황보고서",
+      "최대주주등소유주식변동신고서",
       "주식소각결정",
       "주요사항보고서(자기주식처분결정)"
     ],
@@ -80,16 +80,16 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.04.03",
-        "latestDisclosureTitle": "최대주주등소유주식변동신고서              ",
+        "latestDisclosureDate": "2026.04.06",
+        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "192,300원",
-        "priceChangeLabel": "+16,000원",
-        "priceChangeRateLabel": "+9.08%",
+        "currentPriceLabel": "193,100원",
+        "priceChangeLabel": "+16,800원",
+        "priceChangeRateLabel": "+9.53%",
         "priceAsOfLabel": "2026.04.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,15 +98,23 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "192,300원 · 전일 대비 +16,000원 (+9.08%)",
+        "rangeNote": "193,100원 · 전일 대비 +16,800원 (+9.53%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "58.0%",
-        "recentNote": "최근 공시: 최대주주등소유주식변동신고서              ",
+        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
         "history": [
+          {
+            "date": "2026.04.06",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406003839",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.04.03",
             "title": "최대주주등소유주식변동신고서              ",
@@ -138,27 +146,19 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.03.30",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330000506",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "최대주주등소유주식변동신고서              ",
+            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "최대주주등소유주식변동신고서              ",
             "profit": "+ 공시 우호"
           }
         ],
@@ -232,9 +232,9 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "879,000원",
-        "priceChangeLabel": "+6,000원",
-        "priceChangeRateLabel": "+0.69%",
+        "currentPriceLabel": "886,000원",
+        "priceChangeLabel": "+13,000원",
+        "priceChangeRateLabel": "+1.49%",
         "priceAsOfLabel": "2026.04.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,7 +243,7 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "879,000원 · 전일 대비 +6,000원 (+0.69%)",
+        "rangeNote": "886,000원 · 전일 대비 +13,000원 (+1.49%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -370,16 +370,16 @@
         "corpCode": "00164742",
         "companyName": "현대자동차(주)",
         "sector": "자동차",
-        "latestDisclosureDate": "2026.04.02",
-        "latestDisclosureTitle": "풍문또는보도에대한해명(미확정)              ",
+        "latestDisclosureDate": "2026.04.06",
+        "latestDisclosureTitle": "자기주식처분결과보고서",
         "disclosureCount": 8,
         "revenueSummary": "매출액 186조 2,544억",
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "467,250원",
-        "priceChangeLabel": "-2,250원",
-        "priceChangeRateLabel": "-0.48%",
+        "currentPriceLabel": "469,000원",
+        "priceChangeLabel": "-500원",
+        "priceChangeRateLabel": "-0.11%",
         "priceAsOfLabel": "2026.04.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -388,15 +388,23 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "467,250원 · 전일 대비 -2,250원 (-0.48%)",
+        "rangeNote": "469,000원 · 전일 대비 -500원 (-0.11%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "61.0%",
-        "recentNote": "최근 공시: 풍문또는보도에대한해명(미확정)              ",
+        "recentNote": "최근 공시: 자기주식처분결과보고서",
         "history": [
+          {
+            "date": "2026.04.06",
+            "title": "자기주식처분결과보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406003235",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.04.02",
             "title": "풍문또는보도에대한해명(미확정)              ",
@@ -428,27 +436,19 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.03.30",
-            "title": "주식등의대량보유상황보고서(일반)",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001249",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "풍문또는보도에대한해명(미확정)              ",
+            "note": "자기주식처분결과보고서",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "영업(잠정)실적(공정공시)              ",
+            "note": "풍문또는보도에대한해명(미확정)              ",
             "profit": "+ 공시 우호"
           }
         ],
@@ -522,9 +522,9 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "196,050원",
-        "priceChangeLabel": "-10,950원",
-        "priceChangeRateLabel": "-5.29%",
+        "currentPriceLabel": "196,800원",
+        "priceChangeLabel": "-10,200원",
+        "priceChangeRateLabel": "-4.93%",
         "priceAsOfLabel": "2026.04.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "down",
@@ -533,7 +533,7 @@
         "upProbability": 35,
         "downProbability": 65,
         "volatilityRange": "±5.9%",
-        "rangeNote": "196,050원 · 전일 대비 -10,950원 (-5.29%)",
+        "rangeNote": "196,800원 · 전일 대비 -10,200원 (-4.93%)",
         "riskScore": 87,
         "riskStatusLabel": "변동성 확대 구간",
         "riskComment": "분할 접근 권장",
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "44,650원",
-        "priceChangeLabel": "-2,450원",
-        "priceChangeRateLabel": "-5.20%",
+        "currentPriceLabel": "44,850원",
+        "priceChangeLabel": "-2,250원",
+        "priceChangeRateLabel": "-4.78%",
         "priceAsOfLabel": "2026.04.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -678,7 +678,7 @@
         "upProbability": 49,
         "downProbability": 51,
         "volatilityRange": "±4.8%",
-        "rangeNote": "44,650원 · 전일 대비 -2,450원 (-5.20%)",
+        "rangeNote": "44,850원 · 전일 대비 -2,250원 (-4.78%)",
         "riskScore": 60,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-04-06T06:14:28.193Z",
+    "generatedAt": "2026-04-06T10:37:35.461Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }

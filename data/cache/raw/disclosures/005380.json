@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-04-06T06:14:17.819Z",
-  "expiresAt": "2026-04-06T08:14:17.819Z",
+  "updatedAt": "2026-04-06T10:37:34.122Z",
+  "expiresAt": "2026-04-06T12:37:34.122Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "자기주식처분결과보고서",
+      "rcept_no": "20260406003235",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260406",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -79,17 +90,6 @@
       "flr_nm": "현대자동차",
       "rcept_dt": "20260326",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
-      "rcept_no": "20260326001134",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260326",
-      "rm": ""
     }
   ]
 }
