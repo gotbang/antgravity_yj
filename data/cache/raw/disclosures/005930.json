@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-04-06T23:52:57.911Z",
-  "expiresAt": "2026-04-07T01:52:57.911Z",
+  "updatedAt": "2026-04-07T05:58:42.446Z",
+  "expiresAt": "2026-04-07T07:58:42.446Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "기업설명회(IR)개최(안내공시)              ",
+      "rcept_no": "20260407800120",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260407",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "rcept_no": "20260407800002",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260407",
+      "rm": "유"
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -67,28 +89,6 @@
       "rcept_no": "20260330000506",
       "flr_nm": "조성희",
       "rcept_dt": "20260330",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260330000333",
-      "flr_nm": "김보현",
-      "rcept_dt": "20260330",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "자기주식처분결과보고서",
-      "rcept_no": "20260325001270",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260325",
       "rm": ""
     }
   ]
