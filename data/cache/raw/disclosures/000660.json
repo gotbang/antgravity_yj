@@ -1,8 +1,74 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-04-07T05:58:42.787Z",
-  "expiresAt": "2026-04-07T07:58:42.787Z",
+  "updatedAt": "2026-04-07T09:52:07.221Z",
+  "expiresAt": "2026-04-07T11:52:07.221Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260407002972",
+      "flr_nm": "곽상현",
+      "rcept_dt": "20260407",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260407002956",
+      "flr_nm": "안현",
+      "rcept_dt": "20260407",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260407002948",
+      "flr_nm": "차선용",
+      "rcept_dt": "20260407",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260407002919",
+      "flr_nm": "곽노정",
+      "rcept_dt": "20260407",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]최대주주등소유주식변동신고서              ",
+      "rcept_no": "20260407800748",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260407",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "최대주주등소유주식변동신고서              ",
+      "rcept_no": "20260407800698",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260407",
+      "rm": "유정"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -23,72 +89,6 @@
       "rcept_no": "20260402000897",
       "flr_nm": "이창수",
       "rcept_dt": "20260402",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "주요사항보고서(자기주식처분결정)",
-      "rcept_no": "20260330001812",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260330",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260326000944",
-      "flr_nm": "정인철",
-      "rcept_dt": "20260326",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260326000935",
-      "flr_nm": "설광수",
-      "rcept_dt": "20260326",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "최대주주등소유주식변동신고서              ",
-      "rcept_no": "20260326801940",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260326",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "정기주주총회결과              ",
-      "rcept_no": "20260325801452",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260325",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
-      "rcept_no": "20260325001282",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260325",
       "rm": ""
     }
   ]
