@@ -1,76 +1,76 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-04-07T22:01:36.805Z",
-  "expiresAt": "2026-04-07T22:21:36.805Z",
+  "updatedAt": "2026-04-08T00:05:28.389Z",
+  "expiresAt": "2026-04-08T00:25:28.389Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.04.07",
-    "latestDisclosureTitle": "기업설명회(IR)개최(안내공시)              ",
+    "latestDisclosureDate": "2026.04.08",
+    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
     "debtRatioSummary": "부채비율 189%",
     "hasPriceData": true,
     "currentPriceLabel": "473,000원",
-    "priceChangeLabel": "+27,500원",
-    "priceChangeRateLabel": "+6.17%",
-    "priceAsOfLabel": "2026.04.07 기준",
+    "priceChangeLabel": "-14,500원",
+    "priceChangeRateLabel": "-2.97%",
+    "priceAsOfLabel": "2026.04.08 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
-    "trend": "up",
-    "statusLabel": "약상승 우위",
-    "forecastLabel": "상승 예상",
-    "upProbability": 57,
-    "downProbability": 43,
-    "volatilityRange": "±4.4%",
-    "rangeNote": "473,000원 · 전일 대비 +27,500원 (+6.17%)",
-    "riskScore": 50,
+    "trend": "neutral",
+    "statusLabel": "중립",
+    "forecastLabel": "중립 예상",
+    "upProbability": 53,
+    "downProbability": 47,
+    "volatilityRange": "±4.5%",
+    "rangeNote": "473,000원 · 전일 대비 -14,500원 (-2.97%)",
+    "riskScore": 53,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
-    "strategy": "분할 매수 관점 유지",
+    "strategy": "보유 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "61.0%",
-    "recentNote": "최근 공시: 기업설명회(IR)개최(안내공시)              ",
+    "accuracyRate": "58.0%",
+    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
       {
-        "date": "2026.04.07",
-        "title": "기업설명회(IR)개최(안내공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407800706",
+        "date": "2026.04.08",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408000083",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
       },
       {
-        "date": "2026.04.07",
-        "title": "최대주주등소유주식변동신고서              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407800662",
+        "date": "2026.04.08",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408000080",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
       },
       {
-        "date": "2026.04.07",
-        "title": "주식등의대량보유상황보고서(일반)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407002579",
+        "date": "2026.04.08",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408000065",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
       },
       {
-        "date": "2026.04.06",
-        "title": "자기주식처분결과보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406003235",
+        "date": "2026.04.08",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408000064",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
       },
       {
-        "date": "2026.04.02",
-        "title": "풍문또는보도에대한해명(미확정)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402800224",
+        "date": "2026.04.08",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408000063",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
@@ -80,28 +80,28 @@
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "기업설명회(IR)개최(안내공시)              ",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "최대주주등소유주식변동신고서              ",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.4%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.5%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "1건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
+        "description": "0건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 65% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 61% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -128,22 +128,22 @@
     ],
     "consensus": {
       "targetPrice": "OpenDART 미제공",
-      "opinion": "우호적 해석",
+      "opinion": "보수적 해석",
       "coverage": "공시 기반"
     },
     "technicalIndicators": [
       {
         "label": "최근 공시 톤",
-        "value": "약상승 우위",
+        "value": "중립",
         "description": "공시 감정 해석"
       },
       {
         "label": "리스크 점수",
-        "value": "50",
+        "value": "53",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "52.0%",
+    "backtestReturn": "48.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
