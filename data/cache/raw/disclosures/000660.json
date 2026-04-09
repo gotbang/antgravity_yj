@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-04-09T05:58:23.129Z",
-  "expiresAt": "2026-04-09T07:58:23.129Z",
+  "updatedAt": "2026-04-09T09:59:46.866Z",
+  "expiresAt": "2026-04-09T11:59:46.866Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "기업설명회(IR)개최(안내공시)              ",
+      "rcept_no": "20260409800781",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260409",
+      "rm": "유"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260402000918",
       "flr_nm": "임의철",
-      "rcept_dt": "20260402",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260402000897",
-      "flr_nm": "이창수",
       "rcept_dt": "20260402",
       "rm": ""
     }
