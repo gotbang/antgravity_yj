@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-04-10T06:22:18.443Z",
-  "expiresAt": "2026-04-10T08:22:18.443Z",
+  "updatedAt": "2026-04-10T10:17:12.065Z",
+  "expiresAt": "2026-04-10T12:17:12.065Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260410002648",
+      "flr_nm": "나군호",
+      "rcept_dt": "20260410",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -79,17 +90,6 @@
       "flr_nm": "NAVER",
       "rcept_dt": "20260323",
       "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "정기주주총회결과              ",
-      "rcept_no": "20260323801486",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260323",
-      "rm": "유"
     }
   ]
 }
