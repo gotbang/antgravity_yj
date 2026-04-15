@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-04-15T06:12:18.986Z",
-  "expiresAt": "2026-04-15T08:12:18.986Z",
+  "updatedAt": "2026-04-15T10:43:47.178Z",
+  "expiresAt": "2026-04-15T12:43:47.178Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
+      "rcept_no": "20260415800586",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260415",
+      "rm": "유"
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -45,7 +56,7 @@
       "rcept_no": "20260330801993",
       "flr_nm": "NAVER",
       "rcept_dt": "20260330",
-      "rm": "유"
+      "rm": "유정"
     },
     {
       "corp_code": "00266961",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "[기재정정]주요사항보고서(자기주식처분결정)",
       "rcept_no": "20260323001224",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260323",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]주요사항보고서(자기주식처분결정)",
-      "rcept_no": "20260323001206",
       "flr_nm": "NAVER",
       "rcept_dt": "20260323",
       "rm": ""
