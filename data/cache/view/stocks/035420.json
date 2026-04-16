@@ -1,7 +1,7 @@
 {
   "key": "view:stock:035420",
-  "updatedAt": "2026-04-15T21:38:37.486Z",
-  "expiresAt": "2026-04-15T21:58:37.486Z",
+  "updatedAt": "2026-04-16T00:05:17.024Z",
+  "expiresAt": "2026-04-16T00:25:17.024Z",
   "data": {
     "symbol": "NAVER",
     "stockCode": "035420",
@@ -18,7 +18,7 @@
     "currentPriceLabel": "211,000원",
     "priceChangeLabel": "+9,500원",
     "priceChangeRateLabel": "+4.71%",
-    "priceAsOfLabel": "2026.04.15 기준",
+    "priceAsOfLabel": "2026.04.16 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "down",
     "statusLabel": "하락 우위",
