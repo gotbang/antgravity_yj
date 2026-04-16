@@ -1,23 +1,23 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-04-16T06:25:08.184Z",
-  "expiresAt": "2026-04-16T06:45:08.184Z",
+  "updatedAt": "2026-04-16T10:45:31.330Z",
+  "expiresAt": "2026-04-16T11:05:31.330Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.04.08",
+    "latestDisclosureDate": "2026.04.16",
     "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
     "debtRatioSummary": "부채비율 189%",
     "hasPriceData": true,
-    "currentPriceLabel": "533,000원",
-    "priceChangeLabel": "+43,500원",
-    "priceChangeRateLabel": "+8.89%",
+    "currentPriceLabel": "534,000원",
+    "priceChangeLabel": "+44,500원",
+    "priceChangeRateLabel": "+9.09%",
     "priceAsOfLabel": "2026.04.16 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "neutral",
@@ -26,7 +26,7 @@
     "upProbability": 53,
     "downProbability": 47,
     "volatilityRange": "±4.5%",
-    "rangeNote": "533,000원 · 전일 대비 +43,500원 (+8.89%)",
+    "rangeNote": "534,000원 · 전일 대비 +44,500원 (+9.09%)",
     "riskScore": 53,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
@@ -35,6 +35,14 @@
     "accuracyRate": "58.0%",
     "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.04.16",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260416000350",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.04.08",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -63,14 +71,6 @@
         "date": "2026.04.08",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408002787",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.08",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408002779",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
