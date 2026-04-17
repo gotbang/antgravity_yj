@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-04-17T06:12:50.160Z",
-  "expiresAt": "2026-04-17T08:12:50.160Z",
+  "updatedAt": "2026-04-17T10:37:48.801Z",
+  "expiresAt": "2026-04-17T12:37:48.801Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "rcept_no": "20260417000682",
+      "flr_nm": "삼성물산",
+      "rcept_dt": "20260417",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260417000440",
+      "flr_nm": "김민우",
+      "rcept_dt": "20260417",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -67,28 +89,6 @@
       "rcept_no": "20260406003839",
       "flr_nm": "아포테커마띠유",
       "rcept_dt": "20260406",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "최대주주등소유주식변동신고서              ",
-      "rcept_no": "20260403801246",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260403",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260403003368",
-      "flr_nm": "연지현",
-      "rcept_dt": "20260403",
       "rm": ""
     }
   ]
