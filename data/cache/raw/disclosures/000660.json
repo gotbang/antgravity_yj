@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-04-23T03:50:59.298Z",
-  "expiresAt": "2026-04-23T05:50:59.298Z",
+  "updatedAt": "2026-04-23T05:59:41.067Z",
+  "expiresAt": "2026-04-23T07:59:41.067Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "rcept_no": "20260423000249",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260423",
+      "rm": "공"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260407002972",
       "flr_nm": "곽상현",
-      "rcept_dt": "20260407",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260407002956",
-      "flr_nm": "안현",
       "rcept_dt": "20260407",
       "rm": ""
     }

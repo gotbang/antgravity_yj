@@ -1,8 +1,52 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-04-23T03:50:59.298Z",
-  "expiresAt": "2026-04-23T05:50:59.298Z",
+  "updatedAt": "2026-04-23T05:59:41.492Z",
+  "expiresAt": "2026-04-23T07:59:41.492Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "현금ㆍ현물배당결정              ",
+      "rcept_no": "20260423800359",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260423",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+      "rcept_no": "20260423800355",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260423",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "rcept_no": "20260423800339",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260423",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "자기주식취득결과보고서",
+      "rcept_no": "20260423000276",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260423",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -44,50 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260408002806",
       "flr_nm": "오창권",
-      "rcept_dt": "20260408",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260408002797",
-      "flr_nm": "오준환",
-      "rcept_dt": "20260408",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260408002787",
-      "flr_nm": "오승찬",
-      "rcept_dt": "20260408",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260408002779",
-      "flr_nm": "오기용",
-      "rcept_dt": "20260408",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260408002769",
-      "flr_nm": "염재섭",
       "rcept_dt": "20260408",
       "rm": ""
     }

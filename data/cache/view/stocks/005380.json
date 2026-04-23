@@ -1,76 +1,76 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-04-23T03:51:07.231Z",
-  "expiresAt": "2026-04-23T04:11:07.231Z",
+  "updatedAt": "2026-04-23T05:59:50.986Z",
+  "expiresAt": "2026-04-23T06:19:50.986Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.04.17",
-    "latestDisclosureTitle": "기업설명회(IR)개최(안내공시)              ",
+    "latestDisclosureDate": "2026.04.23",
+    "latestDisclosureTitle": "현금ㆍ현물배당결정              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
     "debtRatioSummary": "부채비율 189%",
     "hasPriceData": true,
-    "currentPriceLabel": "530,000원",
-    "priceChangeLabel": "-4,000원",
-    "priceChangeRateLabel": "-0.75%",
+    "currentPriceLabel": "529,000원",
+    "priceChangeLabel": "-5,000원",
+    "priceChangeRateLabel": "-0.94%",
     "priceAsOfLabel": "2026.04.23 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
-    "trend": "neutral",
-    "statusLabel": "중립",
-    "forecastLabel": "중립 예상",
-    "upProbability": 53,
-    "downProbability": 47,
-    "volatilityRange": "±4.5%",
-    "rangeNote": "530,000원 · 전일 대비 -4,000원 (-0.75%)",
-    "riskScore": 53,
+    "trend": "up",
+    "statusLabel": "상승 우위",
+    "forecastLabel": "상승 예상",
+    "upProbability": 69,
+    "downProbability": 31,
+    "volatilityRange": "±4.0%",
+    "rangeNote": "529,000원 · 전일 대비 -5,000원 (-0.94%)",
+    "riskScore": 41,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
-    "strategy": "보유 관점 유지",
+    "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "58.0%",
-    "recentNote": "최근 공시: 기업설명회(IR)개최(안내공시)              ",
+    "accuracyRate": "70.0%",
+    "recentNote": "최근 공시: 현금ㆍ현물배당결정              ",
     "history": [
+      {
+        "date": "2026.04.23",
+        "title": "현금ㆍ현물배당결정              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800359",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
+      {
+        "date": "2026.04.23",
+        "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800355",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
+      {
+        "date": "2026.04.23",
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800339",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
+      {
+        "date": "2026.04.23",
+        "title": "자기주식취득결과보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000276",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
       {
         "date": "2026.04.17",
         "title": "기업설명회(IR)개최(안내공시)              ",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260417800711",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.16",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260416000350",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.08",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408002973",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.08",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408002806",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.08",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260408002797",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
@@ -80,28 +80,28 @@
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "기업설명회(IR)개최(안내공시)              ",
+        "note": "현금ㆍ현물배당결정              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
         "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.5%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.0%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "0건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
+        "description": "4건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 61% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 77% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -128,22 +128,22 @@
     ],
     "consensus": {
       "targetPrice": "OpenDART 미제공",
-      "opinion": "보수적 해석",
+      "opinion": "우호적 해석",
       "coverage": "공시 기반"
     },
     "technicalIndicators": [
       {
         "label": "최근 공시 톤",
-        "value": "중립",
+        "value": "상승 우위",
         "description": "공시 감정 해석"
       },
       {
         "label": "리스크 점수",
-        "value": "53",
+        "value": "41",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "48.0%",
+    "backtestReturn": "65.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
