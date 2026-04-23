@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-04-23T05:59:50.987Z",
-  "expiresAt": "2026-04-23T06:29:50.987Z",
+  "updatedAt": "2026-04-23T08:00:33.683Z",
+  "expiresAt": "2026-04-23T08:30:33.683Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -19,8 +19,8 @@
     "marketDownProbability": 36,
     "marketVolatilityRange": "±4.3%",
     "marketRiskScore": 42,
-    "confidenceRecentAccuracy": "67.0%",
-    "confidenceOverallAccuracy": "72.0%",
+    "confidenceRecentAccuracy": "66.0%",
+    "confidenceOverallAccuracy": "71.0%",
     "marketHistory": [
       {
         "date": "2026.04.23",
@@ -69,7 +69,7 @@
       "임원ㆍ주요주주특정증권등소유상황보고서",
       "주식등의대량보유상황보고서(일반)",
       "최대주주등소유주식변동신고서",
-      "동일인등출자계열회사와의상품ㆍ용역거래변경"
+      "특수관계인과의내부거래"
     ],
     "investorFlowSummary": "재무 안정 종목 중심으로 선별 매수 관점이 가능해.",
     "institutionsSummary": "양호한 공시 흐름이 이어지는 종목이 더 많아.",
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "223,250원",
-        "priceChangeLabel": "+5,750원",
-        "priceChangeRateLabel": "+2.64%",
+        "currentPriceLabel": "224,500원",
+        "priceChangeLabel": "+7,000원",
+        "priceChangeRateLabel": "+3.22%",
         "priceAsOfLabel": "2026.04.23 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.0%",
-        "rangeNote": "223,250원 · 전일 대비 +5,750원 (+2.64%)",
+        "rangeNote": "224,500원 · 전일 대비 +7,000원 (+3.22%)",
         "riskScore": 39,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -226,15 +226,15 @@
         "companyName": "에스케이하이닉스(주)",
         "sector": "반도체",
         "latestDisclosureDate": "2026.04.23",
-        "latestDisclosureTitle": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+        "latestDisclosureTitle": "특수관계인과의내부거래",
         "disclosureCount": 8,
         "revenueSummary": "매출액 97조 1,466억",
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,212,000원",
-        "priceChangeLabel": "+57,000원",
-        "priceChangeRateLabel": "+4.94%",
+        "currentPriceLabel": "1,225,000원",
+        "priceChangeLabel": "+70,000원",
+        "priceChangeRateLabel": "+6.06%",
         "priceAsOfLabel": "2026.04.23 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,15 +243,23 @@
         "upProbability": 74,
         "downProbability": 26,
         "volatilityRange": "±3.7%",
-        "rangeNote": "1,212,000원 · 전일 대비 +57,000원 (+4.94%)",
+        "rangeNote": "1,225,000원 · 전일 대비 +70,000원 (+6.06%)",
         "riskScore": 33,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "67.0%",
-        "recentNote": "최근 공시: 동일인등출자계열회사와의상품ㆍ용역거래변경",
+        "recentNote": "최근 공시: 특수관계인과의내부거래",
         "history": [
+          {
+            "date": "2026.04.23",
+            "title": "특수관계인과의내부거래",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000405",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.04.23",
             "title": "동일인등출자계열회사와의상품ㆍ용역거래변경",
@@ -283,27 +291,19 @@
             "tone": "positive",
             "success": true,
             "statusLabel": "긍정"
-          },
-          {
-            "date": "2026.04.22",
-            "title": "주요사항보고서(자기주식처분결정)",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000633",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+            "note": "특수관계인과의내부거래",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+            "note": "동일인등출자계열회사와의상품ㆍ용역거래변경",
             "profit": "+ 공시 우호"
           }
         ],
@@ -371,15 +371,15 @@
         "companyName": "현대자동차(주)",
         "sector": "자동차",
         "latestDisclosureDate": "2026.04.23",
-        "latestDisclosureTitle": "현금ㆍ현물배당결정              ",
+        "latestDisclosureTitle": "공정거래자율준수프로그램운영현황(안내공시)              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 186조 2,544억",
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "529,000원",
-        "priceChangeLabel": "-5,000원",
-        "priceChangeRateLabel": "-0.94%",
+        "currentPriceLabel": "532,000원",
+        "priceChangeLabel": "-2,000원",
+        "priceChangeRateLabel": "-0.37%",
         "priceAsOfLabel": "2026.04.23 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -388,15 +388,31 @@
         "upProbability": 69,
         "downProbability": 31,
         "volatilityRange": "±4.0%",
-        "rangeNote": "529,000원 · 전일 대비 -5,000원 (-0.94%)",
+        "rangeNote": "532,000원 · 전일 대비 -2,000원 (-0.37%)",
         "riskScore": 41,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "70.0%",
-        "recentNote": "최근 공시: 현금ㆍ현물배당결정              ",
+        "recentNote": "최근 공시: 공정거래자율준수프로그램운영현황(안내공시)              ",
         "history": [
+          {
+            "date": "2026.04.23",
+            "title": "공정거래자율준수프로그램운영현황(안내공시)              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800640",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
+          {
+            "date": "2026.04.23",
+            "title": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000562",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.04.23",
             "title": "현금ㆍ현물배당결정              ",
@@ -420,35 +436,19 @@
             "tone": "positive",
             "success": true,
             "statusLabel": "긍정"
-          },
-          {
-            "date": "2026.04.23",
-            "title": "자기주식취득결과보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000276",
-            "tone": "positive",
-            "success": true,
-            "statusLabel": "긍정"
-          },
-          {
-            "date": "2026.04.17",
-            "title": "기업설명회(IR)개최(안내공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260417800711",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "현금ㆍ현물배당결정              ",
+            "note": "공정거래자율준수프로그램운영현황(안내공시)              ",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+            "note": "약관에의한금융거래시계열금융회사의거래상대방의공시",
             "profit": "+ 공시 우호"
           }
         ],
@@ -522,9 +522,9 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "215,250원",
-        "priceChangeLabel": "-3,250원",
-        "priceChangeRateLabel": "-1.49%",
+        "currentPriceLabel": "217,500원",
+        "priceChangeLabel": "-1,000원",
+        "priceChangeRateLabel": "-0.46%",
         "priceAsOfLabel": "2026.04.23 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -533,7 +533,7 @@
         "upProbability": 58,
         "downProbability": 42,
         "volatilityRange": "±4.3%",
-        "rangeNote": "215,250원 · 전일 대비 -3,250원 (-1.49%)",
+        "rangeNote": "217,500원 · 전일 대비 -1,000원 (-0.46%)",
         "riskScore": 47,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "48,000원",
-        "priceChangeLabel": "-2,600원",
-        "priceChangeRateLabel": "-5.14%",
+        "currentPriceLabel": "48,400원",
+        "priceChangeLabel": "-2,200원",
+        "priceChangeRateLabel": "-4.35%",
         "priceAsOfLabel": "2026.04.23 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -678,7 +678,7 @@
         "upProbability": 54,
         "downProbability": 46,
         "volatilityRange": "±4.5%",
-        "rangeNote": "48,000원 · 전일 대비 -2,600원 (-5.14%)",
+        "rangeNote": "48,400원 · 전일 대비 -2,200원 (-4.35%)",
         "riskScore": 52,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-04-23T05:59:50.986Z",
+    "generatedAt": "2026-04-23T08:00:33.683Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }

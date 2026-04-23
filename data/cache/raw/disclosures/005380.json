@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-04-23T05:59:41.492Z",
-  "expiresAt": "2026-04-23T07:59:41.492Z",
+  "updatedAt": "2026-04-23T08:00:24.684Z",
+  "expiresAt": "2026-04-23T10:00:24.684Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "공정거래자율준수프로그램운영현황(안내공시)              ",
+      "rcept_no": "20260423800640",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260423",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+      "rcept_no": "20260423000562",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260423",
+      "rm": "공"
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -67,28 +89,6 @@
       "rcept_no": "20260416000350",
       "flr_nm": "최영수",
       "rcept_dt": "20260416",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260408002973",
-      "flr_nm": "서주호",
-      "rcept_dt": "20260408",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260408002806",
-      "flr_nm": "오창권",
-      "rcept_dt": "20260408",
       "rm": ""
     }
   ]
