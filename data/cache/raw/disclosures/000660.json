@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-04-23T08:00:24.472Z",
-  "expiresAt": "2026-04-23T10:00:24.472Z",
+  "updatedAt": "2026-04-23T10:01:50.776Z",
+  "expiresAt": "2026-04-23T12:01:50.776Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]특수관계인과의내부거래",
+      "rcept_no": "20260423000751",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260423",
+      "rm": "공"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -12,7 +23,7 @@
       "rcept_no": "20260423000405",
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260423",
-      "rm": "공"
+      "rm": "공정"
     },
     {
       "corp_code": "00164779",
@@ -78,17 +89,6 @@
       "rcept_no": "20260422800243",
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260422",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260409800781",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260409",
       "rm": "유"
     }
   ]
