@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-04-22T23:10:49.881Z",
-  "expiresAt": "2026-04-23T01:10:49.881Z",
+  "updatedAt": "2026-04-23T00:06:29.913Z",
+  "expiresAt": "2026-04-23T02:06:29.913Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "rcept_no": "20260423800001",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260423",
+      "rm": "유"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260407002956",
       "flr_nm": "안현",
-      "rcept_dt": "20260407",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260407002948",
-      "flr_nm": "차선용",
       "rcept_dt": "20260407",
       "rm": ""
     }
