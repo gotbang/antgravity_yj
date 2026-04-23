@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-04-23T00:06:29.637Z",
-  "expiresAt": "2026-04-23T02:06:29.637Z",
+  "updatedAt": "2026-04-23T03:50:59.178Z",
+  "expiresAt": "2026-04-23T05:50:59.178Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260423000164",
+      "flr_nm": "임지운",
+      "rcept_dt": "20260423",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -79,17 +90,6 @@
       "flr_nm": "삼성전자",
       "rcept_dt": "20260407",
       "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260406003839",
-      "flr_nm": "아포테커마띠유",
-      "rcept_dt": "20260406",
-      "rm": ""
     }
   ]
 }
