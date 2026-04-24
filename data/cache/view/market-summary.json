@@ -1,11 +1,11 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-04-24T07:00:03.813Z",
-  "expiresAt": "2026-04-24T07:30:03.813Z",
+  "updatedAt": "2026-04-24T09:01:43.628Z",
+  "expiresAt": "2026-04-24T09:31:43.628Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
-    "fearGreedIndex": 56,
+    "fearGreedIndex": 57,
     "fearGreedLabel": "완만한 탐욕",
     "marketWarning": "공시 흐름은 비교적 안정적이지만 종목별 편차가 커서 개별 종목 확인이 중요해.",
     "strategies": [
@@ -15,13 +15,29 @@
     ],
     "marketDirectionLabel": "약상승 예상",
     "marketDirectionSummary": "공시와 재무 흐름을 함께 보면 완만한 회복 가능성이 있어 보여.",
-    "marketUpProbability": 63,
-    "marketDownProbability": 37,
-    "marketVolatilityRange": "±4.4%",
-    "marketRiskScore": 44,
-    "confidenceRecentAccuracy": "64.0%",
-    "confidenceOverallAccuracy": "69.0%",
+    "marketUpProbability": 64,
+    "marketDownProbability": 36,
+    "marketVolatilityRange": "±4.3%",
+    "marketRiskScore": 43,
+    "confidenceRecentAccuracy": "65.0%",
+    "confidenceOverallAccuracy": "70.0%",
     "marketHistory": [
+      {
+        "date": "2026.04.24",
+        "title": "자기주식취득결과보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000778",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
+      {
+        "date": "2026.04.24",
+        "title": "주식등의대량보유상황보고서(일반)",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000758",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.04.23",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -45,30 +61,14 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.13",
-        "title": "최대주주등소유주식변동신고서              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260413800802",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.13",
-        "title": "주식등의대량보유상황보고서(일반)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260413002934",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
-    "positiveNewsRatio": 83,
-    "negativeNewsRatio": 17,
+    "positiveNewsRatio": 86,
+    "negativeNewsRatio": 14,
     "keywords": [
-      "임원ㆍ주요주주특정증권등소유상황보고서",
+      "자기주식취득결과보고서",
       "주식등의대량보유상황보고서(일반)",
-      "최대주주등소유주식변동신고서",
+      "임원ㆍ주요주주특정증권등소유상황보고서",
       "[기재정정]특수관계인과의내부거래"
     ],
     "investorFlowSummary": "재무 안정 종목 중심으로 선별 매수 관점이 가능해.",
@@ -80,8 +80,8 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.04.23",
-        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "latestDisclosureDate": "2026.04.24",
+        "latestDisclosureTitle": "자기주식취득결과보고서",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
         "operatingIncomeSummary": "영업이익 43조 6,010억",
@@ -105,8 +105,24 @@
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "61.0%",
-        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+        "recentNote": "최근 공시: 자기주식취득결과보고서",
         "history": [
+          {
+            "date": "2026.04.24",
+            "title": "자기주식취득결과보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000778",
+            "tone": "positive",
+            "success": true,
+            "statusLabel": "긍정"
+          },
+          {
+            "date": "2026.04.24",
+            "title": "주식등의대량보유상황보고서(일반)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000758",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.04.23",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -130,29 +146,13 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.04.13",
-            "title": "최대주주등소유주식변동신고서              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260413800802",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.04.13",
-            "title": "주식등의대량보유상황보고서(일반)",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260413002934",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "자기주식취득결과보고서",
             "profit": "+ 공시 우호"
           },
           {
@@ -370,8 +370,8 @@
         "corpCode": "00164742",
         "companyName": "현대자동차(주)",
         "sector": "자동차",
-        "latestDisclosureDate": "2026.04.23",
-        "latestDisclosureTitle": "공정거래자율준수프로그램운영현황(안내공시)              ",
+        "latestDisclosureDate": "2026.04.24",
+        "latestDisclosureTitle": "타법인주식및출자증권취득결정(자율공시)              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 186조 2,544억",
         "operatingIncomeSummary": "영업이익 11조 4,678억",
@@ -385,18 +385,26 @@
         "trend": "up",
         "statusLabel": "상승 우위",
         "forecastLabel": "상승 예상",
-        "upProbability": 69,
-        "downProbability": 31,
-        "volatilityRange": "±4.0%",
+        "upProbability": 73,
+        "downProbability": 27,
+        "volatilityRange": "±3.9%",
         "rangeNote": "513,000원 · 전일 대비 -25,000원 (-4.65%)",
-        "riskScore": 41,
+        "riskScore": 38,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "70.0%",
-        "recentNote": "최근 공시: 공정거래자율준수프로그램운영현황(안내공시)              ",
+        "accuracyRate": "73.0%",
+        "recentNote": "최근 공시: 타법인주식및출자증권취득결정(자율공시)              ",
         "history": [
+          {
+            "date": "2026.04.24",
+            "title": "타법인주식및출자증권취득결정(자율공시)              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800636",
+            "tone": "positive",
+            "success": true,
+            "statusLabel": "긍정"
+          },
           {
             "date": "2026.04.23",
             "title": "공정거래자율준수프로그램운영현황(안내공시)              ",
@@ -428,42 +436,34 @@
             "tone": "positive",
             "success": true,
             "statusLabel": "긍정"
-          },
-          {
-            "date": "2026.04.23",
-            "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800339",
-            "tone": "positive",
-            "success": true,
-            "statusLabel": "긍정"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "공정거래자율준수프로그램운영현황(안내공시)              ",
+            "note": "타법인주식및출자증권취득결정(자율공시)              ",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+            "note": "공정거래자율준수프로그램운영현황(안내공시)              ",
             "profit": "+ 공시 우호"
           }
         ],
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.0%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±3.9%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "4건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
+            "description": "5건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 77% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 79% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -501,11 +501,11 @@
           },
           {
             "label": "리스크 점수",
-            "value": "41",
+            "value": "38",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "65.0%",
+        "backtestReturn": "69.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       },
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-04-24T07:00:03.813Z",
+    "generatedAt": "2026-04-24T09:01:43.628Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
