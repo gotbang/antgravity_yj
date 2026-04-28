@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-04-28T05:42:18.823Z",
-  "expiresAt": "2026-04-28T07:42:18.823Z",
+  "updatedAt": "2026-04-28T08:07:54.849Z",
+  "expiresAt": "2026-04-28T10:07:54.849Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260428000498",
+      "flr_nm": "김준엽",
+      "rcept_dt": "20260428",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260428000487",
+      "flr_nm": "김준엽",
+      "rcept_dt": "20260428",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -67,28 +89,6 @@
       "rcept_no": "20260423800339",
       "flr_nm": "현대자동차",
       "rcept_dt": "20260423",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "자기주식취득결과보고서",
-      "rcept_no": "20260423000276",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260423",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260417800711",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260417",
       "rm": "유"
     }
   ]

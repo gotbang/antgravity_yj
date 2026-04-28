@@ -1,40 +1,48 @@
 {
   "key": "view:stock:000660",
-  "updatedAt": "2026-04-28T05:42:25.336Z",
-  "expiresAt": "2026-04-28T06:02:25.336Z",
+  "updatedAt": "2026-04-28T08:08:01.589Z",
+  "expiresAt": "2026-04-28T08:28:01.589Z",
   "data": {
     "symbol": "SK하이닉스",
     "stockCode": "000660",
     "corpCode": "00164779",
     "companyName": "에스케이하이닉스(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.04.23",
-    "latestDisclosureTitle": "[기재정정]특수관계인과의내부거래",
+    "latestDisclosureDate": "2026.04.28",
+    "latestDisclosureTitle": "자기교환사채만기전취득결정              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 97조 1,466억",
     "operatingIncomeSummary": "영업이익 47조 2,063억",
     "debtRatioSummary": "부채비율 46%",
     "hasPriceData": true,
-    "currentPriceLabel": "1,311,000원",
-    "priceChangeLabel": "+87,000원",
-    "priceChangeRateLabel": "+7.11%",
+    "currentPriceLabel": "1,300,000원",
+    "priceChangeLabel": "+76,000원",
+    "priceChangeRateLabel": "+6.21%",
     "priceAsOfLabel": "2026.04.28 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
     "statusLabel": "상승 우위",
     "forecastLabel": "상승 예상",
-    "upProbability": 69,
-    "downProbability": 31,
-    "volatilityRange": "±4.0%",
-    "rangeNote": "1,311,000원 · 전일 대비 +87,000원 (+7.11%)",
-    "riskScore": 41,
+    "upProbability": 73,
+    "downProbability": 27,
+    "volatilityRange": "±3.9%",
+    "rangeNote": "1,300,000원 · 전일 대비 +76,000원 (+6.21%)",
+    "riskScore": 38,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "65.0%",
-    "recentNote": "최근 공시: [기재정정]특수관계인과의내부거래",
+    "accuracyRate": "68.0%",
+    "recentNote": "최근 공시: 자기교환사채만기전취득결정              ",
     "history": [
+      {
+        "date": "2026.04.28",
+        "title": "자기교환사채만기전취득결정              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428800513",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
       {
         "date": "2026.04.23",
         "title": "[기재정정]특수관계인과의내부거래",
@@ -66,42 +74,34 @@
         "tone": "positive",
         "success": true,
         "statusLabel": "긍정"
-      },
-      {
-        "date": "2026.04.22",
-        "title": "현금ㆍ현물배당결정              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422800788",
-        "tone": "positive",
-        "success": true,
-        "statusLabel": "긍정"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "SK하이닉스",
-        "action": "매도",
-        "note": "[기재정정]특수관계인과의내부거래",
-        "profit": "- 공시 주의"
+        "action": "매수",
+        "note": "자기교환사채만기전취득결정              ",
+        "profit": "+ 공시 우호"
       },
       {
         "symbol": "SK하이닉스",
-        "action": "매수",
-        "note": "특수관계인과의내부거래",
-        "profit": "+ 공시 우호"
+        "action": "매도",
+        "note": "[기재정정]특수관계인과의내부거래",
+        "profit": "- 공시 주의"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.0%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±3.9%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "3건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
+        "description": "4건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 77% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 79% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -139,11 +139,11 @@
       },
       {
         "label": "리스크 점수",
-        "value": "41",
+        "value": "38",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "65.0%",
+    "backtestReturn": "69.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
