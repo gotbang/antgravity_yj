@@ -1,23 +1,23 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-04-29T02:03:02.250Z",
-  "expiresAt": "2026-04-29T02:23:02.250Z",
+  "updatedAt": "2026-04-29T05:37:48.814Z",
+  "expiresAt": "2026-04-29T05:57:48.814Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
     "corpCode": "00126380",
     "companyName": "삼성전자(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.04.24",
-    "latestDisclosureTitle": "자기주식취득결과보고서",
+    "latestDisclosureDate": "2026.04.29",
+    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
-    "currentPriceLabel": "220,000원",
-    "priceChangeLabel": "+2,500원",
-    "priceChangeRateLabel": "+1.15%",
+    "currentPriceLabel": "225,750원",
+    "priceChangeLabel": "+8,250원",
+    "priceChangeRateLabel": "+3.79%",
     "priceAsOfLabel": "2026.04.29 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
@@ -26,15 +26,23 @@
     "upProbability": 66,
     "downProbability": 34,
     "volatilityRange": "±4.0%",
-    "rangeNote": "220,000원 · 전일 대비 +2,500원 (+1.15%)",
+    "rangeNote": "225,750원 · 전일 대비 +8,250원 (+3.79%)",
     "riskScore": 39,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "61.0%",
-    "recentNote": "최근 공시: 자기주식취득결과보고서",
+    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.04.29",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000319",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.04.24",
         "title": "자기주식취득결과보고서",
@@ -66,27 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.17",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260417000440",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "자기주식취득결과보고서",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "주식등의대량보유상황보고서(일반)",
+        "note": "자기주식취득결과보고서",
         "profit": "+ 공시 우호"
       }
     ],
