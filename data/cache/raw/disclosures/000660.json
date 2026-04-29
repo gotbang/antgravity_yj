@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-04-29T05:37:48.467Z",
-  "expiresAt": "2026-04-29T07:37:48.467Z",
+  "updatedAt": "2026-04-29T08:01:01.109Z",
+  "expiresAt": "2026-04-29T10:01:01.109Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260429000772",
+      "flr_nm": "송창석",
+      "rcept_dt": "20260429",
+      "rm": ""
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260429000763",
+      "flr_nm": "박명수",
+      "rcept_dt": "20260429",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -68,28 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260422",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
-      "rcept_no": "20260422800748",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260422",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "주요사항보고서(자기주식처분결정)",
-      "rcept_no": "20260422000633",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260422",
-      "rm": ""
     }
   ]
 }
