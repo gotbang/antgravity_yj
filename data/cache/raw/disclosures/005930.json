@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-04-30T05:42:05.922Z",
-  "expiresAt": "2026-04-30T07:42:05.922Z",
+  "updatedAt": "2026-04-30T08:05:01.923Z",
+  "expiresAt": "2026-04-30T10:05:01.923Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인에대한출자",
+      "rcept_no": "20260430001632",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260430",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인과의내부거래",
+      "rcept_no": "20260430001625",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260430",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인과의보험거래",
+      "rcept_no": "20260430001606",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260430",
+      "rm": "공"
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -56,39 +89,6 @@
       "rcept_no": "20260424000778",
       "flr_nm": "삼성전자",
       "rcept_dt": "20260424",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "주식등의대량보유상황보고서(일반)",
-      "rcept_no": "20260424000758",
-      "flr_nm": "삼성물산",
-      "rcept_dt": "20260424",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260423000164",
-      "flr_nm": "임지운",
-      "rcept_dt": "20260423",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "주식등의대량보유상황보고서(일반)",
-      "rcept_no": "20260417000682",
-      "flr_nm": "삼성물산",
-      "rcept_dt": "20260417",
       "rm": ""
     }
   ]

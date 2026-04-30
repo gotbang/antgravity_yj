@@ -1,7 +1,7 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-04-30T05:42:12.891Z",
-  "expiresAt": "2026-04-30T06:02:12.891Z",
+  "updatedAt": "2026-04-30T08:05:02.689Z",
+  "expiresAt": "2026-04-30T08:25:02.689Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
@@ -9,15 +9,15 @@
     "companyName": "삼성전자(주)",
     "sector": "반도체",
     "latestDisclosureDate": "2026.04.30",
-    "latestDisclosureTitle": "현금ㆍ현물배당결정              ",
+    "latestDisclosureTitle": "특수관계인에대한출자",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
-    "currentPriceLabel": "223,500원",
-    "priceChangeLabel": "-1,000원",
-    "priceChangeRateLabel": "-0.45%",
+    "currentPriceLabel": "220,500원",
+    "priceChangeLabel": "-4,000원",
+    "priceChangeRateLabel": "-1.78%",
     "priceAsOfLabel": "2026.04.30 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
@@ -26,15 +26,39 @@
     "upProbability": 74,
     "downProbability": 26,
     "volatilityRange": "±3.7%",
-    "rangeNote": "223,500원 · 전일 대비 -1,000원 (-0.45%)",
+    "rangeNote": "220,500원 · 전일 대비 -4,000원 (-1.78%)",
     "riskScore": 33,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "67.0%",
-    "recentNote": "최근 공시: 현금ㆍ현물배당결정              ",
+    "recentNote": "최근 공시: 특수관계인에대한출자",
     "history": [
+      {
+        "date": "2026.04.30",
+        "title": "특수관계인에대한출자",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001632",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.04.30",
+        "title": "특수관계인과의내부거래",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001625",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.04.30",
+        "title": "특수관계인과의보험거래",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001606",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.04.30",
         "title": "현금ㆍ현물배당결정              ",
@@ -50,43 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.30",
-        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800083",
-        "tone": "positive",
-        "success": true,
-        "statusLabel": "긍정"
-      },
-      {
-        "date": "2026.04.29",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000319",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.24",
-        "title": "자기주식취득결과보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000778",
-        "tone": "positive",
-        "success": true,
-        "statusLabel": "긍정"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "현금ㆍ현물배당결정              ",
+        "note": "특수관계인에대한출자",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "note": "특수관계인과의내부거래",
         "profit": "+ 공시 우호"
       }
     ],
