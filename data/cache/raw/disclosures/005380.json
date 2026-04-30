@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-04-30T02:03:06.143Z",
-  "expiresAt": "2026-04-30T04:03:06.143Z",
+  "updatedAt": "2026-04-30T05:42:06.269Z",
+  "expiresAt": "2026-04-30T07:42:06.269Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260430000968",
+      "flr_nm": "이성호",
+      "rcept_dt": "20260430",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "현금ㆍ현물배당결정              ",
       "rcept_no": "20260423800359",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260423",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
-      "rcept_no": "20260423800355",
       "flr_nm": "현대자동차",
       "rcept_dt": "20260423",
       "rm": "유"
