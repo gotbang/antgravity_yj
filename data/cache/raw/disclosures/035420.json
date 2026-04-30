@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-04-29T23:44:10.783Z",
-  "expiresAt": "2026-04-30T01:44:10.783Z",
+  "updatedAt": "2026-04-30T02:03:06.249Z",
+  "expiresAt": "2026-04-30T04:03:06.250Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "영업(잠정)실적(공정공시)              ",
+      "rcept_no": "20260430800024",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260430",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "rcept_no": "20260430800020",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260430",
+      "rm": "유"
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -66,28 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260417000496",
       "flr_nm": "이진규",
-      "rcept_dt": "20260417",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260417000484",
-      "flr_nm": "이한오",
-      "rcept_dt": "20260417",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260417000468",
-      "flr_nm": "정효주",
       "rcept_dt": "20260417",
       "rm": ""
     }

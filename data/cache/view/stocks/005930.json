@@ -1,40 +1,64 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-04-29T23:44:12.510Z",
-  "expiresAt": "2026-04-30T00:04:12.510Z",
+  "updatedAt": "2026-04-30T02:03:12.357Z",
+  "expiresAt": "2026-04-30T02:23:12.357Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
     "corpCode": "00126380",
     "companyName": "삼성전자(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.04.29",
-    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+    "latestDisclosureDate": "2026.04.30",
+    "latestDisclosureTitle": "현금ㆍ현물배당결정              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
     "currentPriceLabel": "226,000원",
-    "priceChangeLabel": "+8,500원",
-    "priceChangeRateLabel": "+3.91%",
-    "priceAsOfLabel": "2026.04.29 기준",
+    "priceChangeLabel": "+1,500원",
+    "priceChangeRateLabel": "+0.67%",
+    "priceAsOfLabel": "2026.04.30 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
     "statusLabel": "상승 우위",
     "forecastLabel": "상승 예상",
-    "upProbability": 66,
-    "downProbability": 34,
-    "volatilityRange": "±4.0%",
-    "rangeNote": "226,000원 · 전일 대비 +8,500원 (+3.91%)",
-    "riskScore": 39,
+    "upProbability": 74,
+    "downProbability": 26,
+    "volatilityRange": "±3.7%",
+    "rangeNote": "226,000원 · 전일 대비 +1,500원 (+0.67%)",
+    "riskScore": 33,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "61.0%",
-    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+    "accuracyRate": "67.0%",
+    "recentNote": "최근 공시: 현금ㆍ현물배당결정              ",
     "history": [
+      {
+        "date": "2026.04.30",
+        "title": "현금ㆍ현물배당결정              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800106",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
+      {
+        "date": "2026.04.30",
+        "title": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800097",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.04.30",
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800083",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
       {
         "date": "2026.04.29",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -50,58 +74,34 @@
         "tone": "positive",
         "success": true,
         "statusLabel": "긍정"
-      },
-      {
-        "date": "2026.04.24",
-        "title": "주식등의대량보유상황보고서(일반)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000758",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.23",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000164",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.17",
-        "title": "주식등의대량보유상황보고서(일반)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260417000682",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "현금ㆍ현물배당결정              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "자기주식취득결과보고서",
+        "note": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)              ",
         "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.0%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±3.7%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "1건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
+        "description": "3건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 74% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 79% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -139,11 +139,11 @@
       },
       {
         "label": "리스크 점수",
-        "value": "39",
+        "value": "33",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "62.0%",
+    "backtestReturn": "71.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
