@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-05-07T02:00:17.083Z",
-  "expiresAt": "2026-05-07T04:00:17.083Z",
+  "updatedAt": "2026-05-07T05:35:19.914Z",
+  "expiresAt": "2026-05-07T07:35:19.914Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "기업설명회(IR)개최(안내공시)              ",
+      "rcept_no": "20260507800276",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260507",
+      "rm": "유"
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "[기재정정]주식매수선택권부여에관한신고",
       "rcept_no": "20260430001017",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260430",
-      "rm": ""
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]주식매수선택권부여에관한신고",
-      "rcept_no": "20260430000966",
       "flr_nm": "카카오",
       "rcept_dt": "20260430",
       "rm": ""
