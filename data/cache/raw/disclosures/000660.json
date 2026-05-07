@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-05-07T05:35:19.520Z",
-  "expiresAt": "2026-05-07T07:35:19.520Z",
+  "updatedAt": "2026-05-07T08:15:49.476Z",
+  "expiresAt": "2026-05-07T10:15:49.476Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "자기주식처분결과보고서",
+      "rcept_no": "20260507000542",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260507",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260506000441",
       "flr_nm": "정덕균",
-      "rcept_dt": "20260506",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260506000431",
-      "flr_nm": "고승범",
       "rcept_dt": "20260506",
       "rm": ""
     }
