@@ -1,7 +1,7 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-05-08T07:02:19.310Z",
-  "expiresAt": "2026-05-08T09:02:19.310Z",
+  "updatedAt": "2026-05-08T08:52:47.724Z",
+  "expiresAt": "2026-05-08T10:52:47.724Z",
   "data": [
     {
       "corp_code": "00258801",
@@ -9,8 +9,8 @@
       "stock_code": "035720",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260508000635",
-      "flr_nm": "김준호",
+      "rcept_no": "20260508000879",
+      "flr_nm": "현동수",
       "rcept_dt": "20260508",
       "rm": ""
     },
@@ -20,8 +20,8 @@
       "stock_code": "035720",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260508000608",
-      "flr_nm": "김대년",
+      "rcept_no": "20260508000845",
+      "flr_nm": "최동진",
       "rcept_dt": "20260508",
       "rm": ""
     },
@@ -30,54 +30,10 @@
       "corp_name": "카카오",
       "stock_code": "035720",
       "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260507800276",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260507",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "영업(잠정)실적(공정공시)              ",
-      "rcept_no": "20260507800006",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260507",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "rcept_no": "20260507800004",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260507",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]기타경영사항(자율공시)              ",
-      "rcept_no": "20260430801402",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260430",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]주식매수선택권부여에관한신고",
-      "rcept_no": "20260430001093",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260430",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260508000817",
+      "flr_nm": "주성범",
+      "rcept_dt": "20260508",
       "rm": ""
     },
     {
@@ -85,10 +41,54 @@
       "corp_name": "카카오",
       "stock_code": "035720",
       "corp_cls": "Y",
-      "report_nm": "[기재정정]주식매수선택권부여에관한신고",
-      "rcept_no": "20260430001073",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260430",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260508000800",
+      "flr_nm": "조수란",
+      "rcept_dt": "20260508",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260508000785",
+      "flr_nm": "정혜윤",
+      "rcept_dt": "20260508",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260508000767",
+      "flr_nm": "장정환",
+      "rcept_dt": "20260508",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260508000748",
+      "flr_nm": "장영신",
+      "rcept_dt": "20260508",
+      "rm": ""
+    },
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260508000735",
+      "flr_nm": "이재승",
+      "rcept_dt": "20260508",
       "rm": ""
     }
   ]
