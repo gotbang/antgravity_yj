@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-05-11T06:11:25.651Z",
-  "expiresAt": "2026-05-11T08:11:25.651Z",
+  "updatedAt": "2026-05-11T10:04:15.502Z",
+  "expiresAt": "2026-05-11T12:04:15.502Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인으로부터기타유가증권매수",
+      "rcept_no": "20260511000643",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260511",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260511000484",
+      "flr_nm": "김영훈",
+      "rcept_dt": "20260511",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -68,28 +90,6 @@
       "flr_nm": "김준엽",
       "rcept_dt": "20260428",
       "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260428000487",
-      "flr_nm": "김준엽",
-      "rcept_dt": "20260428",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "타법인주식및출자증권취득결정(자율공시)              ",
-      "rcept_no": "20260424800636",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260424",
-      "rm": "유"
     }
   ]
 }
