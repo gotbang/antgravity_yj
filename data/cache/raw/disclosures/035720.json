@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-05-12T02:05:31.275Z",
-  "expiresAt": "2026-05-12T04:05:31.275Z",
+  "updatedAt": "2026-05-12T05:49:55.124Z",
+  "expiresAt": "2026-05-12T07:49:55.124Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(약식)",
+      "rcept_no": "20260512000304",
+      "flr_nm": "막시모피티이엘티디",
+      "rcept_dt": "20260512",
+      "rm": ""
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260508000748",
       "flr_nm": "장영신",
-      "rcept_dt": "20260508",
-      "rm": ""
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260508000735",
-      "flr_nm": "이재승",
       "rcept_dt": "20260508",
       "rm": ""
     }
