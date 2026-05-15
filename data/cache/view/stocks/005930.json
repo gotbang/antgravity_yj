@@ -1,23 +1,23 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-05-15T04:33:14.403Z",
-  "expiresAt": "2026-05-15T04:53:14.403Z",
+  "updatedAt": "2026-05-15T10:12:32.401Z",
+  "expiresAt": "2026-05-15T10:32:32.401Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
     "corpCode": "00126380",
     "companyName": "삼성전자(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.05.13",
-    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+    "latestDisclosureDate": "2026.05.15",
+    "latestDisclosureTitle": "동일인등출자계열회사와의상품ㆍ용역거래변경",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
-    "currentPriceLabel": "279,000원",
-    "priceChangeLabel": "+10,500원",
-    "priceChangeRateLabel": "+3.91%",
+    "currentPriceLabel": "270,500원",
+    "priceChangeLabel": "+2,000원",
+    "priceChangeRateLabel": "+0.74%",
     "priceAsOfLabel": "2026.05.15 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
@@ -26,51 +26,51 @@
     "upProbability": 62,
     "downProbability": 38,
     "volatilityRange": "±4.1%",
-    "rangeNote": "279,000원 · 전일 대비 +10,500원 (+3.91%)",
+    "rangeNote": "270,500원 · 전일 대비 +2,000원 (+0.74%)",
     "riskScore": 42,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "58.0%",
-    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+    "recentNote": "최근 공시: 동일인등출자계열회사와의상품ㆍ용역거래변경",
     "history": [
+      {
+        "date": "2026.05.15",
+        "title": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002812",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.05.15",
+        "title": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002790",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.05.15",
+        "title": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002770",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.05.15",
+        "title": "분기보고서 (2026.03)",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002181",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.05.13",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000081",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.11",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000085",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.08",
-        "title": "최대주주등소유주식변동신고서              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508801105",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.08",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000866",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.04",
-        "title": "주식등의대량보유상황보고서(일반)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504000421",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
@@ -80,13 +80,13 @@
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "동일인등출자계열회사와의상품ㆍ용역거래변경",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "동일인등출자계열회사와의상품ㆍ용역거래변경",
         "profit": "+ 공시 우호"
       }
     ],
