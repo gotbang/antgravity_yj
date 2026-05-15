@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-05-14T23:15:11.815Z",
-  "expiresAt": "2026-05-15T01:15:11.815Z",
+  "updatedAt": "2026-05-15T00:15:12.654Z",
+  "expiresAt": "2026-05-15T02:15:12.654Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "타법인주식및출자증권처분결정(종속회사의주요경영사항)              ",
+      "rcept_no": "20260515800058",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260515",
+      "rm": "유"
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -79,17 +90,6 @@
       "flr_nm": "카카오",
       "rcept_dt": "20260514",
       "rm": "공"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "주식등의대량보유상황보고서(약식)",
-      "rcept_no": "20260512000304",
-      "flr_nm": "막시모피티이엘티디",
-      "rcept_dt": "20260512",
-      "rm": ""
     }
   ]
 }
