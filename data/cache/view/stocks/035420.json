@@ -1,24 +1,24 @@
 {
   "key": "view:stock:035420",
-  "updatedAt": "2026-05-18T23:56:36.716Z",
-  "expiresAt": "2026-05-19T00:16:36.716Z",
+  "updatedAt": "2026-05-19T02:43:10.427Z",
+  "expiresAt": "2026-05-19T03:03:10.427Z",
   "data": {
     "symbol": "NAVER",
     "stockCode": "035420",
     "corpCode": "00266961",
     "companyName": "네이버(주)",
     "sector": "플랫폼",
-    "latestDisclosureDate": "2026.05.15",
-    "latestDisclosureTitle": "분기보고서 (2026.03)",
+    "latestDisclosureDate": "2026.05.19",
+    "latestDisclosureTitle": "풍문또는보도에대한해명(미확정)              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 12조 350억",
     "operatingIncomeSummary": "영업이익 2조 2,081억",
     "debtRatioSummary": "부채비율 142%",
     "hasPriceData": true,
-    "currentPriceLabel": "200,000원",
-    "priceChangeLabel": "-11,500원",
-    "priceChangeRateLabel": "-5.44%",
-    "priceAsOfLabel": "2026.05.18 기준",
+    "currentPriceLabel": "195,800원",
+    "priceChangeLabel": "-8,200원",
+    "priceChangeRateLabel": "-4.02%",
+    "priceAsOfLabel": "2026.05.19 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
     "statusLabel": "상승 우위",
@@ -26,15 +26,23 @@
     "upProbability": 66,
     "downProbability": 34,
     "volatilityRange": "±4.0%",
-    "rangeNote": "200,000원 · 전일 대비 -11,500원 (-5.44%)",
+    "rangeNote": "195,800원 · 전일 대비 -8,200원 (-4.02%)",
     "riskScore": 41,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "64.0%",
-    "recentNote": "최근 공시: 분기보고서 (2026.03)",
+    "recentNote": "최근 공시: 풍문또는보도에대한해명(미확정)              ",
     "history": [
+      {
+        "date": "2026.05.19",
+        "title": "풍문또는보도에대한해명(미확정)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800168",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.05.15",
         "title": "분기보고서 (2026.03)",
@@ -66,27 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.04.30",
-        "title": "영업(잠정)실적(공정공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800024",
-        "tone": "positive",
-        "success": true,
-        "statusLabel": "긍정"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "NAVER",
         "action": "매수",
-        "note": "분기보고서 (2026.03)",
+        "note": "풍문또는보도에대한해명(미확정)              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "NAVER",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "분기보고서 (2026.03)",
         "profit": "+ 공시 우호"
       }
     ],
