@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-05-21T04:50:24.014Z",
-  "expiresAt": "2026-05-21T06:50:24.014Z",
+  "updatedAt": "2026-05-21T08:26:58.539Z",
+  "expiresAt": "2026-05-21T10:26:58.539Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260521000437",
+      "flr_nm": "구동현",
+      "rcept_dt": "20260521",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260521000428",
+      "flr_nm": "이은혜",
+      "rcept_dt": "20260521",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260521000391",
+      "flr_nm": "천세진",
+      "rcept_dt": "20260521",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -57,39 +90,6 @@
       "flr_nm": "NAVER",
       "rcept_dt": "20260506",
       "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "영업(잠정)실적(공정공시)              ",
-      "rcept_no": "20260430800024",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260430",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "rcept_no": "20260430800020",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260430",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260417000575",
-      "flr_nm": "고영실",
-      "rcept_dt": "20260417",
-      "rm": ""
     }
   ]
 }
