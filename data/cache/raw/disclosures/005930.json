@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-05-22T06:31:31.460Z",
-  "expiresAt": "2026-05-22T08:31:31.460Z",
+  "updatedAt": "2026-05-22T10:16:27.772Z",
+  "expiresAt": "2026-05-22T12:16:27.772Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "rcept_no": "20260522000589",
+      "flr_nm": "삼성물산",
+      "rcept_dt": "20260522",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -78,17 +89,6 @@
       "rcept_no": "20260513000081",
       "flr_nm": "신승철",
       "rcept_dt": "20260513",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260511000085",
-      "flr_nm": "이규철",
-      "rcept_dt": "20260511",
       "rm": ""
     }
   ]
