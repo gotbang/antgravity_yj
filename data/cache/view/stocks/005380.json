@@ -1,7 +1,7 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-05-29T06:35:51.718Z",
-  "expiresAt": "2026-05-29T06:55:51.718Z",
+  "updatedAt": "2026-05-29T10:38:28.891Z",
+  "expiresAt": "2026-05-29T10:58:28.891Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
@@ -9,15 +9,15 @@
     "companyName": "현대자동차(주)",
     "sector": "자동차",
     "latestDisclosureDate": "2026.05.29",
-    "latestDisclosureTitle": "대규모기업집단현황공시[연1회(동일인용)]",
+    "latestDisclosureTitle": "기업가치제고계획(자율공시)              (2025년 이행현황)",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
     "debtRatioSummary": "부채비율 189%",
     "hasPriceData": true,
-    "currentPriceLabel": "728,000원",
-    "priceChangeLabel": "+62,000원",
-    "priceChangeRateLabel": "+9.31%",
+    "currentPriceLabel": "723,000원",
+    "priceChangeLabel": "+57,000원",
+    "priceChangeRateLabel": "+8.56%",
     "priceAsOfLabel": "2026.05.29 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "neutral",
@@ -26,15 +26,39 @@
     "upProbability": 53,
     "downProbability": 47,
     "volatilityRange": "±4.5%",
-    "rangeNote": "728,000원 · 전일 대비 +62,000원 (+9.31%)",
+    "rangeNote": "723,000원 · 전일 대비 +57,000원 (+8.56%)",
     "riskScore": 53,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "보유 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "58.0%",
-    "recentNote": "최근 공시: 대규모기업집단현황공시[연1회(동일인용)]",
+    "recentNote": "최근 공시: 기업가치제고계획(자율공시)              (2025년 이행현황)",
     "history": [
+      {
+        "date": "2026.05.29",
+        "title": "기업가치제고계획(자율공시)              (2025년 이행현황)",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529802007",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.05.29",
+        "title": "특수관계인으로부터기타유가증권매수",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529002065",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.05.29",
+        "title": "대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001880",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.05.29",
         "title": "대규모기업집단현황공시[연1회(동일인용)]",
@@ -50,43 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.20",
-        "title": "기업설명회(IR)개최(안내공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260520800521",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.18",
-        "title": "기업설명회(IR)개최(안내공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800599",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.15",
-        "title": "분기보고서 (2026.03)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002418",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "대규모기업집단현황공시[연1회(동일인용)]",
+        "note": "기업가치제고계획(자율공시)              (2025년 이행현황)",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "[기재정정]타법인주식및출자증권취득결정(자율공시)              ",
+        "note": "특수관계인으로부터기타유가증권매수",
         "profit": "+ 공시 우호"
       }
     ],

@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-05-29T06:35:50.177Z",
-  "expiresAt": "2026-05-29T08:35:50.177Z",
+  "updatedAt": "2026-05-29T10:38:18.641Z",
+  "expiresAt": "2026-05-29T12:38:18.641Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "기업가치제고계획(자율공시)              (2025년 이행현황)",
+      "rcept_no": "20260529802007",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260529",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인으로부터기타유가증권매수",
+      "rcept_no": "20260529002065",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260529",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+      "rcept_no": "20260529001880",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260529",
+      "rm": "공"
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -57,39 +90,6 @@
       "flr_nm": "현대자동차",
       "rcept_dt": "20260515",
       "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인으로부터기타유가증권매수",
-      "rcept_no": "20260511000643",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260511",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260511000484",
-      "flr_nm": "김영훈",
-      "rcept_dt": "20260511",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260506800556",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260506",
-      "rm": "유"
     }
   ]
 }

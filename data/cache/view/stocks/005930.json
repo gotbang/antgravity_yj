@@ -1,23 +1,23 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-05-29T06:35:50.635Z",
-  "expiresAt": "2026-05-29T06:55:50.635Z",
+  "updatedAt": "2026-05-29T10:38:26.451Z",
+  "expiresAt": "2026-05-29T10:58:26.451Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
     "corpCode": "00126380",
     "companyName": "삼성전자(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.05.26",
-    "latestDisclosureTitle": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+    "latestDisclosureDate": "2026.05.29",
+    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
-    "currentPriceLabel": "316,500원",
-    "priceChangeLabel": "+17,000원",
-    "priceChangeRateLabel": "+5.68%",
+    "currentPriceLabel": "317,000원",
+    "priceChangeLabel": "+17,500원",
+    "priceChangeRateLabel": "+5.84%",
     "priceAsOfLabel": "2026.05.29 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "neutral",
@@ -26,15 +26,23 @@
     "upProbability": 52,
     "downProbability": 48,
     "volatilityRange": "±4.7%",
-    "rangeNote": "316,500원 · 전일 대비 +17,000원 (+5.68%)",
+    "rangeNote": "317,000원 · 전일 대비 +17,500원 (+5.84%)",
     "riskScore": 58,
     "riskStatusLabel": "경계 구간",
     "riskComment": "관망 우선",
     "strategy": "관망 우선",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "54.0%",
-    "recentNote": "최근 공시: [기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.05.29",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001627",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.05.26",
         "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
@@ -66,28 +74,20 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.22",
-        "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000036",
-        "tone": "negative",
-        "success": false,
-        "statusLabel": "주의"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "삼성전자",
-        "action": "매도",
-        "note": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-        "profit": "- 공시 주의"
-      },
-      {
-        "symbol": "삼성전자",
         "action": "매수",
         "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
+      },
+      {
+        "symbol": "삼성전자",
+        "action": "매도",
+        "note": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+        "profit": "- 공시 주의"
       }
     ],
     "reasoning": [
