@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-05-29T02:12:33.654Z",
-  "expiresAt": "2026-05-29T04:12:33.654Z",
+  "updatedAt": "2026-05-29T06:35:49.902Z",
+  "expiresAt": "2026-05-29T08:35:49.902Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+      "rcept_no": "20260529000991",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260529",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]특수관계인과의내부거래",
+      "rcept_no": "20260529000534",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260529",
+      "rm": "공"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -68,28 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260506",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260506000496",
-      "flr_nm": "안현",
-      "rcept_dt": "20260506",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260506000487",
-      "flr_nm": "최강국",
-      "rcept_dt": "20260506",
-      "rm": ""
     }
   ]
 }
