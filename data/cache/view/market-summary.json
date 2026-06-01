@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-05-31T23:57:34.911Z",
-  "expiresAt": "2026-06-01T00:27:34.911Z",
+  "updatedAt": "2026-06-01T03:41:30.708Z",
+  "expiresAt": "2026-06-01T04:11:30.708Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -23,41 +23,41 @@
     "confidenceOverallAccuracy": "63.0%",
     "marketHistory": [
       {
+        "date": "2026.06.01",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000369",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.06.01",
+        "title": "기업지배구조보고서공시              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601800268",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.06.01",
+        "title": "대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000172",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.06.01",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000001",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
         "date": "2026.05.29",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001627",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.26",
-        "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526000244",
-        "tone": "negative",
-        "success": false,
-        "statusLabel": "주의"
-      },
-      {
-        "date": "2026.05.26",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526000141",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.22",
-        "title": "주식등의대량보유상황보고서(일반)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000589",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.22",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000164",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
@@ -67,9 +67,9 @@
     "negativeNewsRatio": 100,
     "keywords": [
       "임원ㆍ주요주주특정증권등소유상황보고서",
-      "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-      "주식등의대량보유상황보고서(일반)",
-      "기업지배구조보고서공시"
+      "기업지배구조보고서공시",
+      "대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+      "대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]"
     ],
     "investorFlowSummary": "재무 안정 종목 중심으로 선별 매수 관점이 가능해.",
     "institutionsSummary": "양호한 공시 흐름이 이어지는 종목이 더 많아.",
@@ -80,69 +80,69 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.05.29",
+        "latestDisclosureDate": "2026.06.01",
         "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "317,000원",
-        "priceChangeLabel": "+17,500원",
-        "priceChangeRateLabel": "+5.84%",
-        "priceAsOfLabel": "2026.05.29 기준",
+        "currentPriceLabel": "348,000원",
+        "priceChangeLabel": "+55,500원",
+        "priceChangeRateLabel": "+18.97%",
+        "priceAsOfLabel": "2026.06.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
-        "trend": "neutral",
-        "statusLabel": "중립",
-        "forecastLabel": "중립 예상",
-        "upProbability": 52,
-        "downProbability": 48,
-        "volatilityRange": "±4.7%",
-        "rangeNote": "317,000원 · 전일 대비 +17,500원 (+5.84%)",
-        "riskScore": 58,
-        "riskStatusLabel": "경계 구간",
-        "riskComment": "관망 우선",
-        "strategy": "관망 우선",
+        "trend": "up",
+        "statusLabel": "약상승 우위",
+        "forecastLabel": "상승 예상",
+        "upProbability": 57,
+        "downProbability": 43,
+        "volatilityRange": "±4.4%",
+        "rangeNote": "348,000원 · 전일 대비 +55,500원 (+18.97%)",
+        "riskScore": 50,
+        "riskStatusLabel": "안정 구간",
+        "riskComment": "완만한 비중 확대 가능",
+        "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "54.0%",
+        "accuracyRate": "56.0%",
         "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
         "history": [
+          {
+            "date": "2026.06.01",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000369",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
+          {
+            "date": "2026.06.01",
+            "title": "기업지배구조보고서공시              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601800268",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
+          {
+            "date": "2026.06.01",
+            "title": "대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000172",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
+          {
+            "date": "2026.06.01",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000001",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.05.29",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
             "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001627",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.05.26",
-            "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526000244",
-            "tone": "negative",
-            "success": false,
-            "statusLabel": "주의"
-          },
-          {
-            "date": "2026.05.26",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526000141",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.05.22",
-            "title": "주식등의대량보유상황보고서(일반)",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000589",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.05.22",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000164",
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
@@ -157,23 +157,23 @@
           },
           {
             "symbol": "삼성전자",
-            "action": "매도",
-            "note": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-            "profit": "- 공시 주의"
+            "action": "매수",
+            "note": "기업지배구조보고서공시              ",
+            "profit": "+ 공시 우호"
           }
         ],
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.7%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.4%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "0건의 우호 신호와 2건의 경계 신호를 함께 보고 있어."
+            "description": "0건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 60% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 65% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -200,22 +200,22 @@
         ],
         "consensus": {
           "targetPrice": "OpenDART 미제공",
-          "opinion": "보수적 해석",
+          "opinion": "우호적 해석",
           "coverage": "공시 기반"
         },
         "technicalIndicators": [
           {
             "label": "최근 공시 톤",
-            "value": "중립",
+            "value": "약상승 우위",
             "description": "공시 감정 해석"
           },
           {
             "label": "리스크 점수",
-            "value": "58",
+            "value": "50",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "46.0%",
+        "backtestReturn": "52.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       },
@@ -232,10 +232,10 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "2,333,000원",
-        "priceChangeLabel": "+393,000원",
-        "priceChangeRateLabel": "+20.26%",
-        "priceAsOfLabel": "2026.05.29 기준",
+        "currentPriceLabel": "2,372,000원",
+        "priceChangeLabel": "+431,000원",
+        "priceChangeRateLabel": "+22.21%",
+        "priceAsOfLabel": "2026.06.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
         "statusLabel": "약상승 우위",
@@ -243,7 +243,7 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "2,333,000원 · 전일 대비 +393,000원 (+20.26%)",
+        "rangeNote": "2,372,000원 · 전일 대비 +431,000원 (+22.21%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -377,10 +377,10 @@
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "723,000원",
-        "priceChangeLabel": "+57,000원",
-        "priceChangeRateLabel": "+8.56%",
-        "priceAsOfLabel": "2026.05.29 기준",
+        "currentPriceLabel": "760,000원",
+        "priceChangeLabel": "+105,000원",
+        "priceChangeRateLabel": "+16.03%",
+        "priceAsOfLabel": "2026.06.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
         "statusLabel": "중립",
@@ -388,7 +388,7 @@
         "upProbability": 53,
         "downProbability": 47,
         "volatilityRange": "±4.5%",
-        "rangeNote": "723,000원 · 전일 대비 +57,000원 (+8.56%)",
+        "rangeNote": "760,000원 · 전일 대비 +105,000원 (+16.03%)",
         "riskScore": 53,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -515,33 +515,41 @@
         "corpCode": "00266961",
         "companyName": "네이버(주)",
         "sector": "플랫폼",
-        "latestDisclosureDate": "2026.05.29",
-        "latestDisclosureTitle": "기업지배구조보고서공시              ",
+        "latestDisclosureDate": "2026.06.01",
+        "latestDisclosureTitle": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
         "disclosureCount": 8,
         "revenueSummary": "매출액 12조 350억",
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "234,000원",
-        "priceChangeLabel": "+34,500원",
-        "priceChangeRateLabel": "+17.29%",
-        "priceAsOfLabel": "2026.05.29 기준",
+        "currentPriceLabel": "271,000원",
+        "priceChangeLabel": "+68,000원",
+        "priceChangeRateLabel": "+33.50%",
+        "priceAsOfLabel": "2026.06.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
-        "trend": "up",
-        "statusLabel": "약상승 우위",
-        "forecastLabel": "상승 예상",
-        "upProbability": 58,
-        "downProbability": 42,
-        "volatilityRange": "±4.3%",
-        "rangeNote": "234,000원 · 전일 대비 +34,500원 (+17.29%)",
-        "riskScore": 47,
-        "riskStatusLabel": "안정 구간",
-        "riskComment": "완만한 비중 확대 가능",
-        "strategy": "분할 매수 관점 유지",
+        "trend": "neutral",
+        "statusLabel": "중립",
+        "forecastLabel": "중립 예상",
+        "upProbability": 53,
+        "downProbability": 47,
+        "volatilityRange": "±4.6%",
+        "rangeNote": "271,000원 · 전일 대비 +68,000원 (+33.50%)",
+        "riskScore": 55,
+        "riskStatusLabel": "경계 구간",
+        "riskComment": "관망 우선",
+        "strategy": "관망 우선",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "58.0%",
-        "recentNote": "최근 공시: 기업지배구조보고서공시              ",
+        "accuracyRate": "56.0%",
+        "recentNote": "최근 공시: [기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
         "history": [
+          {
+            "date": "2026.06.01",
+            "title": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000228",
+            "tone": "negative",
+            "success": false,
+            "statusLabel": "주의"
+          },
           {
             "date": "2026.05.29",
             "title": "기업지배구조보고서공시              ",
@@ -573,42 +581,34 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.05.21",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260521000428",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "NAVER",
-            "action": "매수",
-            "note": "기업지배구조보고서공시              ",
-            "profit": "+ 공시 우호"
+            "action": "매도",
+            "note": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+            "profit": "- 공시 주의"
           },
           {
             "symbol": "NAVER",
             "action": "매수",
-            "note": "대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+            "note": "기업지배구조보고서공시              ",
             "profit": "+ 공시 우호"
           }
         ],
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.3%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.6%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "0건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
+            "description": "0건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 66% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 61% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -635,22 +635,22 @@
         ],
         "consensus": {
           "targetPrice": "OpenDART 미제공",
-          "opinion": "우호적 해석",
+          "opinion": "보수적 해석",
           "coverage": "공시 기반"
         },
         "technicalIndicators": [
           {
             "label": "최근 공시 톤",
-            "value": "약상승 우위",
+            "value": "중립",
             "description": "공시 감정 해석"
           },
           {
             "label": "리스크 점수",
-            "value": "47",
+            "value": "55",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "53.0%",
+        "backtestReturn": "47.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       },
@@ -667,10 +667,10 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "41,950원",
-        "priceChangeLabel": "+150원",
-        "priceChangeRateLabel": "+0.36%",
-        "priceAsOfLabel": "2026.05.29 기준",
+        "currentPriceLabel": "43,300원",
+        "priceChangeLabel": "+1,450원",
+        "priceChangeRateLabel": "+3.46%",
+        "priceAsOfLabel": "2026.06.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
         "statusLabel": "약상승 우위",
@@ -678,7 +678,7 @@
         "upProbability": 54,
         "downProbability": 46,
         "volatilityRange": "±4.5%",
-        "rangeNote": "41,950원 · 전일 대비 +150원 (+0.36%)",
+        "rangeNote": "43,300원 · 전일 대비 +1,450원 (+3.46%)",
         "riskScore": 52,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-05-31T23:57:34.911Z",
+    "generatedAt": "2026-06-01T03:41:30.708Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }

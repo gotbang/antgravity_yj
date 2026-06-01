@@ -1,8 +1,52 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-05-31T23:57:23.905Z",
-  "expiresAt": "2026-06-01T01:57:23.905Z",
+  "updatedAt": "2026-06-01T03:41:19.778Z",
+  "expiresAt": "2026-06-01T05:41:19.778Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260601000369",
+      "flr_nm": "김경석",
+      "rcept_dt": "20260601",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "기업지배구조보고서공시              ",
+      "rcept_no": "20260601800268",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260601",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+      "rcept_no": "20260601000172",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260601",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260601000001",
+      "flr_nm": "하지훈",
+      "rcept_dt": "20260601",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -46,50 +90,6 @@
       "flr_nm": "삼성물산",
       "rcept_dt": "20260522",
       "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260522000164",
-      "flr_nm": "얀손헨릭",
-      "rcept_dt": "20260522",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260522000036",
-      "flr_nm": "얀손헨릭",
-      "rcept_dt": "20260522",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-      "rcept_no": "20260515002812",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260515",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-      "rcept_no": "20260515002790",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260515",
-      "rm": "공"
     }
   ]
 }
