@@ -1,7 +1,7 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-06-05T06:58:11.982Z",
-  "expiresAt": "2026-06-05T07:18:11.982Z",
+  "updatedAt": "2026-06-05T10:45:01.777Z",
+  "expiresAt": "2026-06-05T11:05:01.777Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
@@ -38,6 +38,14 @@
       {
         "date": "2026.06.05",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000586",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.06.05",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000073",
         "tone": "neutral",
         "success": true,
@@ -66,14 +74,6 @@
         "tone": "negative",
         "success": false,
         "statusLabel": "주의"
-      },
-      {
-        "date": "2026.06.02",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000150",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
