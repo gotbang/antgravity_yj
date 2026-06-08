@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-06-07T23:03:24.610Z",
-  "expiresAt": "2026-06-08T01:03:24.610Z",
+  "updatedAt": "2026-06-08T01:38:02.605Z",
+  "expiresAt": "2026-06-08T03:38:02.605Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "장래사업ㆍ경영계획(공정공시)              ",
+      "rcept_no": "20260608800036",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260608",
+      "rm": "유"
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260521000428",
       "flr_nm": "이은혜",
-      "rcept_dt": "20260521",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260521000391",
-      "flr_nm": "천세진",
       "rcept_dt": "20260521",
       "rm": ""
     }
