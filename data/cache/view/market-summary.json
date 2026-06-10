@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-06-10T02:32:27.030Z",
-  "expiresAt": "2026-06-10T03:02:27.030Z",
+  "updatedAt": "2026-06-10T06:58:55.145Z",
+  "expiresAt": "2026-06-10T07:28:55.145Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -19,8 +19,8 @@
     "marketDownProbability": 45,
     "marketVolatilityRange": "±4.7%",
     "marketRiskScore": 53,
-    "confidenceRecentAccuracy": "58.0%",
-    "confidenceOverallAccuracy": "63.0%",
+    "confidenceRecentAccuracy": "59.0%",
+    "confidenceOverallAccuracy": "64.0%",
     "marketHistory": [
       {
         "date": "2026.06.08",
@@ -63,8 +63,8 @@
         "statusLabel": "중립"
       }
     ],
-    "positiveNewsRatio": 25,
-    "negativeNewsRatio": 75,
+    "positiveNewsRatio": 33,
+    "negativeNewsRatio": 67,
     "keywords": [
       "최대주주등소유주식변동신고서",
       "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "306,000원",
-        "priceChangeLabel": "-54,500원",
-        "priceChangeRateLabel": "-15.12%",
+        "currentPriceLabel": "302,500원",
+        "priceChangeLabel": "-58,000원",
+        "priceChangeRateLabel": "-16.09%",
         "priceAsOfLabel": "2026.06.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "306,000원 · 전일 대비 -54,500원 (-15.12%)",
+        "rangeNote": "302,500원 · 전일 대비 -58,000원 (-16.09%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -232,9 +232,9 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "2,097,000원",
-        "priceChangeLabel": "-263,000원",
-        "priceChangeRateLabel": "-11.14%",
+        "currentPriceLabel": "2,048,000원",
+        "priceChangeLabel": "-312,000원",
+        "priceChangeRateLabel": "-13.22%",
         "priceAsOfLabel": "2026.06.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,7 +243,7 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "2,097,000원 · 전일 대비 -263,000원 (-11.14%)",
+        "rangeNote": "2,048,000원 · 전일 대비 -312,000원 (-13.22%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -377,9 +377,9 @@
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "616,000원",
-        "priceChangeLabel": "-113,000원",
-        "priceChangeRateLabel": "-15.50%",
+        "currentPriceLabel": "602,000원",
+        "priceChangeLabel": "-127,000원",
+        "priceChangeRateLabel": "-17.42%",
         "priceAsOfLabel": "2026.06.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -388,7 +388,7 @@
         "upProbability": 52,
         "downProbability": 48,
         "volatilityRange": "±4.7%",
-        "rangeNote": "616,000원 · 전일 대비 -113,000원 (-15.50%)",
+        "rangeNote": "602,000원 · 전일 대비 -127,000원 (-17.42%)",
         "riskScore": 58,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
@@ -515,16 +515,16 @@
         "corpCode": "00266961",
         "companyName": "네이버(주)",
         "sector": "플랫폼",
-        "latestDisclosureDate": "2026.06.08",
-        "latestDisclosureTitle": "장래사업ㆍ경영계획(공정공시)              ",
+        "latestDisclosureDate": "2026.06.10",
+        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
         "disclosureCount": 8,
         "revenueSummary": "매출액 12조 350억",
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "233,000원",
-        "priceChangeLabel": "-47,500원",
-        "priceChangeRateLabel": "-16.93%",
+        "currentPriceLabel": "227,000원",
+        "priceChangeLabel": "-53,500원",
+        "priceChangeRateLabel": "-19.07%",
         "priceAsOfLabel": "2026.06.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -533,15 +533,39 @@
         "upProbability": 53,
         "downProbability": 47,
         "volatilityRange": "±4.6%",
-        "rangeNote": "233,000원 · 전일 대비 -47,500원 (-16.93%)",
+        "rangeNote": "227,000원 · 전일 대비 -53,500원 (-19.07%)",
         "riskScore": 55,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
         "strategy": "관망 우선",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "56.0%",
-        "recentNote": "최근 공시: 장래사업ㆍ경영계획(공정공시)              ",
+        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
         "history": [
+          {
+            "date": "2026.06.10",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000431",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
+          {
+            "date": "2026.06.10",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000422",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
+          {
+            "date": "2026.06.10",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000413",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.06.08",
             "title": "장래사업ㆍ경영계획(공정공시)              ",
@@ -557,43 +581,19 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.06.01",
-            "title": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000228",
-            "tone": "negative",
-            "success": false,
-            "statusLabel": "주의"
-          },
-          {
-            "date": "2026.05.29",
-            "title": "기업지배구조보고서공시              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529800258",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.05.28",
-            "title": "대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528000474",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "NAVER",
             "action": "매수",
-            "note": "장래사업ㆍ경영계획(공정공시)              ",
+            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "NAVER",
             "action": "매수",
-            "note": "기업설명회(IR)개최(안내공시)              ",
+            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
             "profit": "+ 공시 우호"
           }
         ],
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "38,250원",
-        "priceChangeLabel": "-4,300원",
-        "priceChangeRateLabel": "-10.11%",
+        "currentPriceLabel": "38,150원",
+        "priceChangeLabel": "-4,400원",
+        "priceChangeRateLabel": "-10.34%",
         "priceAsOfLabel": "2026.06.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -678,7 +678,7 @@
         "upProbability": 49,
         "downProbability": 51,
         "volatilityRange": "±4.8%",
-        "rangeNote": "38,250원 · 전일 대비 -4,300원 (-10.11%)",
+        "rangeNote": "38,150원 · 전일 대비 -4,400원 (-10.34%)",
         "riskScore": 60,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-06-10T02:32:27.030Z",
+    "generatedAt": "2026-06-10T06:58:55.145Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }

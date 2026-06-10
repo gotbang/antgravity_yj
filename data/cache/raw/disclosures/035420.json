@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-06-10T02:32:17.733Z",
-  "expiresAt": "2026-06-10T04:32:17.733Z",
+  "updatedAt": "2026-06-10T06:58:46.380Z",
+  "expiresAt": "2026-06-10T08:58:46.380Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260610000431",
+      "flr_nm": "김성호",
+      "rcept_dt": "20260610",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260610000422",
+      "flr_nm": "오성권",
+      "rcept_dt": "20260610",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260610000413",
+      "flr_nm": "임주열",
+      "rcept_dt": "20260610",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -57,39 +90,6 @@
       "flr_nm": "NAVER",
       "rcept_dt": "20260528",
       "rm": "공정"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "대규모기업집단현황공시[연1회(동일인용)]",
-      "rcept_no": "20260528000456",
-      "flr_nm": "이해진",
-      "rcept_dt": "20260528",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260521000437",
-      "flr_nm": "구동현",
-      "rcept_dt": "20260521",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260521000428",
-      "flr_nm": "이은혜",
-      "rcept_dt": "20260521",
-      "rm": ""
     }
   ]
 }
