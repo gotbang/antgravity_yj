@@ -1,15 +1,15 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-06-10T06:58:55.144Z",
-  "expiresAt": "2026-06-10T07:18:55.144Z",
+  "updatedAt": "2026-06-10T10:56:04.581Z",
+  "expiresAt": "2026-06-10T11:16:04.581Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.06.01",
-    "latestDisclosureTitle": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+    "latestDisclosureDate": "2026.06.10",
+    "latestDisclosureTitle": "특수관계인으로부터기타유가증권매수",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
@@ -33,8 +33,24 @@
     "strategy": "보유 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "59.0%",
-    "recentNote": "최근 공시: [기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+    "recentNote": "최근 공시: 특수관계인으로부터기타유가증권매수",
     "history": [
+      {
+        "date": "2026.06.10",
+        "title": "특수관계인으로부터기타유가증권매수",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000653",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.06.10",
+        "title": "특수관계인에대한출자",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000640",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.06.01",
         "title": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
@@ -58,35 +74,19 @@
         "tone": "positive",
         "success": true,
         "statusLabel": "긍정"
-      },
-      {
-        "date": "2026.05.29",
-        "title": "기업가치제고계획(자율공시)              (2025년 이행현황)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529802007",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.05.29",
-        "title": "특수관계인으로부터기타유가증권매수",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529002065",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "현대차",
-        "action": "매도",
-        "note": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
-        "profit": "- 공시 주의"
+        "action": "매수",
+        "note": "특수관계인으로부터기타유가증권매수",
+        "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "기업지배구조보고서공시              ",
+        "note": "특수관계인에대한출자",
         "profit": "+ 공시 우호"
       }
     ],
