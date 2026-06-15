@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-06-15T00:10:34.281Z",
-  "expiresAt": "2026-06-15T02:10:34.281Z",
+  "updatedAt": "2026-06-15T05:34:02.317Z",
+  "expiresAt": "2026-06-15T07:34:02.317Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "기업설명회(IR)개최(안내공시)              ",
+      "rcept_no": "20260615800409",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260615",
+      "rm": "유"
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260519000309",
       "flr_nm": "안성환",
-      "rcept_dt": "20260519",
-      "rm": ""
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260519000308",
-      "flr_nm": "이승현",
       "rcept_dt": "20260519",
       "rm": ""
     }
