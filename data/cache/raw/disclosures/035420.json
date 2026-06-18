@@ -1,29 +1,18 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-06-18T05:12:03.754Z",
-  "expiresAt": "2026-06-18T07:12:03.754Z",
+  "updatedAt": "2026-06-18T09:49:57.875Z",
+  "expiresAt": "2026-06-18T11:49:57.875Z",
   "data": [
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
       "stock_code": "035420",
       "corp_cls": "Y",
-      "report_nm": "특수관계인과의내부거래",
-      "rcept_no": "20260616000343",
+      "report_nm": "풍문또는보도에대한해명(미확정)              ",
+      "rcept_no": "20260618800694",
       "flr_nm": "NAVER",
-      "rcept_dt": "20260616",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인으로부터주식의취득",
-      "rcept_no": "20260616000340",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260616",
-      "rm": "공"
+      "rcept_dt": "20260618",
+      "rm": "유"
     },
     {
       "corp_code": "00266961",
@@ -31,9 +20,9 @@
       "stock_code": "035420",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260610000431",
-      "flr_nm": "김성호",
-      "rcept_dt": "20260610",
+      "rcept_no": "20260618000276",
+      "flr_nm": "목경태",
+      "rcept_dt": "20260618",
       "rm": ""
     },
     {
@@ -42,9 +31,9 @@
       "stock_code": "035420",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260610000422",
-      "flr_nm": "오성권",
-      "rcept_dt": "20260610",
+      "rcept_no": "20260618000271",
+      "flr_nm": "이도경",
+      "rcept_dt": "20260618",
       "rm": ""
     },
     {
@@ -53,9 +42,31 @@
       "stock_code": "035420",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260610000413",
+      "rcept_no": "20260618000260",
+      "flr_nm": "이일구",
+      "rcept_dt": "20260618",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260618000257",
+      "flr_nm": "이종화",
+      "rcept_dt": "20260618",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260618000233",
       "flr_nm": "임주열",
-      "rcept_dt": "20260610",
+      "rcept_dt": "20260618",
       "rm": ""
     },
     {
@@ -63,33 +74,22 @@
       "corp_name": "NAVER",
       "stock_code": "035420",
       "corp_cls": "Y",
-      "report_nm": "장래사업ㆍ경영계획(공정공시)              ",
-      "rcept_no": "20260608800036",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260608",
-      "rm": "유"
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260618000230",
+      "flr_nm": "최재호",
+      "rcept_dt": "20260618",
+      "rm": ""
     },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
       "stock_code": "035420",
       "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260601801465",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260601",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
-      "rcept_no": "20260601000228",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260601",
-      "rm": "공"
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260618000224",
+      "flr_nm": "최승락",
+      "rcept_dt": "20260618",
+      "rm": ""
     }
   ]
 }
