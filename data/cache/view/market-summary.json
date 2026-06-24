@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-06-24T08:37:53.801Z",
-  "expiresAt": "2026-06-24T09:07:53.801Z",
+  "updatedAt": "2026-06-24T11:38:13.398Z",
+  "expiresAt": "2026-06-24T12:08:13.398Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -22,6 +22,14 @@
     "confidenceRecentAccuracy": "56.0%",
     "confidenceOverallAccuracy": "61.0%",
     "marketHistory": [
+      {
+        "date": "2026.06.24",
+        "title": "풍문또는보도에대한해명(미확정)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624801004",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.06.22",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -53,23 +61,15 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.06.08",
-        "title": "최대주주등소유주식변동신고서              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800918",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "positiveNewsRatio": 0,
     "negativeNewsRatio": 100,
     "keywords": [
+      "풍문또는보도에대한해명(미확정)",
       "임원ㆍ주요주주특정증권등소유상황보고서",
-      "최대주주등소유주식변동신고서",
-      "주요사항보고서(해외증권시장주권등상장결정)",
-      "주요사항보고서(유상증자결정)"
+      "증권신고서(지분증권)",
+      "주요사항보고서(해외증권시장주권등상장결정)"
     ],
     "investorFlowSummary": "재무 안정 종목 중심으로 선별 매수 관점이 가능해.",
     "institutionsSummary": "양호한 공시 흐름이 이어지는 종목이 더 많아.",
@@ -80,8 +80,8 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.06.22",
-        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "latestDisclosureDate": "2026.06.24",
+        "latestDisclosureTitle": "풍문또는보도에대한해명(미확정)              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
         "operatingIncomeSummary": "영업이익 43조 6,010억",
@@ -105,8 +105,16 @@
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "58.0%",
-        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+        "recentNote": "최근 공시: 풍문또는보도에대한해명(미확정)              ",
         "history": [
+          {
+            "date": "2026.06.24",
+            "title": "풍문또는보도에대한해명(미확정)              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624801004",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.06.22",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -138,21 +146,13 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.06.08",
-            "title": "최대주주등소유주식변동신고서              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800918",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "풍문또는보도에대한해명(미확정)              ",
             "profit": "+ 공시 우호"
           },
           {
@@ -226,7 +226,7 @@
         "companyName": "에스케이하이닉스(주)",
         "sector": "반도체",
         "latestDisclosureDate": "2026.06.24",
-        "latestDisclosureTitle": "주요사항보고서(해외증권시장주권등상장결정)",
+        "latestDisclosureTitle": "증권신고서(지분증권)",
         "disclosureCount": 8,
         "revenueSummary": "매출액 97조 1,466억",
         "operatingIncomeSummary": "영업이익 47조 2,063억",
@@ -250,8 +250,16 @@
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "56.0%",
-        "recentNote": "최근 공시: 주요사항보고서(해외증권시장주권등상장결정)",
+        "recentNote": "최근 공시: 증권신고서(지분증권)",
         "history": [
+          {
+            "date": "2026.06.24",
+            "title": "증권신고서(지분증권)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000511",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.06.24",
             "title": "주요사항보고서(해외증권시장주권등상장결정)",
@@ -283,28 +291,20 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.06.09",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609000465",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "주요사항보고서(해외증권시장주권등상장결정)",
+            "note": "증권신고서(지분증권)",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "SK하이닉스",
-            "action": "매도",
-            "note": "주요사항보고서(유상증자결정)",
-            "profit": "- 공시 주의"
+            "action": "매수",
+            "note": "주요사항보고서(해외증권시장주권등상장결정)",
+            "profit": "+ 공시 우호"
           }
         ],
         "reasoning": [
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-06-24T08:37:53.801Z",
+    "generatedAt": "2026-06-24T11:38:13.398Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
