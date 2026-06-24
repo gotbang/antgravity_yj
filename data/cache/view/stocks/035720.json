@@ -1,15 +1,15 @@
 {
   "key": "view:stock:035720",
-  "updatedAt": "2026-06-24T01:22:02.027Z",
-  "expiresAt": "2026-06-24T01:42:02.027Z",
+  "updatedAt": "2026-06-24T05:14:23.907Z",
+  "expiresAt": "2026-06-24T05:34:23.907Z",
   "data": {
     "symbol": "카카오",
     "stockCode": "035720",
     "corpCode": "00258801",
     "companyName": "(주)카카오",
     "sector": "플랫폼",
-    "latestDisclosureDate": "2026.06.19",
-    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+    "latestDisclosureDate": "2026.06.24",
+    "latestDisclosureTitle": "지속가능경영보고서등관련사항(자율공시)              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 8조 991억",
     "operatingIncomeSummary": "영업이익 7,320억",
@@ -33,8 +33,16 @@
     "strategy": "관망 우선",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "54.0%",
-    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+    "recentNote": "최근 공시: 지속가능경영보고서등관련사항(자율공시)              ",
     "history": [
+      {
+        "date": "2026.06.24",
+        "title": "지속가능경영보고서등관련사항(자율공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624800344",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.06.19",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -66,27 +74,19 @@
         "tone": "negative",
         "success": false,
         "statusLabel": "주의"
-      },
-      {
-        "date": "2026.05.28",
-        "title": "기업지배구조보고서공시              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528800739",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "카카오",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "지속가능경영보고서등관련사항(자율공시)              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "카카오",
         "action": "매수",
-        "note": "기업설명회(IR)개최(안내공시)              ",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       }
     ],
