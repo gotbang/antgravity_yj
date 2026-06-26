@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-06-26T06:34:41.194Z",
-  "expiresAt": "2026-06-26T08:34:41.194Z",
+  "updatedAt": "2026-06-26T10:14:19.838Z",
+  "expiresAt": "2026-06-26T12:14:19.838Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "중대재해발생              ",
+      "rcept_no": "20260626801398",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260626",
+      "rm": "유"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "증권신고서(지분증권)",
       "rcept_no": "20260624000511",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260624",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "주요사항보고서(해외증권시장주권등상장결정)",
-      "rcept_no": "20260624000423",
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260624",
       "rm": ""

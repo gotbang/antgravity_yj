@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-06-26T06:34:40.801Z",
-  "expiresAt": "2026-06-26T08:34:40.801Z",
+  "updatedAt": "2026-06-26T10:14:19.606Z",
+  "expiresAt": "2026-06-26T12:14:19.606Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260626000675",
+      "flr_nm": "Lee Sungki",
+      "rcept_dt": "20260626",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260626000597",
+      "flr_nm": "하지훈",
+      "rcept_dt": "20260626",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "지속가능경영보고서등관련사항(자율공시)              ",
+      "rcept_no": "20260626800871",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260626",
+      "rm": "유"
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -56,39 +89,6 @@
       "rcept_no": "20260619000284",
       "flr_nm": "김재홍",
       "rcept_dt": "20260619",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260617000422",
-      "flr_nm": "KANG KUN HYUK",
-      "rcept_dt": "20260617",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "최대주주등소유주식변동신고서              ",
-      "rcept_no": "20260608800918",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260608",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260608000002",
-      "flr_nm": "박태훈",
-      "rcept_dt": "20260608",
       "rm": ""
     }
   ]
