@@ -1,23 +1,23 @@
 {
   "key": "view:stock:000660",
-  "updatedAt": "2026-06-29T05:07:57.473Z",
-  "expiresAt": "2026-06-29T05:27:57.473Z",
+  "updatedAt": "2026-06-29T10:03:26.355Z",
+  "expiresAt": "2026-06-29T10:23:26.355Z",
   "data": {
     "symbol": "SK하이닉스",
     "stockCode": "000660",
     "corpCode": "00164779",
     "companyName": "에스케이하이닉스(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.06.26",
-    "latestDisclosureTitle": "중대재해발생              ",
+    "latestDisclosureDate": "2026.06.29",
+    "latestDisclosureTitle": "장래사업ㆍ경영계획(공정공시)              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 97조 1,466억",
     "operatingIncomeSummary": "영업이익 47조 2,063억",
     "debtRatioSummary": "부채비율 46%",
     "hasPriceData": true,
-    "currentPriceLabel": "2,544,000원",
-    "priceChangeLabel": "-375,000원",
-    "priceChangeRateLabel": "-12.85%",
+    "currentPriceLabel": "2,628,000원",
+    "priceChangeLabel": "-291,000원",
+    "priceChangeRateLabel": "-9.97%",
     "priceAsOfLabel": "2026.06.29 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
@@ -26,15 +26,23 @@
     "upProbability": 62,
     "downProbability": 38,
     "volatilityRange": "±4.1%",
-    "rangeNote": "2,544,000원 · 전일 대비 -375,000원 (-12.85%)",
+    "rangeNote": "2,628,000원 · 전일 대비 -291,000원 (-9.97%)",
     "riskScore": 42,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "58.0%",
-    "recentNote": "최근 공시: 중대재해발생              ",
+    "recentNote": "최근 공시: 장래사업ㆍ경영계획(공정공시)              ",
     "history": [
+      {
+        "date": "2026.06.29",
+        "title": "장래사업ㆍ경영계획(공정공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629800981",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.06.26",
         "title": "중대재해발생              ",
@@ -66,27 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.06.26",
-        "title": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000346",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "SK하이닉스",
         "action": "매수",
-        "note": "중대재해발생              ",
+        "note": "장래사업ㆍ경영계획(공정공시)              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "SK하이닉스",
         "action": "매수",
-        "note": "특수관계인으로부터자산양수",
+        "note": "중대재해발생              ",
         "profit": "+ 공시 우호"
       }
     ],
