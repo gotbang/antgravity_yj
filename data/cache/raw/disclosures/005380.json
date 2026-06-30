@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-06-30T02:29:37.535Z",
-  "expiresAt": "2026-06-30T04:29:37.535Z",
+  "updatedAt": "2026-06-30T06:38:06.854Z",
+  "expiresAt": "2026-06-30T08:38:06.854Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "지속가능경영보고서등관련사항(자율공시)              ",
+      "rcept_no": "20260630800715",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260630",
+      "rm": "유"
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -79,17 +90,6 @@
       "flr_nm": "현대자동차",
       "rcept_dt": "20260529",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인으로부터기타유가증권매수",
-      "rcept_no": "20260529002065",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260529",
-      "rm": "공"
     }
   ]
 }

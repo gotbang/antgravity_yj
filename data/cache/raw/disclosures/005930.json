@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-06-30T02:29:37.228Z",
-  "expiresAt": "2026-06-30T04:29:37.228Z",
+  "updatedAt": "2026-06-30T06:38:06.574Z",
+  "expiresAt": "2026-06-30T08:38:06.574Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260630000544",
+      "flr_nm": "박정민",
+      "rcept_dt": "20260630",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260630000459",
+      "flr_nm": "유송",
+      "rcept_dt": "20260630",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -67,28 +89,6 @@
       "rcept_no": "20260625000389",
       "flr_nm": "김용찬",
       "rcept_dt": "20260625",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "풍문또는보도에대한해명(미확정)              ",
-      "rcept_no": "20260624801004",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260624",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260622000376",
-      "flr_nm": "김태훈",
-      "rcept_dt": "20260622",
       "rm": ""
     }
   ]
