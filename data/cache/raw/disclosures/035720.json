@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-07-01T03:45:15.313Z",
-  "expiresAt": "2026-07-01T05:45:15.313Z",
+  "updatedAt": "2026-07-01T08:03:19.327Z",
+  "expiresAt": "2026-07-01T10:03:19.327Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(약식)",
+      "rcept_no": "20260701000328",
+      "flr_nm": "국민연금공단",
+      "rcept_dt": "20260701",
+      "rm": ""
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -79,17 +90,6 @@
       "flr_nm": "윤영진",
       "rcept_dt": "20260528",
       "rm": ""
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "대규모기업집단현황공시[연1회(동일인용)]",
-      "rcept_no": "20260528000629",
-      "flr_nm": "김범수",
-      "rcept_dt": "20260528",
-      "rm": "공"
     }
   ]
 }

@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-07-01T03:45:15.248Z",
-  "expiresAt": "2026-07-01T05:45:15.248Z",
+  "updatedAt": "2026-07-01T08:03:19.814Z",
+  "expiresAt": "2026-07-01T10:03:19.814Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(약식)",
+      "rcept_no": "20260701000252",
+      "flr_nm": "국민연금공단",
+      "rcept_dt": "20260701",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260618000257",
       "flr_nm": "이종화",
-      "rcept_dt": "20260618",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260618000233",
-      "flr_nm": "임주열",
       "rcept_dt": "20260618",
       "rm": ""
     }

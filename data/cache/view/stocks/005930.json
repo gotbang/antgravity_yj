@@ -1,23 +1,23 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-07-01T03:45:15.822Z",
-  "expiresAt": "2026-07-01T04:05:15.822Z",
+  "updatedAt": "2026-07-01T08:03:19.223Z",
+  "expiresAt": "2026-07-01T08:23:19.223Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
     "corpCode": "00126380",
     "companyName": "삼성전자(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.06.30",
+    "latestDisclosureDate": "2026.07.01",
     "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
-    "currentPriceLabel": "319,500원",
-    "priceChangeLabel": "-21,000원",
-    "priceChangeRateLabel": "-6.17%",
+    "currentPriceLabel": "314,500원",
+    "priceChangeLabel": "-26,000원",
+    "priceChangeRateLabel": "-7.64%",
     "priceAsOfLabel": "2026.07.01 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
@@ -26,7 +26,7 @@
     "upProbability": 57,
     "downProbability": 43,
     "volatilityRange": "±4.4%",
-    "rangeNote": "319,500원 · 전일 대비 -21,000원 (-6.17%)",
+    "rangeNote": "314,500원 · 전일 대비 -26,000원 (-7.64%)",
     "riskScore": 50,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
@@ -35,6 +35,14 @@
     "accuracyRate": "56.0%",
     "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.07.01",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000525",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.06.30",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -66,14 +74,6 @@
         "tone": "negative",
         "success": false,
         "statusLabel": "주의"
-      },
-      {
-        "date": "2026.06.29",
-        "title": "장래사업ㆍ경영계획(공정공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629801143",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
