@@ -1,11 +1,11 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-07-06T07:02:25.350Z",
-  "expiresAt": "2026-07-06T07:32:25.350Z",
+  "updatedAt": "2026-07-06T11:46:58.276Z",
+  "expiresAt": "2026-07-06T12:16:58.276Z",
   "data": {
     "moodTitle": "관망 유지",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
-    "fearGreedIndex": 44,
+    "fearGreedIndex": 39,
     "fearGreedLabel": "중립 구간",
     "marketWarning": "공시 흐름은 비교적 안정적이지만 종목별 편차가 커서 개별 종목 확인이 중요해.",
     "strategies": [
@@ -15,13 +15,21 @@
     ],
     "marketDirectionLabel": "중립 예상",
     "marketDirectionSummary": "공시와 재무 흐름을 함께 보면 완만한 회복 가능성이 있어 보여.",
-    "marketUpProbability": 53,
-    "marketDownProbability": 47,
-    "marketVolatilityRange": "±4.8%",
-    "marketRiskScore": 56,
-    "confidenceRecentAccuracy": "58.0%",
-    "confidenceOverallAccuracy": "63.0%",
+    "marketUpProbability": 50,
+    "marketDownProbability": 50,
+    "marketVolatilityRange": "±5.0%",
+    "marketRiskScore": 61,
+    "confidenceRecentAccuracy": "57.0%",
+    "confidenceOverallAccuracy": "62.0%",
     "marketHistory": [
+      {
+        "date": "2026.07.06",
+        "title": "최대주주등소유주식변동신고서              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800672",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.07.01",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -53,23 +61,15 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.06.29",
-        "title": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629801230",
-        "tone": "negative",
-        "success": false,
-        "statusLabel": "주의"
       }
     ],
-    "positiveNewsRatio": 25,
-    "negativeNewsRatio": 75,
+    "positiveNewsRatio": 20,
+    "negativeNewsRatio": 80,
     "keywords": [
+      "최대주주등소유주식변동신고서",
       "임원ㆍ주요주주특정증권등소유상황보고서",
-      "[기재정정]장래사업ㆍ경영계획(공정공시)",
       "[기재정정]증권신고서(지분증권)",
-      "장래사업ㆍ경영계획(공정공시)"
+      "[기재정정]주요사항보고서(유상증자결정)"
     ],
     "investorFlowSummary": "재무 안정 종목 중심으로 선별 매수 관점이 가능해.",
     "institutionsSummary": "종목별 차이가 커서 개별 분석이 중요해.",
@@ -80,8 +80,8 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.07.01",
-        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "latestDisclosureDate": "2026.07.06",
+        "latestDisclosureTitle": "최대주주등소유주식변동신고서              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
         "operatingIncomeSummary": "영업이익 43조 6,010억",
@@ -105,8 +105,16 @@
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "56.0%",
-        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+        "recentNote": "최근 공시: 최대주주등소유주식변동신고서              ",
         "history": [
+          {
+            "date": "2026.07.06",
+            "title": "최대주주등소유주식변동신고서              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800672",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.07.01",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -138,21 +146,13 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.06.29",
-            "title": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629801230",
-            "tone": "negative",
-            "success": false,
-            "statusLabel": "주의"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "최대주주등소유주식변동신고서              ",
             "profit": "+ 공시 우호"
           },
           {
@@ -225,8 +225,8 @@
         "corpCode": "00164779",
         "companyName": "에스케이하이닉스(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.07.01",
-        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "latestDisclosureDate": "2026.07.06",
+        "latestDisclosureTitle": "[기재정정]증권신고서(지분증권)",
         "disclosureCount": 8,
         "revenueSummary": "매출액 97조 1,466억",
         "operatingIncomeSummary": "영업이익 47조 2,063억",
@@ -237,21 +237,45 @@
         "priceChangeRateLabel": "-10.84%",
         "priceAsOfLabel": "2026.07.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
-        "trend": "up",
-        "statusLabel": "약상승 우위",
-        "forecastLabel": "상승 예상",
-        "upProbability": 57,
-        "downProbability": 43,
-        "volatilityRange": "±4.4%",
+        "trend": "down",
+        "statusLabel": "중립",
+        "forecastLabel": "하락 예상",
+        "upProbability": 42,
+        "downProbability": 58,
+        "volatilityRange": "±5.4%",
         "rangeNote": "2,343,000원 · 전일 대비 -285,000원 (-10.84%)",
-        "riskScore": 50,
-        "riskStatusLabel": "안정 구간",
-        "riskComment": "완만한 비중 확대 가능",
-        "strategy": "분할 매수 관점 유지",
+        "riskScore": 74,
+        "riskStatusLabel": "변동성 확대 구간",
+        "riskComment": "분할 접근 권장",
+        "strategy": "관망 우선",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "56.0%",
-        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+        "accuracyRate": "51.0%",
+        "recentNote": "최근 공시: [기재정정]증권신고서(지분증권)",
         "history": [
+          {
+            "date": "2026.07.06",
+            "title": "[기재정정]증권신고서(지분증권)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000444",
+            "tone": "negative",
+            "success": false,
+            "statusLabel": "주의"
+          },
+          {
+            "date": "2026.07.06",
+            "title": "[기재정정]주요사항보고서(유상증자결정)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000403",
+            "tone": "negative",
+            "success": false,
+            "statusLabel": "주의"
+          },
+          {
+            "date": "2026.07.06",
+            "title": "[기재정정]증권예탁증권(DR)발행결정              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800684",
+            "tone": "negative",
+            "success": false,
+            "statusLabel": "주의"
+          },
           {
             "date": "2026.07.01",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -267,58 +291,34 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.06.30",
-            "title": "[기재정정]증권신고서(지분증권)",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001095",
-            "tone": "negative",
-            "success": false,
-            "statusLabel": "주의"
-          },
-          {
-            "date": "2026.06.29",
-            "title": "장래사업ㆍ경영계획(공정공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629800981",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.06.26",
-            "title": "중대재해발생              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626801398",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "SK하이닉스",
-            "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "profit": "+ 공시 우호"
+            "action": "매도",
+            "note": "[기재정정]증권신고서(지분증권)",
+            "profit": "- 공시 주의"
           },
           {
             "symbol": "SK하이닉스",
-            "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "profit": "+ 공시 우호"
+            "action": "매도",
+            "note": "[기재정정]주요사항보고서(유상증자결정)",
+            "profit": "- 공시 주의"
           }
         ],
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.4%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±5.4%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "0건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
+            "description": "0건의 우호 신호와 4건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 65% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 52% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -345,22 +345,22 @@
         ],
         "consensus": {
           "targetPrice": "OpenDART 미제공",
-          "opinion": "우호적 해석",
+          "opinion": "보수적 해석",
           "coverage": "공시 기반"
         },
         "technicalIndicators": [
           {
             "label": "최근 공시 톤",
-            "value": "약상승 우위",
+            "value": "중립",
             "description": "공시 감정 해석"
           },
           {
             "label": "리스크 점수",
-            "value": "50",
+            "value": "74",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "52.0%",
+        "backtestReturn": "35.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       },
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-07-06T07:02:25.350Z",
+    "generatedAt": "2026-07-06T11:46:58.276Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
