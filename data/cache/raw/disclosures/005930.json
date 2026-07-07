@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-07-07T06:59:05.358Z",
-  "expiresAt": "2026-07-07T08:59:05.358Z",
+  "updatedAt": "2026-07-07T10:26:00.787Z",
+  "expiresAt": "2026-07-07T12:26:00.787Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "주요사항보고서(자기주식처분결정)",
+      "rcept_no": "20260707000403",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260707",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -79,17 +90,6 @@
       "flr_nm": "유송",
       "rcept_dt": "20260630",
       "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
-      "rcept_no": "20260629801230",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260629",
-      "rm": "유"
     }
   ]
 }
