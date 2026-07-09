@@ -1,7 +1,7 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-07-09T08:50:42.553Z",
-  "expiresAt": "2026-07-09T09:10:42.553Z",
+  "updatedAt": "2026-07-09T11:44:56.660Z",
+  "expiresAt": "2026-07-09T12:04:56.660Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
@@ -38,6 +38,14 @@
       {
         "date": "2026.07.09",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000691",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.07.09",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000662",
         "tone": "neutral",
         "success": true,
@@ -66,14 +74,6 @@
         "tone": "positive",
         "success": true,
         "statusLabel": "긍정"
-      },
-      {
-        "date": "2026.07.06",
-        "title": "최대주주등소유주식변동신고서              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800672",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
@@ -86,7 +86,7 @@
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "주요사항보고서(자기주식처분결정)",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       }
     ],
