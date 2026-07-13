@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-07-13T04:29:54.067Z",
-  "expiresAt": "2026-07-13T06:29:54.067Z",
+  "updatedAt": "2026-07-13T07:48:09.343Z",
+  "expiresAt": "2026-07-13T09:48:09.343Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "주요사항보고서(해외증권시장주권등상장)",
+      "rcept_no": "20260713000324",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260713",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "[기재정정]증권신고서(지분증권)",
       "rcept_no": "20260706000444",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260706",
-      "rm": "정"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
-      "rcept_no": "20260706000403",
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260706",
       "rm": "정"
