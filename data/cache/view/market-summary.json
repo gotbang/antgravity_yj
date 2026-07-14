@@ -1,11 +1,11 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-07-14T22:29:23.070Z",
-  "expiresAt": "2026-07-14T22:59:23.070Z",
+  "updatedAt": "2026-07-14T23:24:54.443Z",
+  "expiresAt": "2026-07-14T23:54:54.443Z",
   "data": {
     "moodTitle": "관망 유지",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
-    "fearGreedIndex": 41,
+    "fearGreedIndex": 40,
     "fearGreedLabel": "중립 구간",
     "marketWarning": "공시 흐름은 비교적 안정적이지만 종목별 편차가 커서 개별 종목 확인이 중요해.",
     "strategies": [
@@ -15,10 +15,10 @@
     ],
     "marketDirectionLabel": "중립 예상",
     "marketDirectionSummary": "공시와 재무 흐름을 함께 보면 완만한 회복 가능성이 있어 보여.",
-    "marketUpProbability": 51,
-    "marketDownProbability": 49,
+    "marketUpProbability": 50,
+    "marketDownProbability": 50,
     "marketVolatilityRange": "±4.9%",
-    "marketRiskScore": 59,
+    "marketRiskScore": 60,
     "confidenceRecentAccuracy": "58.0%",
     "confidenceOverallAccuracy": "63.0%",
     "marketHistory": [
@@ -237,19 +237,19 @@
         "priceChangeRateLabel": "-13.08%",
         "priceAsOfLabel": "2026.07.14 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
-        "trend": "neutral",
+        "trend": "down",
         "statusLabel": "중립",
         "forecastLabel": "하락 예상",
-        "upProbability": 46,
-        "downProbability": 54,
-        "volatilityRange": "±5.2%",
+        "upProbability": 41,
+        "downProbability": 59,
+        "volatilityRange": "±5.6%",
         "rangeNote": "1,913,000원 · 전일 대비 -288,000원 (-13.08%)",
-        "riskScore": 71,
+        "riskScore": 79,
         "riskStatusLabel": "변동성 확대 구간",
         "riskComment": "분할 접근 권장",
         "strategy": "관망 우선",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "53.0%",
+        "accuracyRate": "51.0%",
         "recentNote": "최근 공시: 주요사항보고서(해외증권시장주권등상장)",
         "history": [
           {
@@ -310,15 +310,15 @@
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±5.2%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±5.6%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "1건의 우호 신호와 4건의 경계 신호를 함께 보고 있어."
+            "description": "1건의 우호 신호와 5건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 54% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 52% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -356,11 +356,11 @@
           },
           {
             "label": "리스크 점수",
-            "value": "71",
+            "value": "79",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "39.0%",
+        "backtestReturn": "33.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       },
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-07-14T22:29:23.069Z",
+    "generatedAt": "2026-07-14T23:24:54.443Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
