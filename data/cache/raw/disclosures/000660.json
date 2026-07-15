@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-07-15T06:07:01.873Z",
-  "expiresAt": "2026-07-15T08:07:01.873Z",
+  "updatedAt": "2026-07-15T08:39:57.546Z",
+  "expiresAt": "2026-07-15T10:39:57.546Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "기업설명회(IR)개최(안내공시)              ",
+      "rcept_no": "20260715800456",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260715",
+      "rm": "유"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -79,17 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260710",
       "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]증권예탁증권(DR)발행결정              ",
-      "rcept_no": "20260710800023",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260710",
-      "rm": "유"
     }
   ]
 }
