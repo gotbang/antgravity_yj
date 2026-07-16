@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-07-16T06:10:10.716Z",
-  "expiresAt": "2026-07-16T08:10:10.716Z",
+  "updatedAt": "2026-07-16T08:38:13.788Z",
+  "expiresAt": "2026-07-16T10:38:13.788Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260716000582",
+      "flr_nm": "이승환",
+      "rcept_dt": "20260716",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
       "rcept_no": "20260710000008",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260710",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]주요사항보고서(해외증권시장주권등상장결정)",
-      "rcept_no": "20260710000002",
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260710",
       "rm": ""

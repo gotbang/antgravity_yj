@@ -1,39 +1,17 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-07-16T06:10:11.085Z",
-  "expiresAt": "2026-07-16T08:10:11.085Z",
+  "updatedAt": "2026-07-16T08:38:14.116Z",
+  "expiresAt": "2026-07-16T10:38:14.116Z",
   "data": [
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
       "stock_code": "035420",
       "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260716800252",
-      "flr_nm": "NAVER",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260716000658",
+      "flr_nm": "김성호",
       "rcept_dt": "20260716",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]주식교환ㆍ이전결정(종속회사의주요경영사항)              ",
-      "rcept_no": "20260706800561",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260706",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "주식등의대량보유상황보고서(약식)",
-      "rcept_no": "20260701000252",
-      "flr_nm": "국민연금공단",
-      "rcept_dt": "20260701",
       "rm": ""
     },
     {
@@ -42,42 +20,9 @@
       "stock_code": "035420",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260626000476",
-      "flr_nm": "임준현",
-      "rcept_dt": "20260626",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "지속가능경영보고서등관련사항(자율공시)              ",
-      "rcept_no": "20260625800114",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260625",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "풍문또는보도에대한해명(미확정)              ",
-      "rcept_no": "20260618800694",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260618",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260618000276",
-      "flr_nm": "목경태",
-      "rcept_dt": "20260618",
+      "rcept_no": "20260716000650",
+      "flr_nm": "김아영",
+      "rcept_dt": "20260716",
       "rm": ""
     },
     {
@@ -86,9 +31,64 @@
       "stock_code": "035420",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260618000271",
-      "flr_nm": "이도경",
-      "rcept_dt": "20260618",
+      "rcept_no": "20260716000644",
+      "flr_nm": "박태진",
+      "rcept_dt": "20260716",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260716000638",
+      "flr_nm": "심동윤",
+      "rcept_dt": "20260716",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260716000625",
+      "flr_nm": "이세훈",
+      "rcept_dt": "20260716",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260716000605",
+      "flr_nm": "이일구",
+      "rcept_dt": "20260716",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260716000599",
+      "flr_nm": "이종현",
+      "rcept_dt": "20260716",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260716000588",
+      "flr_nm": "정유한",
+      "rcept_dt": "20260716",
       "rm": ""
     }
   ]

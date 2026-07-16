@@ -1,40 +1,48 @@
 {
   "key": "view:stock:000660",
-  "updatedAt": "2026-07-16T06:10:18.127Z",
-  "expiresAt": "2026-07-16T06:30:18.127Z",
+  "updatedAt": "2026-07-16T08:38:19.473Z",
+  "expiresAt": "2026-07-16T08:58:19.473Z",
   "data": {
     "symbol": "SK하이닉스",
     "stockCode": "000660",
     "corpCode": "00164779",
     "companyName": "에스케이하이닉스(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.07.15",
-    "latestDisclosureTitle": "기업설명회(IR)개최(안내공시)              ",
+    "latestDisclosureDate": "2026.07.16",
+    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 97조 1,466억",
     "operatingIncomeSummary": "영업이익 47조 2,063억",
     "debtRatioSummary": "부채비율 46%",
     "hasPriceData": true,
-    "currentPriceLabel": "1,859,000원",
-    "priceChangeLabel": "-327,000원",
-    "priceChangeRateLabel": "-14.96%",
+    "currentPriceLabel": "1,842,000원",
+    "priceChangeLabel": "-344,000원",
+    "priceChangeRateLabel": "-15.74%",
     "priceAsOfLabel": "2026.07.16 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
-    "trend": "neutral",
-    "statusLabel": "약상승 우위",
+    "trend": "up",
+    "statusLabel": "상승 우위",
     "forecastLabel": "상승 예상",
-    "upProbability": 55,
-    "downProbability": 45,
-    "volatilityRange": "±4.8%",
-    "rangeNote": "1,859,000원 · 전일 대비 -327,000원 (-14.96%)",
-    "riskScore": 60,
-    "riskStatusLabel": "경계 구간",
-    "riskComment": "관망 우선",
+    "upProbability": 60,
+    "downProbability": 40,
+    "volatilityRange": "±4.5%",
+    "rangeNote": "1,842,000원 · 전일 대비 -344,000원 (-15.74%)",
+    "riskScore": 52,
+    "riskStatusLabel": "안정 구간",
+    "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "58.0%",
-    "recentNote": "최근 공시: 기업설명회(IR)개최(안내공시)              ",
+    "accuracyRate": "60.0%",
+    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.07.16",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000582",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.07.15",
         "title": "기업설명회(IR)개최(안내공시)              ",
@@ -66,42 +74,34 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.07.10",
-        "title": "투자설명서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000012",
-        "tone": "positive",
-        "success": true,
-        "statusLabel": "긍정"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "SK하이닉스",
         "action": "매수",
-        "note": "기업설명회(IR)개최(안내공시)              ",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "SK하이닉스",
-        "action": "매도",
-        "note": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
-        "profit": "- 공시 주의"
+        "action": "매수",
+        "note": "기업설명회(IR)개최(안내공시)              ",
+        "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.8%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.5%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "2건의 우호 신호와 3건의 경계 신호를 함께 보고 있어."
+        "description": "2건의 우호 신호와 2건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 63% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 68% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -134,16 +134,16 @@
     "technicalIndicators": [
       {
         "label": "최근 공시 톤",
-        "value": "약상승 우위",
+        "value": "상승 우위",
         "description": "공시 감정 해석"
       },
       {
         "label": "리스크 점수",
-        "value": "60",
+        "value": "52",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "49.0%",
+    "backtestReturn": "55.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
