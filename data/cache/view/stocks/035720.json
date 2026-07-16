@@ -1,40 +1,56 @@
 {
   "key": "view:stock:035720",
-  "updatedAt": "2026-07-16T00:54:41.224Z",
-  "expiresAt": "2026-07-16T01:14:41.224Z",
+  "updatedAt": "2026-07-16T03:55:24.219Z",
+  "expiresAt": "2026-07-16T04:15:24.219Z",
   "data": {
     "symbol": "카카오",
     "stockCode": "035720",
     "corpCode": "00258801",
     "companyName": "(주)카카오",
     "sector": "플랫폼",
-    "latestDisclosureDate": "2026.07.14",
-    "latestDisclosureTitle": "특수관계인과의내부거래",
+    "latestDisclosureDate": "2026.07.16",
+    "latestDisclosureTitle": "기업설명회(IR)개최(안내공시)              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 8조 991억",
     "operatingIncomeSummary": "영업이익 7,320억",
     "debtRatioSummary": "부채비율 182%",
     "hasPriceData": true,
-    "currentPriceLabel": "34,800원",
-    "priceChangeLabel": "+1,150원",
-    "priceChangeRateLabel": "+3.42%",
+    "currentPriceLabel": "35,500원",
+    "priceChangeLabel": "+1,850원",
+    "priceChangeRateLabel": "+5.50%",
     "priceAsOfLabel": "2026.07.16 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
-    "trend": "down",
-    "statusLabel": "중립",
-    "forecastLabel": "하락 예상",
-    "upProbability": 44,
-    "downProbability": 56,
-    "volatilityRange": "±5.1%",
-    "rangeNote": "34,800원 · 전일 대비 +1,150원 (+3.42%)",
-    "riskScore": 68,
-    "riskStatusLabel": "경계 구간",
-    "riskComment": "관망 우선",
-    "strategy": "관망 우선",
+    "trend": "up",
+    "statusLabel": "약상승 우위",
+    "forecastLabel": "상승 예상",
+    "upProbability": 58,
+    "downProbability": 42,
+    "volatilityRange": "±4.4%",
+    "rangeNote": "35,500원 · 전일 대비 +1,850원 (+5.50%)",
+    "riskScore": 49,
+    "riskStatusLabel": "안정 구간",
+    "riskComment": "완만한 비중 확대 가능",
+    "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "54.0%",
-    "recentNote": "최근 공시: 특수관계인과의내부거래",
+    "accuracyRate": "61.0%",
+    "recentNote": "최근 공시: 기업설명회(IR)개최(안내공시)              ",
     "history": [
+      {
+        "date": "2026.07.16",
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800213",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.07.16",
+        "title": "결산실적공시예고(안내공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800211",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
       {
         "date": "2026.07.14",
         "title": "특수관계인과의내부거래",
@@ -58,50 +74,34 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.06.24",
-        "title": "지속가능경영보고서등관련사항(자율공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624800344",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.06.19",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000587",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "카카오",
         "action": "매수",
-        "note": "특수관계인과의내부거래",
+        "note": "기업설명회(IR)개최(안내공시)              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "카카오",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "결산실적공시예고(안내공시)              ",
         "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±5.1%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.4%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "0건의 우호 신호와 2건의 경계 신호를 함께 보고 있어."
+        "description": "1건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 52% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 66% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -128,22 +128,22 @@
     ],
     "consensus": {
       "targetPrice": "OpenDART 미제공",
-      "opinion": "보수적 해석",
+      "opinion": "우호적 해석",
       "coverage": "공시 기반"
     },
     "technicalIndicators": [
       {
         "label": "최근 공시 톤",
-        "value": "중립",
+        "value": "약상승 우위",
         "description": "공시 감정 해석"
       },
       {
         "label": "리스크 점수",
-        "value": "68",
+        "value": "49",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "37.0%",
+    "backtestReturn": "53.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
