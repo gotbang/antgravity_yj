@@ -1,15 +1,15 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-07-20T07:51:31.318Z",
-  "expiresAt": "2026-07-20T08:11:31.318Z",
+  "updatedAt": "2026-07-20T10:40:57.667Z",
+  "expiresAt": "2026-07-20T11:00:57.667Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.07.16",
-    "latestDisclosureTitle": "기업설명회(IR)개최(안내공시)              ",
+    "latestDisclosureDate": "2026.07.20",
+    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
@@ -33,8 +33,16 @@
     "strategy": "보유 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "59.0%",
-    "recentNote": "최근 공시: 기업설명회(IR)개최(안내공시)              ",
+    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.07.20",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000316",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.07.16",
         "title": "기업설명회(IR)개최(안내공시)              ",
@@ -66,28 +74,20 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.07.03",
-        "title": "풍문또는보도에대한해명(미확정)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703801045",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "기업설명회(IR)개최(안내공시)              ",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
-        "action": "매도",
-        "note": "생산중단              ",
-        "profit": "- 공시 주의"
+        "action": "매수",
+        "note": "기업설명회(IR)개최(안내공시)              ",
+        "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
