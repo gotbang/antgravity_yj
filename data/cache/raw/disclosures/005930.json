@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-07-20T23:47:14.896Z",
-  "expiresAt": "2026-07-21T01:47:14.896Z",
+  "updatedAt": "2026-07-21T01:46:59.321Z",
+  "expiresAt": "2026-07-21T03:46:59.321Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260721000069",
+      "flr_nm": "최인수",
+      "rcept_dt": "20260721",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260721000062",
+      "flr_nm": "최인수",
+      "rcept_dt": "20260721",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260720000360",
+      "flr_nm": "이보나",
+      "rcept_dt": "20260721",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -56,39 +89,6 @@
       "rcept_no": "20260715000380",
       "flr_nm": "정성원",
       "rcept_dt": "20260715",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260715000139",
-      "flr_nm": "이승목",
-      "rcept_dt": "20260715",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260714000175",
-      "flr_nm": "얀손헨릭",
-      "rcept_dt": "20260714",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "주요사항보고서(자기주식처분결정)",
-      "rcept_no": "20260713000395",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260713",
       "rm": ""
     }
   ]
