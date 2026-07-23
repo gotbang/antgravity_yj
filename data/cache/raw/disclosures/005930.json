@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-07-23T07:54:02.605Z",
-  "expiresAt": "2026-07-23T09:54:02.605Z",
+  "updatedAt": "2026-07-23T10:11:17.122Z",
+  "expiresAt": "2026-07-23T12:11:17.122Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "풍문또는보도에대한해명(미확정)              ",
+      "rcept_no": "20260723800875",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260723",
+      "rm": "유"
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260721001360",
       "flr_nm": "문종승",
-      "rcept_dt": "20260721",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260721001358",
-      "flr_nm": "이상원",
       "rcept_dt": "20260721",
       "rm": ""
     }

@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-07-23T07:54:03.079Z",
-  "expiresAt": "2026-07-23T09:54:03.079Z",
+  "updatedAt": "2026-07-23T10:11:17.431Z",
+  "expiresAt": "2026-07-23T12:11:17.431Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "공정거래자율준수프로그램운영현황(안내공시)              ",
+      "rcept_no": "20260723800961",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260723",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "주요사항보고서(자기주식처분결정)",
+      "rcept_no": "20260723000599",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260723",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -68,28 +90,6 @@
       "flr_nm": "현대자동차",
       "rcept_dt": "20260716",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "생산중단              ",
-      "rcept_no": "20260713800350",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260713",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인으로부터기타유가증권매수",
-      "rcept_no": "20260710000577",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260710",
-      "rm": "공"
     }
   ]
 }
