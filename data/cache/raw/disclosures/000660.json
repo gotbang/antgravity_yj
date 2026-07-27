@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-07-27T05:02:33.610Z",
-  "expiresAt": "2026-07-27T07:02:33.610Z",
+  "updatedAt": "2026-07-27T08:51:14.425Z",
+  "expiresAt": "2026-07-27T10:51:14.425Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "rcept_no": "20260727000169",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260727",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "rcept_no": "20260727000166",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260727",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "rcept_no": "20260727000162",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260727",
+      "rm": "공"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -57,39 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260715",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "증권발행실적보고서",
-      "rcept_no": "20260715000004",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260715",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "주요사항보고서(해외증권시장주권등상장)",
-      "rcept_no": "20260713000324",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260713",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "투자설명서",
-      "rcept_no": "20260710000012",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260710",
-      "rm": ""
     }
   ]
 }
