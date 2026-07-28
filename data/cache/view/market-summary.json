@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-07-28T04:55:14.557Z",
-  "expiresAt": "2026-07-28T05:25:14.557Z",
+  "updatedAt": "2026-07-28T07:32:43.333Z",
+  "expiresAt": "2026-07-28T08:02:43.333Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -22,6 +22,14 @@
     "confidenceRecentAccuracy": "59.0%",
     "confidenceOverallAccuracy": "64.0%",
     "marketHistory": [
+      {
+        "date": "2026.07.28",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000302",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.07.27",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -53,14 +61,6 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.07.22",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000429",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "positiveNewsRatio": 40,
@@ -80,16 +80,16 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.07.27",
+        "latestDisclosureDate": "2026.07.28",
         "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "222,000원",
-        "priceChangeLabel": "-37,000원",
-        "priceChangeRateLabel": "-14.29%",
+        "currentPriceLabel": "220,000원",
+        "priceChangeLabel": "-39,000원",
+        "priceChangeRateLabel": "-15.06%",
         "priceAsOfLabel": "2026.07.28 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "222,000원 · 전일 대비 -37,000원 (-14.29%)",
+        "rangeNote": "220,000원 · 전일 대비 -39,000원 (-15.06%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -107,6 +107,14 @@
         "accuracyRate": "58.0%",
         "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
         "history": [
+          {
+            "date": "2026.07.28",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000302",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.07.27",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -138,14 +146,6 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.07.22",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000429",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
@@ -158,7 +158,7 @@
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "주식등의대량보유상황보고서(일반)",
+            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
             "profit": "+ 공시 우호"
           }
         ],
@@ -232,9 +232,9 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,571,000원",
-        "priceChangeLabel": "-265,000원",
-        "priceChangeRateLabel": "-14.43%",
+        "currentPriceLabel": "1,550,000원",
+        "priceChangeLabel": "-286,000원",
+        "priceChangeRateLabel": "-15.58%",
         "priceAsOfLabel": "2026.07.28 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,7 +243,7 @@
         "upProbability": 61,
         "downProbability": 39,
         "volatilityRange": "±4.3%",
-        "rangeNote": "1,571,000원 · 전일 대비 -265,000원 (-14.43%)",
+        "rangeNote": "1,550,000원 · 전일 대비 -286,000원 (-15.58%)",
         "riskScore": 47,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -522,9 +522,9 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "213,000원",
-        "priceChangeLabel": "+20,000원",
-        "priceChangeRateLabel": "+10.36%",
+        "currentPriceLabel": "210,000원",
+        "priceChangeLabel": "+17,000원",
+        "priceChangeRateLabel": "+8.81%",
         "priceAsOfLabel": "2026.07.28 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -533,7 +533,7 @@
         "upProbability": 48,
         "downProbability": 52,
         "volatilityRange": "±4.9%",
-        "rangeNote": "213,000원 · 전일 대비 +20,000원 (+10.36%)",
+        "rangeNote": "210,000원 · 전일 대비 +17,000원 (+8.81%)",
         "riskScore": 63,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "35,500원",
-        "priceChangeLabel": "+200원",
-        "priceChangeRateLabel": "+0.57%",
+        "currentPriceLabel": "35,650원",
+        "priceChangeLabel": "+350원",
+        "priceChangeRateLabel": "+0.99%",
         "priceAsOfLabel": "2026.07.28 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -678,7 +678,7 @@
         "upProbability": 58,
         "downProbability": 42,
         "volatilityRange": "±4.4%",
-        "rangeNote": "35,500원 · 전일 대비 +200원 (+0.57%)",
+        "rangeNote": "35,650원 · 전일 대비 +350원 (+0.99%)",
         "riskScore": 49,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-07-28T04:55:14.557Z",
+    "generatedAt": "2026-07-28T07:32:43.333Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
