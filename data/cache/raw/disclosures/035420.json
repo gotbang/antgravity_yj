@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-07-29T01:44:04.232Z",
-  "expiresAt": "2026-07-29T03:44:04.232Z",
+  "updatedAt": "2026-07-29T04:59:52.645Z",
+  "expiresAt": "2026-07-29T06:59:52.645Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인에대한부동산임대",
+      "rcept_no": "20260729000235",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20260729",
+      "rm": "공"
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260716000638",
       "flr_nm": "심동윤",
-      "rcept_dt": "20260716",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260716000625",
-      "flr_nm": "이세훈",
       "rcept_dt": "20260716",
       "rm": ""
     }
