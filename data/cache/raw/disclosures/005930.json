@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-07-29T04:59:52.116Z",
-  "expiresAt": "2026-07-29T06:59:52.116Z",
+  "updatedAt": "2026-07-29T07:44:35.205Z",
+  "expiresAt": "2026-07-29T09:44:35.205Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260729000343",
+      "flr_nm": "여명구",
+      "rcept_dt": "20260729",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260729000314",
+      "flr_nm": "여명구",
+      "rcept_dt": "20260729",
+      "rm": "정"
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -67,28 +89,6 @@
       "rcept_no": "20260722000429",
       "flr_nm": "임경욱",
       "rcept_dt": "20260722",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260722000161",
-      "flr_nm": "Lee Sungki",
-      "rcept_dt": "20260722",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260721001369",
-      "flr_nm": "이종민",
-      "rcept_dt": "20260721",
       "rm": ""
     }
   ]
