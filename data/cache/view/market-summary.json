@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-07-30T09:09:47.890Z",
-  "expiresAt": "2026-07-30T09:39:47.890Z",
+  "updatedAt": "2026-07-30T11:27:05.668Z",
+  "expiresAt": "2026-07-30T11:57:05.668Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -19,8 +19,8 @@
     "marketDownProbability": 41,
     "marketVolatilityRange": "±4.5%",
     "marketRiskScore": 49,
-    "confidenceRecentAccuracy": "60.0%",
-    "confidenceOverallAccuracy": "65.0%",
+    "confidenceRecentAccuracy": "59.0%",
+    "confidenceOverallAccuracy": "64.0%",
     "marketHistory": [
       {
         "date": "2026.07.30",
@@ -63,13 +63,13 @@
         "statusLabel": "중립"
       }
     ],
-    "positiveNewsRatio": 50,
-    "negativeNewsRatio": 50,
+    "positiveNewsRatio": 40,
+    "negativeNewsRatio": 60,
     "keywords": [
       "특수관계인과의보험거래",
       "특수관계인에대한출자",
       "기타경영사항(자율공시)",
-      "연결재무제표기준영업(잠정)실적(공정공시)"
+      "최대주주등소유주식변동신고서"
     ],
     "investorFlowSummary": "재무 안정 종목 중심으로 선별 매수 관점이 가능해.",
     "institutionsSummary": "양호한 공시 흐름이 이어지는 종목이 더 많아.",
@@ -225,8 +225,8 @@
         "corpCode": "00164779",
         "companyName": "에스케이하이닉스(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.07.29",
-        "latestDisclosureTitle": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "latestDisclosureDate": "2026.07.30",
+        "latestDisclosureTitle": "최대주주등소유주식변동신고서              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 97조 1,466억",
         "operatingIncomeSummary": "영업이익 47조 2,063억",
@@ -250,8 +250,16 @@
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "64.0%",
-        "recentNote": "최근 공시: 연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "recentNote": "최근 공시: 최대주주등소유주식변동신고서              ",
         "history": [
+          {
+            "date": "2026.07.30",
+            "title": "최대주주등소유주식변동신고서              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800996",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.07.29",
             "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
@@ -283,27 +291,19 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.07.22",
-            "title": "신규시설투자등              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800829",
-            "tone": "positive",
-            "success": true,
-            "statusLabel": "긍정"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+            "note": "최대주주등소유주식변동신고서              ",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+            "note": "연결재무제표기준영업(잠정)실적(공정공시)              ",
             "profit": "+ 공시 우호"
           }
         ],
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-07-30T09:09:47.890Z",
+    "generatedAt": "2026-07-30T11:27:05.668Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
