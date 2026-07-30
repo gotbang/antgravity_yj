@@ -1,8 +1,63 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-07-30T06:19:08.253Z",
-  "expiresAt": "2026-07-30T08:19:08.253Z",
+  "updatedAt": "2026-07-30T09:09:45.448Z",
+  "expiresAt": "2026-07-30T11:09:45.448Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인과의보험거래",
+      "rcept_no": "20260730000518",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260730",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인에대한출자",
+      "rcept_no": "20260730000505",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260730",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인에대한출자",
+      "rcept_no": "20260730000503",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260730",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "기타경영사항(자율공시)              ",
+      "rcept_no": "20260730800825",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260730",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "기타경영사항(자율공시)              ",
+      "rcept_no": "20260730800822",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20260730",
+      "rm": "유"
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -35,61 +90,6 @@
       "flr_nm": "삼성전자",
       "rcept_dt": "20260730",
       "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "rcept_no": "20260730800077",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20260730",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260729000521",
-      "flr_nm": "양준철",
-      "rcept_dt": "20260729",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260729000512",
-      "flr_nm": "정진국",
-      "rcept_dt": "20260729",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260729000343",
-      "flr_nm": "여명구",
-      "rcept_dt": "20260729",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260729000314",
-      "flr_nm": "여명구",
-      "rcept_dt": "20260729",
-      "rm": "정"
     }
   ]
 }
