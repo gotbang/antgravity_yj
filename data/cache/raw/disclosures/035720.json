@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-08-03T08:23:51.120Z",
-  "expiresAt": "2026-08-03T10:23:51.120Z",
+  "updatedAt": "2026-08-03T11:53:00.079Z",
+  "expiresAt": "2026-08-03T13:53:00.079Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(약식)",
+      "rcept_no": "20260803000476",
+      "flr_nm": "BlackRockFundAdvisors",
+      "rcept_dt": "20260803",
+      "rm": ""
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -79,17 +90,6 @@
       "flr_nm": "카카오",
       "rcept_dt": "20260624",
       "rm": "유"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260619000587",
-      "flr_nm": "윤지미",
-      "rcept_dt": "20260619",
-      "rm": ""
     }
   ]
 }
