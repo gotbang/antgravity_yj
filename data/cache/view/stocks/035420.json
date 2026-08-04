@@ -1,23 +1,23 @@
 {
   "key": "view:stock:035420",
-  "updatedAt": "2026-08-04T05:39:04.638Z",
-  "expiresAt": "2026-08-04T05:59:04.638Z",
+  "updatedAt": "2026-08-04T08:20:47.872Z",
+  "expiresAt": "2026-08-04T08:40:47.872Z",
   "data": {
     "symbol": "NAVER",
     "stockCode": "035420",
     "corpCode": "00266961",
     "companyName": "네이버(주)",
     "sector": "플랫폼",
-    "latestDisclosureDate": "2026.08.03",
-    "latestDisclosureTitle": "기업설명회(IR)개최(안내공시)              ",
+    "latestDisclosureDate": "2026.08.04",
+    "latestDisclosureTitle": "특수관계인에대한출자",
     "disclosureCount": 8,
     "revenueSummary": "매출액 12조 350억",
     "operatingIncomeSummary": "영업이익 2조 2,081억",
     "debtRatioSummary": "부채비율 142%",
     "hasPriceData": true,
-    "currentPriceLabel": "225,500원",
-    "priceChangeLabel": "+15,500원",
-    "priceChangeRateLabel": "+7.38%",
+    "currentPriceLabel": "226,500원",
+    "priceChangeLabel": "+16,500원",
+    "priceChangeRateLabel": "+7.86%",
     "priceAsOfLabel": "2026.08.04 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "neutral",
@@ -26,15 +26,23 @@
     "upProbability": 48,
     "downProbability": 52,
     "volatilityRange": "±4.9%",
-    "rangeNote": "225,500원 · 전일 대비 +15,500원 (+7.38%)",
+    "rangeNote": "226,500원 · 전일 대비 +16,500원 (+7.86%)",
     "riskScore": 63,
     "riskStatusLabel": "경계 구간",
     "riskComment": "관망 우선",
     "strategy": "관망 우선",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "54.0%",
-    "recentNote": "최근 공시: 기업설명회(IR)개최(안내공시)              ",
+    "recentNote": "최근 공시: 특수관계인에대한출자",
     "history": [
+      {
+        "date": "2026.08.04",
+        "title": "특수관계인에대한출자",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000335",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.03",
         "title": "기업설명회(IR)개최(안내공시)              ",
@@ -66,27 +74,19 @@
         "tone": "negative",
         "success": false,
         "statusLabel": "주의"
-      },
-      {
-        "date": "2026.07.27",
-        "title": "주식소각결정              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727800009",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "NAVER",
         "action": "매수",
-        "note": "기업설명회(IR)개최(안내공시)              ",
+        "note": "특수관계인에대한출자",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "NAVER",
         "action": "매수",
-        "note": "[첨부추가]장래사업ㆍ경영계획(공정공시)              ",
+        "note": "기업설명회(IR)개최(안내공시)              ",
         "profit": "+ 공시 우호"
       }
     ],
