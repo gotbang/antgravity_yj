@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-08-05T07:33:27.411Z",
-  "expiresAt": "2026-08-05T09:33:27.411Z",
+  "updatedAt": "2026-08-05T10:24:58.392Z",
+  "expiresAt": "2026-08-05T12:24:58.392Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "풍문또는보도에대한해명(미확정)              ",
+      "rcept_no": "20260805800806",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260805",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "rcept_no": "20260805000440",
+      "flr_nm": "SK스퀘어",
+      "rcept_dt": "20260805",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -68,28 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260727",
       "rm": "공"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "신규시설투자등              ",
-      "rcept_no": "20260722800829",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260722",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "풍문또는보도에대한해명              ",
-      "rcept_no": "20260722800178",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260722",
-      "rm": "유"
     }
   ]
 }
