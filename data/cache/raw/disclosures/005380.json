@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-08-06T06:27:44.277Z",
-  "expiresAt": "2026-08-06T08:27:44.277Z",
+  "updatedAt": "2026-08-06T09:20:10.920Z",
+  "expiresAt": "2026-08-06T11:20:10.920Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260806000501",
+      "flr_nm": "권정현",
+      "rcept_dt": "20260806",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -79,17 +90,6 @@
       "flr_nm": "정지훈",
       "rcept_dt": "20260730",
       "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "풍문또는보도에대한해명(미확정)              ",
-      "rcept_no": "20260729800842",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260729",
-      "rm": "유"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-08-06T06:27:54.707Z",
-  "expiresAt": "2026-08-06T06:57:54.707Z",
+  "updatedAt": "2026-08-06T09:20:12.019Z",
+  "expiresAt": "2026-08-06T09:50:12.019Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -19,9 +19,17 @@
     "marketDownProbability": 40,
     "marketVolatilityRange": "±4.5%",
     "marketRiskScore": 47,
-    "confidenceRecentAccuracy": "63.0%",
-    "confidenceOverallAccuracy": "68.0%",
+    "confidenceRecentAccuracy": "62.0%",
+    "confidenceOverallAccuracy": "67.0%",
     "marketHistory": [
+      {
+        "date": "2026.08.06",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000484",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.06",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -53,18 +61,10 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.05",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000203",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
-    "positiveNewsRatio": 80,
-    "negativeNewsRatio": 20,
+    "positiveNewsRatio": 75,
+    "negativeNewsRatio": 25,
     "keywords": [
       "임원ㆍ주요주주특정증권등소유상황보고서",
       "풍문또는보도에대한해명(미확정)",
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "231,000원",
-        "priceChangeLabel": "+24,000원",
-        "priceChangeRateLabel": "+11.59%",
+        "currentPriceLabel": "230,500원",
+        "priceChangeLabel": "+23,500원",
+        "priceChangeRateLabel": "+11.35%",
         "priceAsOfLabel": "2026.08.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "231,000원 · 전일 대비 +24,000원 (+11.59%)",
+        "rangeNote": "230,500원 · 전일 대비 +23,500원 (+11.35%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -107,6 +107,14 @@
         "accuracyRate": "58.0%",
         "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
         "history": [
+          {
+            "date": "2026.08.06",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000484",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.08.06",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -135,14 +143,6 @@
             "date": "2026.08.05",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
             "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000333",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.08.05",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000203",
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
@@ -232,9 +232,9 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,491,000원",
-        "priceChangeLabel": "+169,000원",
-        "priceChangeRateLabel": "+12.78%",
+        "currentPriceLabel": "1,495,000원",
+        "priceChangeLabel": "+173,000원",
+        "priceChangeRateLabel": "+13.09%",
         "priceAsOfLabel": "2026.08.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,7 +243,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.0%",
-        "rangeNote": "1,491,000원 · 전일 대비 +169,000원 (+12.78%)",
+        "rangeNote": "1,495,000원 · 전일 대비 +173,000원 (+13.09%)",
         "riskScore": 39,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -370,16 +370,16 @@
         "corpCode": "00164742",
         "companyName": "현대자동차(주)",
         "sector": "자동차",
-        "latestDisclosureDate": "2026.08.05",
+        "latestDisclosureDate": "2026.08.06",
         "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
         "disclosureCount": 8,
         "revenueSummary": "매출액 186조 2,544억",
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "397,500원",
-        "priceChangeLabel": "+46,500원",
-        "priceChangeRateLabel": "+13.25%",
+        "currentPriceLabel": "400,000원",
+        "priceChangeLabel": "+49,000원",
+        "priceChangeRateLabel": "+13.96%",
         "priceAsOfLabel": "2026.08.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -388,7 +388,7 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "397,500원 · 전일 대비 +46,500원 (+13.25%)",
+        "rangeNote": "400,000원 · 전일 대비 +49,000원 (+13.96%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -397,6 +397,14 @@
         "accuracyRate": "61.0%",
         "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
         "history": [
+          {
+            "date": "2026.08.06",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000501",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.08.05",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -428,14 +436,6 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.08.03",
-            "title": "영업(잠정)실적(공정공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800709",
-            "tone": "positive",
-            "success": true,
-            "statusLabel": "긍정"
           }
         ],
         "tradeMemos": [
@@ -522,9 +522,9 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "225,000원",
-        "priceChangeLabel": "+30,300원",
-        "priceChangeRateLabel": "+15.56%",
+        "currentPriceLabel": "226,000원",
+        "priceChangeLabel": "+31,300원",
+        "priceChangeRateLabel": "+16.08%",
         "priceAsOfLabel": "2026.08.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -533,7 +533,7 @@
         "upProbability": 48,
         "downProbability": 52,
         "volatilityRange": "±4.9%",
-        "rangeNote": "225,000원 · 전일 대비 +30,300원 (+15.56%)",
+        "rangeNote": "226,000원 · 전일 대비 +31,300원 (+16.08%)",
         "riskScore": 63,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "38,150원",
-        "priceChangeLabel": "+2,000원",
-        "priceChangeRateLabel": "+5.53%",
+        "currentPriceLabel": "38,300원",
+        "priceChangeLabel": "+2,150원",
+        "priceChangeRateLabel": "+5.95%",
         "priceAsOfLabel": "2026.08.06 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -678,7 +678,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.1%",
-        "rangeNote": "38,150원 · 전일 대비 +2,000원 (+5.53%)",
+        "rangeNote": "38,300원 · 전일 대비 +2,150원 (+5.95%)",
         "riskScore": 43,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-08-06T06:27:54.707Z",
+    "generatedAt": "2026-08-06T09:20:12.019Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
