@@ -1,40 +1,56 @@
 {
   "key": "view:stock:035420",
-  "updatedAt": "2026-08-06T13:41:41.819Z",
-  "expiresAt": "2026-08-06T14:01:41.819Z",
+  "updatedAt": "2026-08-07T00:20:48.857Z",
+  "expiresAt": "2026-08-07T00:40:48.857Z",
   "data": {
     "symbol": "NAVER",
     "stockCode": "035420",
     "corpCode": "00266961",
     "companyName": "네이버(주)",
     "sector": "플랫폼",
-    "latestDisclosureDate": "2026.08.04",
-    "latestDisclosureTitle": "특수관계인에대한출자",
+    "latestDisclosureDate": "2026.08.07",
+    "latestDisclosureTitle": "영업(잠정)실적(공정공시)              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 12조 350억",
     "operatingIncomeSummary": "영업이익 2조 2,081억",
     "debtRatioSummary": "부채비율 142%",
     "hasPriceData": true,
-    "currentPriceLabel": "226,000원",
-    "priceChangeLabel": "+31,300원",
-    "priceChangeRateLabel": "+16.08%",
-    "priceAsOfLabel": "2026.08.06 기준",
+    "currentPriceLabel": "216,500원",
+    "priceChangeLabel": "+8,500원",
+    "priceChangeRateLabel": "+4.09%",
+    "priceAsOfLabel": "2026.08.07 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
-    "trend": "neutral",
-    "statusLabel": "중립",
-    "forecastLabel": "중립 예상",
-    "upProbability": 48,
-    "downProbability": 52,
-    "volatilityRange": "±4.9%",
-    "rangeNote": "226,000원 · 전일 대비 +31,300원 (+16.08%)",
-    "riskScore": 63,
-    "riskStatusLabel": "경계 구간",
-    "riskComment": "관망 우선",
-    "strategy": "관망 우선",
+    "trend": "up",
+    "statusLabel": "상승 우위",
+    "forecastLabel": "상승 예상",
+    "upProbability": 61,
+    "downProbability": 39,
+    "volatilityRange": "±4.4%",
+    "rangeNote": "216,500원 · 전일 대비 +8,500원 (+4.09%)",
+    "riskScore": 49,
+    "riskStatusLabel": "안정 구간",
+    "riskComment": "완만한 비중 확대 가능",
+    "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "54.0%",
-    "recentNote": "최근 공시: 특수관계인에대한출자",
+    "accuracyRate": "62.0%",
+    "recentNote": "최근 공시: 영업(잠정)실적(공정공시)              ",
     "history": [
+      {
+        "date": "2026.08.07",
+        "title": "영업(잠정)실적(공정공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800028",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
+      {
+        "date": "2026.08.07",
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800026",
+        "tone": "positive",
+        "success": true,
+        "statusLabel": "긍정"
+      },
       {
         "date": "2026.08.04",
         "title": "특수관계인에대한출자",
@@ -58,50 +74,34 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.07.29",
-        "title": "특수관계인에대한부동산임대",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000235",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.07.27",
-        "title": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727800006",
-        "tone": "negative",
-        "success": false,
-        "statusLabel": "주의"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "NAVER",
         "action": "매수",
-        "note": "특수관계인에대한출자",
+        "note": "영업(잠정)실적(공정공시)              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "NAVER",
         "action": "매수",
-        "note": "기업설명회(IR)개최(안내공시)              ",
+        "note": "연결재무제표기준영업(잠정)실적(공정공시)              ",
         "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.9%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.4%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "0건의 우호 신호와 2건의 경계 신호를 함께 보고 있어."
+        "description": "2건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 56% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 69% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -128,22 +128,22 @@
     ],
     "consensus": {
       "targetPrice": "OpenDART 미제공",
-      "opinion": "보수적 해석",
+      "opinion": "우호적 해석",
       "coverage": "공시 기반"
     },
     "technicalIndicators": [
       {
         "label": "최근 공시 톤",
-        "value": "중립",
+        "value": "상승 우위",
         "description": "공시 감정 해석"
       },
       {
         "label": "리스크 점수",
-        "value": "63",
+        "value": "49",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "42.0%",
+    "backtestReturn": "56.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
