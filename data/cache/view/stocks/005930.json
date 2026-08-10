@@ -1,23 +1,23 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-08-10T01:03:29.708Z",
-  "expiresAt": "2026-08-10T01:23:29.708Z",
+  "updatedAt": "2026-08-10T03:21:55.621Z",
+  "expiresAt": "2026-08-10T03:41:55.621Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
     "corpCode": "00126380",
     "companyName": "삼성전자(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.08.07",
+    "latestDisclosureDate": "2026.08.10",
     "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
-    "currentPriceLabel": "232,500원",
-    "priceChangeLabel": "-7,000원",
-    "priceChangeRateLabel": "-2.92%",
+    "currentPriceLabel": "231,000원",
+    "priceChangeLabel": "-8,500원",
+    "priceChangeRateLabel": "-3.55%",
     "priceAsOfLabel": "2026.08.10 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
@@ -26,7 +26,7 @@
     "upProbability": 62,
     "downProbability": 38,
     "volatilityRange": "±4.1%",
-    "rangeNote": "232,500원 · 전일 대비 -7,000원 (-2.92%)",
+    "rangeNote": "231,000원 · 전일 대비 -8,500원 (-3.55%)",
     "riskScore": 42,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
@@ -35,6 +35,14 @@
     "accuracyRate": "58.0%",
     "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.08.10",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000078",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.07",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -63,14 +71,6 @@
         "date": "2026.08.07",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000459",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.07",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000357",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
