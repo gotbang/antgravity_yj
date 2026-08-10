@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-08-10T03:21:56.142Z",
-  "expiresAt": "2026-08-10T03:51:56.142Z",
+  "updatedAt": "2026-08-10T05:02:05.704Z",
+  "expiresAt": "2026-08-10T05:32:05.704Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -25,6 +25,22 @@
       {
         "date": "2026.08.10",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000256",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.08.10",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000227",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.08.10",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000078",
         "tone": "neutral",
         "success": true,
@@ -42,22 +58,6 @@
         "date": "2026.08.07",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
         "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000626",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.07",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000528",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.07",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000459",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "231,000원",
-        "priceChangeLabel": "-8,500원",
-        "priceChangeRateLabel": "-3.55%",
+        "currentPriceLabel": "229,500원",
+        "priceChangeLabel": "-10,000원",
+        "priceChangeRateLabel": "-4.18%",
         "priceAsOfLabel": "2026.08.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "231,000원 · 전일 대비 -8,500원 (-3.55%)",
+        "rangeNote": "229,500원 · 전일 대비 -10,000원 (-4.18%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -107,6 +107,22 @@
         "accuracyRate": "58.0%",
         "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
         "history": [
+          {
+            "date": "2026.08.10",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000256",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
+          {
+            "date": "2026.08.10",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000227",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.08.10",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -127,22 +143,6 @@
             "date": "2026.08.07",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
             "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000626",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.08.07",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000528",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.08.07",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000459",
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
@@ -232,9 +232,9 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,441,000원",
-        "priceChangeLabel": "-126,000원",
-        "priceChangeRateLabel": "-8.04%",
+        "currentPriceLabel": "1,415,000원",
+        "priceChangeLabel": "-152,000원",
+        "priceChangeRateLabel": "-9.70%",
         "priceAsOfLabel": "2026.08.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,7 +243,7 @@
         "upProbability": 75,
         "downProbability": 25,
         "volatilityRange": "±3.6%",
-        "rangeNote": "1,441,000원 · 전일 대비 -126,000원 (-8.04%)",
+        "rangeNote": "1,415,000원 · 전일 대비 -152,000원 (-9.70%)",
         "riskScore": 30,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -377,9 +377,9 @@
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "406,500원",
-        "priceChangeLabel": "+13,500원",
-        "priceChangeRateLabel": "+3.44%",
+        "currentPriceLabel": "402,000원",
+        "priceChangeLabel": "+9,000원",
+        "priceChangeRateLabel": "+2.29%",
         "priceAsOfLabel": "2026.08.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -388,7 +388,7 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "406,500원 · 전일 대비 +13,500원 (+3.44%)",
+        "rangeNote": "402,000원 · 전일 대비 +9,000원 (+2.29%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "39,150원",
-        "priceChangeLabel": "+1,950원",
-        "priceChangeRateLabel": "+5.24%",
+        "currentPriceLabel": "38,900원",
+        "priceChangeLabel": "+1,700원",
+        "priceChangeRateLabel": "+4.57%",
         "priceAsOfLabel": "2026.08.10 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -678,7 +678,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.1%",
-        "rangeNote": "39,150원 · 전일 대비 +1,950원 (+5.24%)",
+        "rangeNote": "38,900원 · 전일 대비 +1,700원 (+4.57%)",
         "riskScore": 43,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-08-10T03:21:56.142Z",
+    "generatedAt": "2026-08-10T05:02:05.704Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
