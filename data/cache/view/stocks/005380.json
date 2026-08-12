@@ -1,15 +1,15 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-08-12T08:08:54.820Z",
-  "expiresAt": "2026-08-12T08:28:54.820Z",
+  "updatedAt": "2026-08-12T09:36:27.738Z",
+  "expiresAt": "2026-08-12T09:56:27.738Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.08.06",
-    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+    "latestDisclosureDate": "2026.08.12",
+    "latestDisclosureTitle": "특수관계인으로부터기타유가증권매수",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
@@ -33,8 +33,16 @@
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "61.0%",
-    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+    "recentNote": "최근 공시: 특수관계인으로부터기타유가증권매수",
     "history": [
+      {
+        "date": "2026.08.12",
+        "title": "특수관계인으로부터기타유가증권매수",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000874",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.06",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -66,21 +74,13 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.04",
-        "title": "자기주식처분결과보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000313",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "특수관계인으로부터기타유가증권매수",
         "profit": "+ 공시 우호"
       },
       {
