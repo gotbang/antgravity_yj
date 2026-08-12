@@ -1,23 +1,23 @@
 {
   "key": "view:stock:035420",
-  "updatedAt": "2026-08-12T03:02:27.056Z",
-  "expiresAt": "2026-08-12T03:22:27.056Z",
+  "updatedAt": "2026-08-12T05:11:46.764Z",
+  "expiresAt": "2026-08-12T05:31:46.764Z",
   "data": {
     "symbol": "NAVER",
     "stockCode": "035420",
     "corpCode": "00266961",
     "companyName": "네이버(주)",
     "sector": "플랫폼",
-    "latestDisclosureDate": "2026.08.10",
-    "latestDisclosureTitle": "주식등의대량보유상황보고서(약식)",
+    "latestDisclosureDate": "2026.08.12",
+    "latestDisclosureTitle": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
     "disclosureCount": 8,
     "revenueSummary": "매출액 12조 350억",
     "operatingIncomeSummary": "영업이익 2조 2,081억",
     "debtRatioSummary": "부채비율 142%",
     "hasPriceData": true,
-    "currentPriceLabel": "218,000원",
-    "priceChangeLabel": "-11,000원",
-    "priceChangeRateLabel": "-4.80%",
+    "currentPriceLabel": "217,500원",
+    "priceChangeLabel": "-11,500원",
+    "priceChangeRateLabel": "-5.02%",
     "priceAsOfLabel": "2026.08.12 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
@@ -26,15 +26,23 @@
     "upProbability": 66,
     "downProbability": 34,
     "volatilityRange": "±4.0%",
-    "rangeNote": "218,000원 · 전일 대비 -11,000원 (-4.80%)",
+    "rangeNote": "217,500원 · 전일 대비 -11,500원 (-5.02%)",
     "riskScore": 41,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "64.0%",
-    "recentNote": "최근 공시: 주식등의대량보유상황보고서(약식)",
+    "recentNote": "최근 공시: 지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
     "history": [
+      {
+        "date": "2026.08.12",
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000394",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.10",
         "title": "주식등의대량보유상황보고서(약식)",
@@ -66,27 +74,19 @@
         "tone": "positive",
         "success": true,
         "statusLabel": "긍정"
-      },
-      {
-        "date": "2026.08.04",
-        "title": "특수관계인에대한출자",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000335",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "NAVER",
         "action": "매수",
-        "note": "주식등의대량보유상황보고서(약식)",
+        "note": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "NAVER",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "note": "주식등의대량보유상황보고서(약식)",
         "profit": "+ 공시 우호"
       }
     ],

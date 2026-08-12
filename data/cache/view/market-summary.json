@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-08-12T03:02:29.861Z",
-  "expiresAt": "2026-08-12T03:32:29.861Z",
+  "updatedAt": "2026-08-12T05:11:49.152Z",
+  "expiresAt": "2026-08-12T05:41:49.152Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -19,8 +19,8 @@
     "marketDownProbability": 35,
     "marketVolatilityRange": "±4.3%",
     "marketRiskScore": 41,
-    "confidenceRecentAccuracy": "66.0%",
-    "confidenceOverallAccuracy": "71.0%",
+    "confidenceRecentAccuracy": "65.0%",
+    "confidenceOverallAccuracy": "70.0%",
     "marketHistory": [
       {
         "date": "2026.08.11",
@@ -67,9 +67,9 @@
     "negativeNewsRatio": 0,
     "keywords": [
       "임원ㆍ주요주주특정증권등소유상황보고서",
+      "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
       "조회공시요구(풍문또는보도)에대한답변(미확정)",
-      "조회공시요구(풍문또는보도)",
-      "주요사항보고서(자기주식처분결정)"
+      "조회공시요구(풍문또는보도)"
     ],
     "investorFlowSummary": "재무 안정 종목 중심으로 선별 매수 관점이 가능해.",
     "institutionsSummary": "양호한 공시 흐름이 이어지는 종목이 더 많아.",
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "256,500원",
-        "priceChangeLabel": "+10,500원",
-        "priceChangeRateLabel": "+4.27%",
+        "currentPriceLabel": "257,000원",
+        "priceChangeLabel": "+11,000원",
+        "priceChangeRateLabel": "+4.47%",
         "priceAsOfLabel": "2026.08.12 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "256,500원 · 전일 대비 +10,500원 (+4.27%)",
+        "rangeNote": "257,000원 · 전일 대비 +11,000원 (+4.47%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -225,16 +225,16 @@
         "corpCode": "00164779",
         "companyName": "에스케이하이닉스(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.08.10",
-        "latestDisclosureTitle": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
+        "latestDisclosureDate": "2026.08.12",
+        "latestDisclosureTitle": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
         "disclosureCount": 8,
         "revenueSummary": "매출액 97조 1,466억",
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,516,000원",
-        "priceChangeLabel": "-152,000원",
-        "priceChangeRateLabel": "-9.11%",
+        "currentPriceLabel": "1,512,000원",
+        "priceChangeLabel": "-156,000원",
+        "priceChangeRateLabel": "-9.35%",
         "priceAsOfLabel": "2026.08.12 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,15 +243,23 @@
         "upProbability": 75,
         "downProbability": 25,
         "volatilityRange": "±3.6%",
-        "rangeNote": "1,516,000원 · 전일 대비 -152,000원 (-9.11%)",
+        "rangeNote": "1,512,000원 · 전일 대비 -156,000원 (-9.35%)",
         "riskScore": 30,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "70.0%",
-        "recentNote": "최근 공시: 조회공시요구(풍문또는보도)에대한답변(미확정)              ",
+        "recentNote": "최근 공시: 지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
         "history": [
+          {
+            "date": "2026.08.12",
+            "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000344",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.08.10",
             "title": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
@@ -283,27 +291,19 @@
             "tone": "positive",
             "success": true,
             "statusLabel": "긍정"
-          },
-          {
-            "date": "2026.08.07",
-            "title": "신규시설투자등              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800602",
-            "tone": "positive",
-            "success": true,
-            "statusLabel": "긍정"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
+            "note": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "SK하이닉스",
             "action": "매수",
-            "note": "조회공시요구(풍문또는보도)              ",
+            "note": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
             "profit": "+ 공시 우호"
           }
         ],
@@ -377,9 +377,9 @@
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "412,500원",
-        "priceChangeLabel": "+8,000원",
-        "priceChangeRateLabel": "+1.98%",
+        "currentPriceLabel": "409,000원",
+        "priceChangeLabel": "+4,500원",
+        "priceChangeRateLabel": "+1.11%",
         "priceAsOfLabel": "2026.08.12 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -388,7 +388,7 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "412,500원 · 전일 대비 +8,000원 (+1.98%)",
+        "rangeNote": "409,000원 · 전일 대비 +4,500원 (+1.11%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -515,16 +515,16 @@
         "corpCode": "00266961",
         "companyName": "네이버(주)",
         "sector": "플랫폼",
-        "latestDisclosureDate": "2026.08.10",
-        "latestDisclosureTitle": "주식등의대량보유상황보고서(약식)",
+        "latestDisclosureDate": "2026.08.12",
+        "latestDisclosureTitle": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
         "disclosureCount": 8,
         "revenueSummary": "매출액 12조 350억",
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "218,000원",
-        "priceChangeLabel": "-11,000원",
-        "priceChangeRateLabel": "-4.80%",
+        "currentPriceLabel": "217,500원",
+        "priceChangeLabel": "-11,500원",
+        "priceChangeRateLabel": "-5.02%",
         "priceAsOfLabel": "2026.08.12 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -533,15 +533,23 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.0%",
-        "rangeNote": "218,000원 · 전일 대비 -11,000원 (-4.80%)",
+        "rangeNote": "217,500원 · 전일 대비 -11,500원 (-5.02%)",
         "riskScore": 41,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "64.0%",
-        "recentNote": "최근 공시: 주식등의대량보유상황보고서(약식)",
+        "recentNote": "최근 공시: 지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
         "history": [
+          {
+            "date": "2026.08.12",
+            "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000394",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.08.10",
             "title": "주식등의대량보유상황보고서(약식)",
@@ -573,27 +581,19 @@
             "tone": "positive",
             "success": true,
             "statusLabel": "긍정"
-          },
-          {
-            "date": "2026.08.04",
-            "title": "특수관계인에대한출자",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000335",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "NAVER",
             "action": "매수",
-            "note": "주식등의대량보유상황보고서(약식)",
+            "note": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "NAVER",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "주식등의대량보유상황보고서(약식)",
             "profit": "+ 공시 우호"
           }
         ],
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "40,000원",
-        "priceChangeLabel": "+1,850원",
-        "priceChangeRateLabel": "+4.85%",
+        "currentPriceLabel": "39,950원",
+        "priceChangeLabel": "+1,800원",
+        "priceChangeRateLabel": "+4.72%",
         "priceAsOfLabel": "2026.08.12 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -678,7 +678,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.1%",
-        "rangeNote": "40,000원 · 전일 대비 +1,850원 (+4.85%)",
+        "rangeNote": "39,950원 · 전일 대비 +1,800원 (+4.72%)",
         "riskScore": 43,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-08-12T03:02:29.861Z",
+    "generatedAt": "2026-08-12T05:11:49.152Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
