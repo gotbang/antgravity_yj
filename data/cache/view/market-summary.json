@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-08-12T06:50:31.593Z",
-  "expiresAt": "2026-08-12T07:20:31.593Z",
+  "updatedAt": "2026-08-12T08:08:54.924Z",
+  "expiresAt": "2026-08-12T08:38:54.924Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "39,600원",
-        "priceChangeLabel": "+1,450원",
-        "priceChangeRateLabel": "+3.80%",
+        "currentPriceLabel": "39,550원",
+        "priceChangeLabel": "+1,400원",
+        "priceChangeRateLabel": "+3.67%",
         "priceAsOfLabel": "2026.08.12 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -678,7 +678,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.1%",
-        "rangeNote": "39,600원 · 전일 대비 +1,450원 (+3.80%)",
+        "rangeNote": "39,550원 · 전일 대비 +1,400원 (+3.67%)",
         "riskScore": 43,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-08-12T06:50:31.593Z",
+    "generatedAt": "2026-08-12T08:08:54.924Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
