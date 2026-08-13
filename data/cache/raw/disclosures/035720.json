@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-08-13T06:53:32.040Z",
-  "expiresAt": "2026-08-13T08:53:32.040Z",
+  "updatedAt": "2026-08-13T08:11:14.532Z",
+  "expiresAt": "2026-08-13T10:11:14.532Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+      "rcept_no": "20260813001333",
+      "flr_nm": "카카오",
+      "rcept_dt": "20260813",
+      "rm": "공"
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -79,17 +90,6 @@
       "flr_nm": "카카오",
       "rcept_dt": "20260806",
       "rm": "유"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "주식등의대량보유상황보고서(약식)",
-      "rcept_no": "20260803000476",
-      "flr_nm": "BlackRockFundAdvisors",
-      "rcept_dt": "20260803",
-      "rm": ""
     }
   ]
 }
