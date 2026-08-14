@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-08-14T06:50:49.455Z",
-  "expiresAt": "2026-08-14T08:50:49.455Z",
+  "updatedAt": "2026-08-14T08:06:46.580Z",
+  "expiresAt": "2026-08-14T10:06:46.580Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260814002859",
+      "flr_nm": "서승원",
+      "rcept_dt": "20260814",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260814002654",
+      "flr_nm": "오현진",
+      "rcept_dt": "20260814",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -68,28 +90,6 @@
       "flr_nm": "NAVER",
       "rcept_dt": "20260812",
       "rm": "공"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "주식등의대량보유상황보고서(약식)",
-      "rcept_no": "20260810000473",
-      "flr_nm": "BlackRockFundAdvisors",
-      "rcept_dt": "20260810",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260807000722",
-      "flr_nm": "강경돈",
-      "rcept_dt": "20260807",
-      "rm": ""
     }
   ]
 }
