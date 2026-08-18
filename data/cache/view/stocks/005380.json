@@ -1,23 +1,23 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-08-18T06:25:33.327Z",
-  "expiresAt": "2026-08-18T06:45:33.327Z",
+  "updatedAt": "2026-08-18T07:12:18.505Z",
+  "expiresAt": "2026-08-18T07:32:18.505Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.08.14",
-    "latestDisclosureTitle": "반기보고서 (2026.06)",
+    "latestDisclosureDate": "2026.08.18",
+    "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
     "debtRatioSummary": "부채비율 189%",
     "hasPriceData": true,
-    "currentPriceLabel": "427,500원",
-    "priceChangeLabel": "+19,500원",
-    "priceChangeRateLabel": "+4.78%",
+    "currentPriceLabel": "435,000원",
+    "priceChangeLabel": "+27,000원",
+    "priceChangeRateLabel": "+6.62%",
     "priceAsOfLabel": "2026.08.18 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "neutral",
@@ -26,15 +26,23 @@
     "upProbability": 53,
     "downProbability": 47,
     "volatilityRange": "±4.5%",
-    "rangeNote": "427,500원 · 전일 대비 +19,500원 (+4.78%)",
+    "rangeNote": "435,000원 · 전일 대비 +27,000원 (+6.62%)",
     "riskScore": 53,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "보유 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "58.0%",
-    "recentNote": "최근 공시: 반기보고서 (2026.06)",
+    "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.08.18",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818000199",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.14",
         "title": "반기보고서 (2026.06)",
@@ -66,27 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.05",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000501",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "반기보고서 (2026.06)",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "note": "반기보고서 (2026.06)",
         "profit": "+ 공시 우호"
       }
     ],
