@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-08-19T00:39:55.664Z",
-  "expiresAt": "2026-08-19T01:09:55.664Z",
+  "updatedAt": "2026-08-19T02:12:02.510Z",
+  "expiresAt": "2026-08-19T02:42:02.510Z",
   "data": {
     "moodTitle": "관망 유지",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "249,000원",
-        "priceChangeLabel": "+9,500원",
-        "priceChangeRateLabel": "+3.97%",
+        "currentPriceLabel": "251,500원",
+        "priceChangeLabel": "+12,000원",
+        "priceChangeRateLabel": "+5.01%",
         "priceAsOfLabel": "2026.08.19 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "down",
@@ -98,7 +98,7 @@
         "upProbability": 35,
         "downProbability": 65,
         "volatilityRange": "±5.9%",
-        "rangeNote": "249,000원 · 전일 대비 +9,500원 (+3.97%)",
+        "rangeNote": "251,500원 · 전일 대비 +12,000원 (+5.01%)",
         "riskScore": 88,
         "riskStatusLabel": "변동성 확대 구간",
         "riskComment": "분할 접근 권장",
@@ -232,9 +232,9 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,507,500원",
-        "priceChangeLabel": "+82,500원",
-        "priceChangeRateLabel": "+5.79%",
+        "currentPriceLabel": "1,543,000원",
+        "priceChangeLabel": "+118,000원",
+        "priceChangeRateLabel": "+8.28%",
         "priceAsOfLabel": "2026.08.19 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,7 +243,7 @@
         "upProbability": 65,
         "downProbability": 35,
         "volatilityRange": "±4.2%",
-        "rangeNote": "1,507,500원 · 전일 대비 +82,500원 (+5.79%)",
+        "rangeNote": "1,543,000원 · 전일 대비 +118,000원 (+8.28%)",
         "riskScore": 44,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -377,9 +377,9 @@
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "407,750원",
-        "priceChangeLabel": "+4,750원",
-        "priceChangeRateLabel": "+1.18%",
+        "currentPriceLabel": "415,500원",
+        "priceChangeLabel": "+12,500원",
+        "priceChangeRateLabel": "+3.10%",
         "priceAsOfLabel": "2026.08.19 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -388,7 +388,7 @@
         "upProbability": 53,
         "downProbability": 47,
         "volatilityRange": "±4.5%",
-        "rangeNote": "407,750원 · 전일 대비 +4,750원 (+1.18%)",
+        "rangeNote": "415,500원 · 전일 대비 +12,500원 (+3.10%)",
         "riskScore": 53,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -522,9 +522,9 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "204,500원",
-        "priceChangeLabel": "-9,500원",
-        "priceChangeRateLabel": "-4.44%",
+        "currentPriceLabel": "206,000원",
+        "priceChangeLabel": "-8,000원",
+        "priceChangeRateLabel": "-3.74%",
         "priceAsOfLabel": "2026.08.19 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -533,7 +533,7 @@
         "upProbability": 58,
         "downProbability": 42,
         "volatilityRange": "±4.3%",
-        "rangeNote": "204,500원 · 전일 대비 -9,500원 (-4.44%)",
+        "rangeNote": "206,000원 · 전일 대비 -8,000원 (-3.74%)",
         "riskScore": 47,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -660,16 +660,16 @@
         "corpCode": "00258801",
         "companyName": "(주)카카오",
         "sector": "플랫폼",
-        "latestDisclosureDate": "2026.08.14",
-        "latestDisclosureTitle": "반기보고서 (2026.06)",
+        "latestDisclosureDate": "2026.08.19",
+        "latestDisclosureTitle": "[기재정정]반기보고서 (2026.06)",
         "disclosureCount": 8,
         "revenueSummary": "매출액 8조 991억",
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "36,600원",
-        "priceChangeLabel": "-4,100원",
-        "priceChangeRateLabel": "-10.07%",
+        "currentPriceLabel": "36,850원",
+        "priceChangeLabel": "-3,850원",
+        "priceChangeRateLabel": "-9.46%",
         "priceAsOfLabel": "2026.08.19 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "down",
@@ -678,15 +678,23 @@
         "upProbability": 35,
         "downProbability": 65,
         "volatilityRange": "±5.9%",
-        "rangeNote": "36,600원 · 전일 대비 -4,100원 (-10.07%)",
+        "rangeNote": "36,850원 · 전일 대비 -3,850원 (-9.46%)",
         "riskScore": 88,
         "riskStatusLabel": "변동성 확대 구간",
         "riskComment": "분할 접근 권장",
         "strategy": "관망 우선",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "51.0%",
-        "recentNote": "최근 공시: 반기보고서 (2026.06)",
+        "recentNote": "최근 공시: [기재정정]반기보고서 (2026.06)",
         "history": [
+          {
+            "date": "2026.08.19",
+            "title": "[기재정정]반기보고서 (2026.06)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000055",
+            "tone": "negative",
+            "success": false,
+            "statusLabel": "주의"
+          },
           {
             "date": "2026.08.14",
             "title": "반기보고서 (2026.06)",
@@ -718,27 +726,19 @@
             "tone": "negative",
             "success": false,
             "statusLabel": "주의"
-          },
-          {
-            "date": "2026.08.13",
-            "title": "[기재정정]주식매수선택권부여에관한신고",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813000636",
-            "tone": "negative",
-            "success": false,
-            "statusLabel": "주의"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "카카오",
-            "action": "매수",
-            "note": "반기보고서 (2026.06)",
-            "profit": "+ 공시 우호"
+            "action": "매도",
+            "note": "[기재정정]반기보고서 (2026.06)",
+            "profit": "- 공시 주의"
           },
           {
             "symbol": "카카오",
             "action": "매수",
-            "note": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+            "note": "반기보고서 (2026.06)",
             "profit": "+ 공시 우호"
           }
         ],
@@ -749,7 +749,7 @@
           },
           {
             "title": "추세 강도",
-            "description": "1건의 우호 신호와 5건의 경계 신호를 함께 보고 있어."
+            "description": "0건의 우호 신호와 6건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-08-19T00:39:55.664Z",
+    "generatedAt": "2026-08-19T02:12:02.510Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
