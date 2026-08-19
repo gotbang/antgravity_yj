@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-08-19T06:25:59.241Z",
-  "expiresAt": "2026-08-19T08:25:59.241Z",
+  "updatedAt": "2026-08-19T07:13:01.685Z",
+  "expiresAt": "2026-08-19T09:13:01.685Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "주식소각결정              ",
+      "rcept_no": "20260819800340",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260819",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "수시공시의무관련사항(공정공시)              ",
+      "rcept_no": "20260819800338",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260819",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "주요사항보고서(자기주식취득결정)",
+      "rcept_no": "20260819000254",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20260819",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -56,39 +89,6 @@
       "rcept_no": "20260810800101",
       "flr_nm": "유가증권시장본부",
       "rcept_dt": "20260810",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "주요사항보고서(자기주식처분결정)",
-      "rcept_no": "20260807000537",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260807",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "신규시설투자등              ",
-      "rcept_no": "20260807800613",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260807",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "신규시설투자등              ",
-      "rcept_no": "20260807800602",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260807",
       "rm": "유"
     }
   ]
