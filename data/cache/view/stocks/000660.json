@@ -1,7 +1,7 @@
 {
   "key": "view:stock:000660",
-  "updatedAt": "2026-08-21T06:28:21.844Z",
-  "expiresAt": "2026-08-21T06:48:21.844Z",
+  "updatedAt": "2026-08-21T08:02:58.625Z",
+  "expiresAt": "2026-08-21T08:22:58.625Z",
   "data": {
     "symbol": "SK하이닉스",
     "stockCode": "000660",
@@ -9,68 +9,68 @@
     "companyName": "에스케이하이닉스(주)",
     "sector": "반도체",
     "latestDisclosureDate": "2026.08.21",
-    "latestDisclosureTitle": "조회공시요구(풍문또는보도)              ",
+    "latestDisclosureTitle": "최대주주등소유주식변동신고서              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 97조 1,466억",
     "operatingIncomeSummary": "영업이익 47조 2,063억",
     "debtRatioSummary": "부채비율 46%",
     "hasPriceData": true,
-    "currentPriceLabel": "1,729,000원",
-    "priceChangeLabel": "+136,000원",
-    "priceChangeRateLabel": "+8.54%",
+    "currentPriceLabel": "1,730,000원",
+    "priceChangeLabel": "+137,000원",
+    "priceChangeRateLabel": "+8.60%",
     "priceAsOfLabel": "2026.08.21 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
     "statusLabel": "상승 우위",
     "forecastLabel": "상승 예상",
-    "upProbability": 61,
-    "downProbability": 39,
-    "volatilityRange": "±4.3%",
-    "rangeNote": "1,729,000원 · 전일 대비 +136,000원 (+8.54%)",
-    "riskScore": 47,
+    "upProbability": 62,
+    "downProbability": 38,
+    "volatilityRange": "±4.1%",
+    "rangeNote": "1,730,000원 · 전일 대비 +137,000원 (+8.60%)",
+    "riskScore": 42,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
-    "accuracyRate": "59.0%",
-    "recentNote": "최근 공시: 조회공시요구(풍문또는보도)              ",
+    "accuracyRate": "58.0%",
+    "recentNote": "최근 공시: 최대주주등소유주식변동신고서              ",
     "history": [
       {
         "date": "2026.08.21",
-        "title": "조회공시요구(풍문또는보도)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800214",
+        "title": "최대주주등소유주식변동신고서              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800617",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
       },
       {
-        "date": "2026.08.19",
-        "title": "주식소각결정              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800340",
+        "date": "2026.08.21",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000531",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
       },
       {
-        "date": "2026.08.19",
-        "title": "수시공시의무관련사항(공정공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800338",
+        "date": "2026.08.21",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000527",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
       },
       {
-        "date": "2026.08.19",
-        "title": "주요사항보고서(자기주식취득결정)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000254",
-        "tone": "positive",
+        "date": "2026.08.21",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000524",
+        "tone": "neutral",
         "success": true,
-        "statusLabel": "긍정"
+        "statusLabel": "중립"
       },
       {
-        "date": "2026.08.14",
-        "title": "반기보고서 (2026.06)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003509",
+        "date": "2026.08.21",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000519",
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
@@ -80,28 +80,28 @@
       {
         "symbol": "SK하이닉스",
         "action": "매수",
-        "note": "조회공시요구(풍문또는보도)              ",
+        "note": "최대주주등소유주식변동신고서              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "SK하이닉스",
         "action": "매수",
-        "note": "주식소각결정              ",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       }
     ],
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.3%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.1%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "1건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
+        "description": "0건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
-        "description": "현재 점수 기준 예상 적중률은 69% 수준으로 보고 있어."
+        "description": "현재 점수 기준 예상 적중률은 70% 수준으로 보고 있어."
       }
     ],
     "strategyGuide": [
@@ -139,11 +139,11 @@
       },
       {
         "label": "리스크 점수",
-        "value": "47",
+        "value": "42",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "56.0%",
+    "backtestReturn": "58.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
