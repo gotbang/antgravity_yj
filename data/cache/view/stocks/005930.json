@@ -1,33 +1,33 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-08-21T04:08:09.353Z",
-  "expiresAt": "2026-08-21T04:28:09.353Z",
+  "updatedAt": "2026-08-21T05:01:13.895Z",
+  "expiresAt": "2026-08-21T05:21:13.895Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
     "corpCode": "00126380",
     "companyName": "삼성전자(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.08.20",
+    "latestDisclosureDate": "2026.08.21",
     "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
     "operatingIncomeSummary": "영업이익 43조 6,010억",
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
-    "currentPriceLabel": "279,000원",
-    "priceChangeLabel": "+11,000원",
-    "priceChangeRateLabel": "+4.10%",
+    "currentPriceLabel": "277,750원",
+    "priceChangeLabel": "+9,750원",
+    "priceChangeRateLabel": "+3.64%",
     "priceAsOfLabel": "2026.08.21 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "down",
-    "statusLabel": "하락 우위",
+    "statusLabel": "중립",
     "forecastLabel": "하락 예상",
-    "upProbability": 37,
-    "downProbability": 63,
-    "volatilityRange": "±5.7%",
-    "rangeNote": "279,000원 · 전일 대비 +11,000원 (+4.10%)",
-    "riskScore": 82,
+    "upProbability": 42,
+    "downProbability": 58,
+    "volatilityRange": "±5.4%",
+    "rangeNote": "277,750원 · 전일 대비 +9,750원 (+3.64%)",
+    "riskScore": 74,
     "riskStatusLabel": "변동성 확대 구간",
     "riskComment": "분할 접근 권장",
     "strategy": "관망 우선",
@@ -35,6 +35,14 @@
     "accuracyRate": "51.0%",
     "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.08.21",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000262",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.20",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -66,14 +74,6 @@
         "tone": "negative",
         "success": false,
         "statusLabel": "주의"
-      },
-      {
-        "date": "2026.08.14",
-        "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003912",
-        "tone": "negative",
-        "success": false,
-        "statusLabel": "주의"
       }
     ],
     "tradeMemos": [
@@ -93,11 +93,11 @@
     "reasoning": [
       {
         "title": "변동성 상태",
-        "description": "최근 공시 8건을 기준으로 변동 범위를 ±5.7%로 해석하고 있어."
+        "description": "최근 공시 8건을 기준으로 변동 범위를 ±5.4%로 해석하고 있어."
       },
       {
         "title": "추세 강도",
-        "description": "0건의 우호 신호와 5건의 경계 신호를 함께 보고 있어."
+        "description": "0건의 우호 신호와 4건의 경계 신호를 함께 보고 있어."
       },
       {
         "title": "과거 유사 패턴 성공률",
@@ -134,16 +134,16 @@
     "technicalIndicators": [
       {
         "label": "최근 공시 톤",
-        "value": "하락 우위",
+        "value": "중립",
         "description": "공시 감정 해석"
       },
       {
         "label": "리스크 점수",
-        "value": "82",
+        "value": "74",
         "description": "100점 기준"
       }
     ],
-    "backtestReturn": "29.0%",
+    "backtestReturn": "35.0%",
     "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
     "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
   }
