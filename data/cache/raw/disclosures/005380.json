@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-08-26T04:30:11.343Z",
-  "expiresAt": "2026-08-26T06:30:11.343Z",
+  "updatedAt": "2026-08-26T05:05:40.055Z",
+  "expiresAt": "2026-08-26T07:05:40.055Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "장래사업ㆍ경영계획(공정공시)              ",
+      "rcept_no": "20260826800246",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260826",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "주식소각결정              ",
+      "rcept_no": "20260826800261",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260826",
+      "rm": "유"
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -68,28 +90,6 @@
       "flr_nm": "현대자동차",
       "rcept_dt": "20260812",
       "rm": "공"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260806000501",
-      "flr_nm": "권정현",
-      "rcept_dt": "20260806",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260805000501",
-      "flr_nm": "필리페 게랑부토",
-      "rcept_dt": "20260805",
-      "rm": ""
     }
   ]
 }
