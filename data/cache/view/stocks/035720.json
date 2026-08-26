@@ -1,23 +1,23 @@
 {
   "key": "view:stock:035720",
-  "updatedAt": "2026-08-26T05:56:58.943Z",
-  "expiresAt": "2026-08-26T06:16:58.943Z",
+  "updatedAt": "2026-08-26T07:37:28.795Z",
+  "expiresAt": "2026-08-26T07:57:28.795Z",
   "data": {
     "symbol": "카카오",
     "stockCode": "035720",
     "corpCode": "00258801",
     "companyName": "(주)카카오",
     "sector": "플랫폼",
-    "latestDisclosureDate": "2026.08.24",
-    "latestDisclosureTitle": "[첨부정정]주요사항보고서(회사합병결정)",
+    "latestDisclosureDate": "2026.08.26",
+    "latestDisclosureTitle": "대규모기업집단현황공시[분기별공시(대표회사용)]",
     "disclosureCount": 8,
     "revenueSummary": "매출액 8조 991억",
     "operatingIncomeSummary": "영업이익 7,320억",
     "debtRatioSummary": "부채비율 182%",
     "hasPriceData": true,
-    "currentPriceLabel": "36,200원",
-    "priceChangeLabel": "-1,200원",
-    "priceChangeRateLabel": "-3.21%",
+    "currentPriceLabel": "36,350원",
+    "priceChangeLabel": "-1,050원",
+    "priceChangeRateLabel": "-2.81%",
     "priceAsOfLabel": "2026.08.26 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "neutral",
@@ -26,15 +26,31 @@
     "upProbability": 49,
     "downProbability": 51,
     "volatilityRange": "±4.8%",
-    "rangeNote": "36,200원 · 전일 대비 -1,200원 (-3.21%)",
+    "rangeNote": "36,350원 · 전일 대비 -1,050원 (-2.81%)",
     "riskScore": 60,
     "riskStatusLabel": "경계 구간",
     "riskComment": "관망 우선",
     "strategy": "관망 우선",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "56.0%",
-    "recentNote": "최근 공시: [첨부정정]주요사항보고서(회사합병결정)",
+    "recentNote": "최근 공시: 대규모기업집단현황공시[분기별공시(대표회사용)]",
     "history": [
+      {
+        "date": "2026.08.26",
+        "title": "대규모기업집단현황공시[분기별공시(대표회사용)]",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000632",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.08.26",
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826800361",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.24",
         "title": "[첨부정정]주요사항보고서(회사합병결정)",
@@ -58,35 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.21",
-        "title": "기업설명회(IR)개최(안내공시)              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800125",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.21",
-        "title": "주요사항보고서(회사합병결정)",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000052",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "카카오",
-        "action": "매도",
-        "note": "[첨부정정]주요사항보고서(회사합병결정)",
-        "profit": "- 공시 주의"
+        "action": "매수",
+        "note": "대규모기업집단현황공시[분기별공시(대표회사용)]",
+        "profit": "+ 공시 우호"
       },
       {
         "symbol": "카카오",
         "action": "매수",
-        "note": "기업가치제고계획(자율공시)              ",
+        "note": "기업설명회(IR)개최(안내공시)              ",
         "profit": "+ 공시 우호"
       }
     ],
