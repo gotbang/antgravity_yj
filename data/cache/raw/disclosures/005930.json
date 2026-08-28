@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-08-28T01:34:03.297Z",
-  "expiresAt": "2026-08-28T03:34:03.297Z",
+  "updatedAt": "2026-08-28T13:33:26.149Z",
+  "expiresAt": "2026-08-28T15:33:26.149Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "rcept_no": "20260828001916",
+      "flr_nm": "삼성물산",
+      "rcept_dt": "20260828",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260828001836",
+      "flr_nm": "포르치니마우로",
+      "rcept_dt": "20260828",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -68,28 +90,6 @@
       "flr_nm": "삼성전자",
       "rcept_dt": "20260821",
       "rm": "유"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260821000262",
-      "flr_nm": "이명재",
-      "rcept_dt": "20260821",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260820000290",
-      "flr_nm": "김경태",
-      "rcept_dt": "20260820",
-      "rm": ""
     }
   ]
 }

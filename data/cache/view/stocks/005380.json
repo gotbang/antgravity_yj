@@ -1,15 +1,15 @@
 {
   "key": "view:stock:005380",
-  "updatedAt": "2026-08-28T01:34:13.918Z",
-  "expiresAt": "2026-08-28T01:54:13.919Z",
+  "updatedAt": "2026-08-28T13:33:28.560Z",
+  "expiresAt": "2026-08-28T13:53:28.560Z",
   "data": {
     "symbol": "현대차",
     "stockCode": "005380",
     "corpCode": "00164742",
     "companyName": "현대자동차(주)",
     "sector": "자동차",
-    "latestDisclosureDate": "2026.08.26",
-    "latestDisclosureTitle": "장래사업ㆍ경영계획(공정공시)              ",
+    "latestDisclosureDate": "2026.08.28",
+    "latestDisclosureTitle": "대규모기업집단현황공시[분기별공시(대표회사용)]",
     "disclosureCount": 8,
     "revenueSummary": "매출액 186조 2,544억",
     "operatingIncomeSummary": "영업이익 11조 4,678억",
@@ -33,8 +33,32 @@
     "strategy": "관망 우선",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "56.0%",
-    "recentNote": "최근 공시: 장래사업ㆍ경영계획(공정공시)              ",
+    "recentNote": "최근 공시: 대규모기업집단현황공시[분기별공시(대표회사용)]",
     "history": [
+      {
+        "date": "2026.08.28",
+        "title": "대규모기업집단현황공시[분기별공시(대표회사용)]",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000940",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.08.28",
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828800249",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.08.28",
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828800244",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.26",
         "title": "장래사업ㆍ경영계획(공정공시)              ",
@@ -50,43 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.24",
-        "title": "[기재정정]생산중단              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800707",
-        "tone": "negative",
-        "success": false,
-        "statusLabel": "주의"
-      },
-      {
-        "date": "2026.08.24",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000132",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.18",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818000199",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "장래사업ㆍ경영계획(공정공시)              ",
+        "note": "대규모기업집단현황공시[분기별공시(대표회사용)]",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "현대차",
         "action": "매수",
-        "note": "주식소각결정              ",
+        "note": "기업설명회(IR)개최(안내공시)              ",
         "profit": "+ 공시 우호"
       }
     ],
