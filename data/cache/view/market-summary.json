@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-08-30T22:51:39.162Z",
-  "expiresAt": "2026-08-30T23:21:39.162Z",
+  "updatedAt": "2026-08-31T00:59:50.154Z",
+  "expiresAt": "2026-08-31T01:29:50.154Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -22,6 +22,14 @@
     "confidenceRecentAccuracy": "57.0%",
     "confidenceOverallAccuracy": "62.0%",
     "marketHistory": [
+      {
+        "date": "2026.08.31",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000066",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.08.28",
         "title": "주식등의대량보유상황보고서(일반)",
@@ -53,21 +61,13 @@
         "tone": "negative",
         "success": false,
         "statusLabel": "주의"
-      },
-      {
-        "date": "2026.08.24",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000222",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "positiveNewsRatio": 0,
     "negativeNewsRatio": 100,
     "keywords": [
-      "주식등의대량보유상황보고서(일반)",
       "임원ㆍ주요주주특정증권등소유상황보고서",
+      "주식등의대량보유상황보고서(일반)",
       "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
       "대규모기업집단현황공시[분기별공시(개별회사용)]"
     ],
@@ -80,17 +80,17 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.08.28",
-        "latestDisclosureTitle": "주식등의대량보유상황보고서(일반)",
+        "latestDisclosureDate": "2026.08.31",
+        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "257,000원",
-        "priceChangeLabel": "-24,500원",
-        "priceChangeRateLabel": "-8.70%",
-        "priceAsOfLabel": "2026.08.28 기준",
+        "currentPriceLabel": "252,000원",
+        "priceChangeLabel": "-5,000원",
+        "priceChangeRateLabel": "-1.95%",
+        "priceAsOfLabel": "2026.08.31 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
         "statusLabel": "상승 우위",
@@ -98,15 +98,23 @@
         "upProbability": 61,
         "downProbability": 39,
         "volatilityRange": "±4.3%",
-        "rangeNote": "257,000원 · 전일 대비 -24,500원 (-8.70%)",
+        "rangeNote": "252,000원 · 전일 대비 -5,000원 (-1.95%)",
         "riskScore": 47,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "59.0%",
-        "recentNote": "최근 공시: 주식등의대량보유상황보고서(일반)",
+        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
         "history": [
+          {
+            "date": "2026.08.31",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000066",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.08.28",
             "title": "주식등의대량보유상황보고서(일반)",
@@ -138,27 +146,19 @@
             "tone": "negative",
             "success": false,
             "statusLabel": "주의"
-          },
-          {
-            "date": "2026.08.24",
-            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000222",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "주식등의대량보유상황보고서(일반)",
+            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "주식등의대량보유상황보고서(일반)",
             "profit": "+ 공시 우호"
           }
         ],
@@ -232,10 +232,10 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,653,000원",
-        "priceChangeLabel": "-77,000원",
-        "priceChangeRateLabel": "-4.45%",
-        "priceAsOfLabel": "2026.08.28 기준",
+        "currentPriceLabel": "1,624,000원",
+        "priceChangeLabel": "-47,000원",
+        "priceChangeRateLabel": "-2.81%",
+        "priceAsOfLabel": "2026.08.31 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
         "statusLabel": "약상승 우위",
@@ -243,7 +243,7 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "1,653,000원 · 전일 대비 -77,000원 (-4.45%)",
+        "rangeNote": "1,624,000원 · 전일 대비 -47,000원 (-2.81%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -377,10 +377,10 @@
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "399,500원",
-        "priceChangeLabel": "-15,500원",
-        "priceChangeRateLabel": "-3.73%",
-        "priceAsOfLabel": "2026.08.28 기준",
+        "currentPriceLabel": "397,250원",
+        "priceChangeLabel": "-16,750원",
+        "priceChangeRateLabel": "-4.05%",
+        "priceAsOfLabel": "2026.08.31 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
         "statusLabel": "중립",
@@ -388,7 +388,7 @@
         "upProbability": 48,
         "downProbability": 52,
         "volatilityRange": "±4.8%",
-        "rangeNote": "399,500원 · 전일 대비 -15,500원 (-3.73%)",
+        "rangeNote": "397,250원 · 전일 대비 -16,750원 (-4.05%)",
         "riskScore": 61,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
@@ -522,10 +522,10 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "220,500원",
-        "priceChangeLabel": "-1,500원",
-        "priceChangeRateLabel": "-0.68%",
-        "priceAsOfLabel": "2026.08.28 기준",
+        "currentPriceLabel": "214,000원",
+        "priceChangeLabel": "-9,500원",
+        "priceChangeRateLabel": "-4.25%",
+        "priceAsOfLabel": "2026.08.31 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
         "statusLabel": "약상승 우위",
@@ -533,7 +533,7 @@
         "upProbability": 58,
         "downProbability": 42,
         "volatilityRange": "±4.3%",
-        "rangeNote": "220,500원 · 전일 대비 -1,500원 (-0.68%)",
+        "rangeNote": "214,000원 · 전일 대비 -9,500원 (-4.25%)",
         "riskScore": 47,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -667,10 +667,10 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "36,850원",
-        "priceChangeLabel": "+1,050원",
-        "priceChangeRateLabel": "+2.93%",
-        "priceAsOfLabel": "2026.08.28 기준",
+        "currentPriceLabel": "36,250원",
+        "priceChangeLabel": "+450원",
+        "priceChangeRateLabel": "+1.26%",
+        "priceAsOfLabel": "2026.08.31 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
         "statusLabel": "중립",
@@ -678,7 +678,7 @@
         "upProbability": 49,
         "downProbability": 51,
         "volatilityRange": "±4.8%",
-        "rangeNote": "36,850원 · 전일 대비 +1,050원 (+2.93%)",
+        "rangeNote": "36,250원 · 전일 대비 +450원 (+1.26%)",
         "riskScore": 60,
         "riskStatusLabel": "경계 구간",
         "riskComment": "관망 우선",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-08-30T22:51:39.162Z",
+    "generatedAt": "2026-08-31T00:59:50.154Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
