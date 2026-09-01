@@ -1,7 +1,7 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-08-31T20:29:18.277Z",
-  "expiresAt": "2026-08-31T20:49:18.277Z",
+  "updatedAt": "2026-09-01T00:00:24.460Z",
+  "expiresAt": "2026-09-01T00:20:24.460Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
@@ -18,7 +18,7 @@
     "currentPriceLabel": "260,000원",
     "priceChangeLabel": "+3,000원",
     "priceChangeRateLabel": "+1.17%",
-    "priceAsOfLabel": "2026.08.31 기준",
+    "priceAsOfLabel": "2026.09.01 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
     "statusLabel": "약상승 우위",
