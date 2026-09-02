@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-09-02T06:02:18.093Z",
-  "expiresAt": "2026-09-02T08:02:18.093Z",
+  "updatedAt": "2026-09-02T11:32:05.274Z",
+  "expiresAt": "2026-09-02T13:32:05.274Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "생산재개(자율공시)              ",
+      "rcept_no": "20260902800437",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260902",
+      "rm": "유"
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -79,17 +90,6 @@
       "flr_nm": "현대자동차",
       "rcept_dt": "20260824",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260824000132",
-      "flr_nm": "이용석",
-      "rcept_dt": "20260824",
-      "rm": ""
     }
   ]
 }
