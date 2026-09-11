@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-09-11T06:14:06.015Z",
-  "expiresAt": "2026-09-11T08:14:06.015Z",
+  "updatedAt": "2026-09-11T11:36:35.406Z",
+  "expiresAt": "2026-09-11T13:36:35.406Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260911000383",
+      "flr_nm": "이종화",
+      "rcept_dt": "20260911",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20260814002506",
       "flr_nm": "이정안",
-      "rcept_dt": "20260814",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260814002444",
-      "flr_nm": "최승락",
       "rcept_dt": "20260814",
       "rm": ""
     }
