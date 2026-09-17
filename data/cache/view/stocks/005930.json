@@ -1,14 +1,14 @@
 {
   "key": "view:stock:005930",
-  "updatedAt": "2026-09-16T21:52:32.985Z",
-  "expiresAt": "2026-09-16T22:12:32.985Z",
+  "updatedAt": "2026-09-17T03:33:00.919Z",
+  "expiresAt": "2026-09-17T03:53:00.919Z",
   "data": {
     "symbol": "삼성전자",
     "stockCode": "005930",
     "corpCode": "00126380",
     "companyName": "삼성전자(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.09.14",
+    "latestDisclosureDate": "2026.09.17",
     "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
     "disclosureCount": 8,
     "revenueSummary": "매출액 333조 6,059억",
@@ -16,9 +16,9 @@
     "debtRatioSummary": "부채비율 30%",
     "hasPriceData": true,
     "currentPriceLabel": "253,500원",
-    "priceChangeLabel": "-16,000원",
-    "priceChangeRateLabel": "-5.94%",
-    "priceAsOfLabel": "2026.09.16 기준",
+    "priceChangeLabel": "-15,500원",
+    "priceChangeRateLabel": "-5.76%",
+    "priceAsOfLabel": "2026.09.17 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
     "statusLabel": "상승 우위",
@@ -26,7 +26,7 @@
     "upProbability": 62,
     "downProbability": 38,
     "volatilityRange": "±4.1%",
-    "rangeNote": "253,500원 · 전일 대비 -16,000원 (-5.94%)",
+    "rangeNote": "253,500원 · 전일 대비 -15,500원 (-5.76%)",
     "riskScore": 42,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
@@ -35,6 +35,14 @@
     "accuracyRate": "58.0%",
     "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
     "history": [
+      {
+        "date": "2026.09.17",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000097",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.09.14",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -66,14 +74,6 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.08.31",
-        "title": "대규모기업집단현황공시[분기별공시(대표회사용)]",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000250",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
@@ -86,7 +86,7 @@
       {
         "symbol": "삼성전자",
         "action": "매수",
-        "note": "임원ㆍ주요주주특정증권등거래계획보고서",
+        "note": "임원ㆍ주요주주특정증권등소유상황보고서",
         "profit": "+ 공시 우호"
       }
     ],
