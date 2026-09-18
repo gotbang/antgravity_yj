@@ -1,14 +1,14 @@
 {
   "key": "view:stock:000660",
-  "updatedAt": "2026-09-18T07:30:12.292Z",
-  "expiresAt": "2026-09-18T07:50:12.292Z",
+  "updatedAt": "2026-09-18T12:19:26.974Z",
+  "expiresAt": "2026-09-18T12:39:26.974Z",
   "data": {
     "symbol": "SK하이닉스",
     "stockCode": "000660",
     "corpCode": "00164779",
     "companyName": "에스케이하이닉스(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.09.09",
+    "latestDisclosureDate": "2026.09.18",
     "latestDisclosureTitle": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 97조 1,466억",
@@ -35,6 +35,14 @@
     "accuracyRate": "56.0%",
     "recentNote": "최근 공시: 조회공시요구(풍문또는보도)에대한답변(미확정)              ",
     "history": [
+      {
+        "date": "2026.09.18",
+        "title": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800583",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.09.09",
         "title": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
@@ -66,14 +74,6 @@
         "tone": "negative",
         "success": false,
         "statusLabel": "주의"
-      },
-      {
-        "date": "2026.08.21",
-        "title": "최대주주등소유주식변동신고서              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800617",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
@@ -86,7 +86,7 @@
       {
         "symbol": "SK하이닉스",
         "action": "매수",
-        "note": "풍문또는보도에대한해명(미확정)              ",
+        "note": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
         "profit": "+ 공시 우호"
       }
     ],
