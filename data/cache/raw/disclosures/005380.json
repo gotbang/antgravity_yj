@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-09-17T23:47:54.349Z",
-  "expiresAt": "2026-09-18T01:47:54.349Z",
+  "updatedAt": "2026-09-18T02:13:21.220Z",
+  "expiresAt": "2026-09-18T04:13:21.220Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "기업설명회(IR)개최(안내공시)              ",
+      "rcept_no": "20260918800063",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20260918",
+      "rm": "유"
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "기업설명회(IR)개최(안내공시)              ",
       "rcept_no": "20260828800249",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20260828",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260828800244",
       "flr_nm": "현대자동차",
       "rcept_dt": "20260828",
       "rm": "유"
