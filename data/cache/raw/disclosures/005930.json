@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-09-18T02:13:20.744Z",
-  "expiresAt": "2026-09-18T04:13:20.744Z",
+  "updatedAt": "2026-09-18T07:30:06.072Z",
+  "expiresAt": "2026-09-18T09:30:06.072Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260918000212",
+      "flr_nm": "조혜경",
+      "rcept_dt": "20260918",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260918000191",
+      "flr_nm": "이혁재",
+      "rcept_dt": "20260918",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -68,28 +90,6 @@
       "flr_nm": "삼성전자",
       "rcept_dt": "20260831",
       "rm": "공"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260831000066",
-      "flr_nm": "김은용",
-      "rcept_dt": "20260831",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "주식등의대량보유상황보고서(일반)",
-      "rcept_no": "20260828001916",
-      "flr_nm": "삼성물산",
-      "rcept_dt": "20260828",
-      "rm": ""
     }
   ]
 }
