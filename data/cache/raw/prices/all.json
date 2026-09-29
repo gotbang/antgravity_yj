@@ -1,46 +1,46 @@
 {
   "key": "raw:prices:all",
-  "updatedAt": "2026-09-28T22:12:31.648Z",
-  "expiresAt": "2026-09-28T22:17:31.648Z",
+  "updatedAt": "2026-09-29T02:06:51.377Z",
+  "expiresAt": "2026-09-29T02:11:51.377Z",
   "data": {
     "005930": {
       "stockCode": "005930",
-      "currentPrice": 270000,
-      "change": 17500,
-      "changeRate": 6.93,
-      "asOfDate": "20260928",
+      "currentPrice": 275500,
+      "change": 14500,
+      "changeRate": 5.56,
+      "asOfDate": "20260929",
       "sourceLabel": "Yahoo Finance 개인용 시세"
     },
     "000660": {
       "stockCode": "000660",
-      "currentPrice": 1768000,
-      "change": 23000,
-      "changeRate": 1.32,
-      "asOfDate": "20260928",
+      "currentPrice": 1777000,
+      "change": -80000,
+      "changeRate": -4.31,
+      "asOfDate": "20260929",
       "sourceLabel": "Yahoo Finance 개인용 시세"
     },
     "005380": {
       "stockCode": "005380",
-      "currentPrice": 354500,
-      "change": -8500,
-      "changeRate": -2.34,
-      "asOfDate": "20260928",
+      "currentPrice": 349500,
+      "change": -15500,
+      "changeRate": -4.25,
+      "asOfDate": "20260929",
       "sourceLabel": "Yahoo Finance 개인용 시세"
     },
     "035420": {
       "stockCode": "035420",
-      "currentPrice": 197700,
-      "change": -1300,
-      "changeRate": -0.65,
-      "asOfDate": "20260928",
+      "currentPrice": 194700,
+      "change": -3000,
+      "changeRate": -1.52,
+      "asOfDate": "20260929",
       "sourceLabel": "Yahoo Finance 개인용 시세"
     },
     "035720": {
       "stockCode": "035720",
-      "currentPrice": 34150,
-      "change": 650,
-      "changeRate": 1.94,
-      "asOfDate": "20260928",
+      "currentPrice": 33700,
+      "change": 150,
+      "changeRate": 0.45,
+      "asOfDate": "20260929",
       "sourceLabel": "Yahoo Finance 개인용 시세"
     }
   }
