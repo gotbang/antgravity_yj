@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-09-30T03:01:49.611Z",
-  "expiresAt": "2026-09-30T05:01:49.611Z",
+  "updatedAt": "2026-09-30T09:51:53.287Z",
+  "expiresAt": "2026-09-30T11:51:53.287Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20260930000861",
+      "flr_nm": "서진우",
+      "rcept_dt": "20260930",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -79,17 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260821",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260821000531",
-      "flr_nm": "최강국",
-      "rcept_dt": "20260821",
-      "rm": ""
     }
   ]
 }
