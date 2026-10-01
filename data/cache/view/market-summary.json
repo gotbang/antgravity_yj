@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-10-01T06:14:03.159Z",
-  "expiresAt": "2026-10-01T06:44:03.159Z",
+  "updatedAt": "2026-10-01T13:37:25.742Z",
+  "expiresAt": "2026-10-01T14:07:25.742Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -19,8 +19,8 @@
     "marketDownProbability": 42,
     "marketVolatilityRange": "±4.5%",
     "marketRiskScore": 48,
-    "confidenceRecentAccuracy": "60.0%",
-    "confidenceOverallAccuracy": "65.0%",
+    "confidenceRecentAccuracy": "61.0%",
+    "confidenceOverallAccuracy": "66.0%",
     "marketHistory": [
       {
         "date": "2026.10.01",
@@ -63,8 +63,8 @@
         "statusLabel": "중립"
       }
     ],
-    "positiveNewsRatio": 0,
-    "negativeNewsRatio": 100,
+    "positiveNewsRatio": 100,
+    "negativeNewsRatio": 0,
     "keywords": [
       "임원ㆍ주요주주특정증권등소유상황보고서",
       "최대주주등소유주식변동신고서",
@@ -87,9 +87,9 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "275,250원",
-        "priceChangeLabel": "-1,250원",
-        "priceChangeRateLabel": "-0.45%",
+        "currentPriceLabel": "276,000원",
+        "priceChangeLabel": "-500원",
+        "priceChangeRateLabel": "-0.18%",
         "priceAsOfLabel": "2026.10.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -98,7 +98,7 @@
         "upProbability": 62,
         "downProbability": 38,
         "volatilityRange": "±4.1%",
-        "rangeNote": "275,250원 · 전일 대비 -1,250원 (-0.45%)",
+        "rangeNote": "276,000원 · 전일 대비 -500원 (-0.18%)",
         "riskScore": 42,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -232,9 +232,9 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,827,000원",
-        "priceChangeLabel": "-13,000원",
-        "priceChangeRateLabel": "-0.71%",
+        "currentPriceLabel": "1,833,000원",
+        "priceChangeLabel": "-7,000원",
+        "priceChangeRateLabel": "-0.38%",
         "priceAsOfLabel": "2026.10.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -243,7 +243,7 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "1,827,000원 · 전일 대비 -13,000원 (-0.71%)",
+        "rangeNote": "1,833,000원 · 전일 대비 -7,000원 (-0.38%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -370,33 +370,41 @@
         "corpCode": "00164742",
         "companyName": "현대자동차(주)",
         "sector": "자동차",
-        "latestDisclosureDate": "2026.09.21",
-        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "latestDisclosureDate": "2026.10.01",
+        "latestDisclosureTitle": "영업(잠정)실적(공정공시)              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 186조 2,544억",
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "347,500원",
-        "priceChangeLabel": "-13,000원",
-        "priceChangeRateLabel": "-3.61%",
+        "currentPriceLabel": "349,000원",
+        "priceChangeLabel": "-11,500원",
+        "priceChangeRateLabel": "-3.19%",
         "priceAsOfLabel": "2026.10.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
-        "statusLabel": "약상승 우위",
+        "statusLabel": "상승 우위",
         "forecastLabel": "상승 예상",
-        "upProbability": 57,
-        "downProbability": 43,
-        "volatilityRange": "±4.4%",
-        "rangeNote": "347,500원 · 전일 대비 -13,000원 (-3.61%)",
-        "riskScore": 50,
+        "upProbability": 61,
+        "downProbability": 39,
+        "volatilityRange": "±4.3%",
+        "rangeNote": "349,000원 · 전일 대비 -11,500원 (-3.19%)",
+        "riskScore": 47,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "61.0%",
-        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+        "accuracyRate": "64.0%",
+        "recentNote": "최근 공시: 영업(잠정)실적(공정공시)              ",
         "history": [
+          {
+            "date": "2026.10.01",
+            "title": "영업(잠정)실적(공정공시)              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800412",
+            "tone": "positive",
+            "success": true,
+            "statusLabel": "긍정"
+          },
           {
             "date": "2026.09.21",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -428,42 +436,34 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.09.03",
-            "title": "기업설명회(IR)개최(안내공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903800271",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "영업(잠정)실적(공정공시)              ",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "현대차",
             "action": "매수",
-            "note": "기업설명회(IR)개최(안내공시)              ",
+            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
             "profit": "+ 공시 우호"
           }
         ],
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.4%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.3%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "1건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
+            "description": "2건의 우호 신호와 0건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 65% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 69% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -496,16 +496,16 @@
         "technicalIndicators": [
           {
             "label": "최근 공시 톤",
-            "value": "약상승 우위",
+            "value": "상승 우위",
             "description": "공시 감정 해석"
           },
           {
             "label": "리스크 점수",
-            "value": "50",
+            "value": "47",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "52.0%",
+        "backtestReturn": "56.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       },
@@ -522,9 +522,9 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "191,300원",
-        "priceChangeLabel": "-9,700원",
-        "priceChangeRateLabel": "-4.83%",
+        "currentPriceLabel": "191,200원",
+        "priceChangeLabel": "-9,800원",
+        "priceChangeRateLabel": "-4.88%",
         "priceAsOfLabel": "2026.10.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
@@ -533,7 +533,7 @@
         "upProbability": 58,
         "downProbability": 42,
         "volatilityRange": "±4.3%",
-        "rangeNote": "191,300원 · 전일 대비 -9,700원 (-4.83%)",
+        "rangeNote": "191,200원 · 전일 대비 -9,800원 (-4.88%)",
         "riskScore": 47,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -667,9 +667,9 @@
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "33,500원",
-        "priceChangeLabel": "-650원",
-        "priceChangeRateLabel": "-1.90%",
+        "currentPriceLabel": "33,550원",
+        "priceChangeLabel": "-600원",
+        "priceChangeRateLabel": "-1.76%",
         "priceAsOfLabel": "2026.10.01 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "neutral",
@@ -678,7 +678,7 @@
         "upProbability": 54,
         "downProbability": 46,
         "volatilityRange": "±4.5%",
-        "rangeNote": "33,500원 · 전일 대비 -650원 (-1.90%)",
+        "rangeNote": "33,550원 · 전일 대비 -600원 (-1.76%)",
         "riskScore": 52,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-10-01T06:14:03.159Z",
+    "generatedAt": "2026-10-01T13:37:25.742Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
