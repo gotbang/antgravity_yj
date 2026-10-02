@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-10-02T02:21:58.972Z",
-  "expiresAt": "2026-10-02T04:21:58.972Z",
+  "updatedAt": "2026-10-02T08:43:42.872Z",
+  "expiresAt": "2026-10-02T10:43:42.872Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(약식)",
+      "rcept_no": "20261002000471",
+      "flr_nm": "국민연금공단",
+      "rcept_dt": "20261002",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20261002000450",
+      "flr_nm": "심동윤",
+      "rcept_dt": "20261002",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20261002000443",
+      "flr_nm": "오성권",
+      "rcept_dt": "20261002",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -56,39 +89,6 @@
       "rcept_no": "20260911000383",
       "flr_nm": "이종화",
       "rcept_dt": "20260911",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260901800215",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260901",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "대규모기업집단현황공시[분기별공시(대표회사용)]",
-      "rcept_no": "20260826000163",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20260826",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20260814002859",
-      "flr_nm": "서승원",
-      "rcept_dt": "20260814",
       "rm": ""
     }
   ]
