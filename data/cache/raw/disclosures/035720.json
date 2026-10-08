@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-10-08T02:06:53.956Z",
-  "expiresAt": "2026-10-08T04:06:53.956Z",
+  "updatedAt": "2026-10-08T09:12:52.657Z",
+  "expiresAt": "2026-10-08T11:12:52.657Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "기업설명회(IR)개최(안내공시)              ",
+      "rcept_no": "20261008800604",
+      "flr_nm": "카카오",
+      "rcept_dt": "20261008",
+      "rm": "유"
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -79,17 +90,6 @@
       "flr_nm": "카카오",
       "rcept_dt": "20260826",
       "rm": "공"
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20260826800361",
-      "flr_nm": "카카오",
-      "rcept_dt": "20260826",
-      "rm": "유"
     }
   ]
 }
