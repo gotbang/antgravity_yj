@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-10-09T15:24:19.025Z",
-  "expiresAt": "2026-10-09T15:54:19.025Z",
+  "updatedAt": "2026-10-09T20:10:20.938Z",
+  "expiresAt": "2026-10-09T20:40:20.938Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-10-09T15:24:19.025Z",
+    "generatedAt": "2026-10-09T20:10:20.938Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
