@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-10-22T23:46:25.982Z",
-  "expiresAt": "2026-10-23T01:46:25.982Z",
+  "updatedAt": "2026-10-23T02:34:28.204Z",
+  "expiresAt": "2026-10-23T04:34:28.204Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "풍문또는보도에대한해명              ",
+      "rcept_no": "20261023800002",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20261023",
+      "rm": "유"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -79,17 +90,6 @@
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20260904",
       "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "대규모기업집단현황공시[분기별공시(개별회사용)]",
-      "rcept_no": "20260828000879",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20260828",
-      "rm": "공"
     }
   ]
 }
