@@ -1,7 +1,7 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-10-23T08:04:46.701Z",
-  "expiresAt": "2026-10-23T08:34:46.701Z",
+  "updatedAt": "2026-10-23T13:39:09.036Z",
+  "expiresAt": "2026-10-23T14:09:09.036Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
@@ -22,6 +22,22 @@
     "confidenceRecentAccuracy": "61.0%",
     "confidenceOverallAccuracy": "66.0%",
     "marketHistory": [
+      {
+        "date": "2026.10.23",
+        "title": "주식등의대량보유상황보고서(일반)",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000484",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
+      {
+        "date": "2026.10.23",
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000478",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.10.19",
         "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -45,31 +61,15 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.10.13",
-        "title": "최대주주등소유주식변동신고서              ",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800651",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
-      },
-      {
-        "date": "2026.10.13",
-        "title": "임원ㆍ주요주주특정증권등거래계획보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000379",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "positiveNewsRatio": 67,
     "negativeNewsRatio": 33,
     "keywords": [
-      "임원ㆍ주요주주특정증권등소유상황보고서",
       "주식등의대량보유상황보고서(일반)",
-      "최대주주등소유주식변동신고서",
-      "임원ㆍ주요주주특정증권등거래계획보고서"
+      "임원ㆍ주요주주특정증권등소유상황보고서",
+      "풍문또는보도에대한해명",
+      "기업설명회(IR)개최(안내공시)"
     ],
     "investorFlowSummary": "재무 안정 종목 중심으로 선별 매수 관점이 가능해.",
     "institutionsSummary": "양호한 공시 흐름이 이어지는 종목이 더 많아.",
@@ -80,8 +80,8 @@
         "corpCode": "00126380",
         "companyName": "삼성전자(주)",
         "sector": "반도체",
-        "latestDisclosureDate": "2026.10.19",
-        "latestDisclosureTitle": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "latestDisclosureDate": "2026.10.23",
+        "latestDisclosureTitle": "주식등의대량보유상황보고서(일반)",
         "disclosureCount": 8,
         "revenueSummary": "매출액 333조 6,059억",
         "operatingIncomeSummary": "영업이익 43조 6,010억",
@@ -105,8 +105,24 @@
         "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
         "accuracyRate": "61.0%",
-        "recentNote": "최근 공시: 임원ㆍ주요주주특정증권등소유상황보고서",
+        "recentNote": "최근 공시: 주식등의대량보유상황보고서(일반)",
         "history": [
+          {
+            "date": "2026.10.23",
+            "title": "주식등의대량보유상황보고서(일반)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000484",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
+          {
+            "date": "2026.10.23",
+            "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000478",
+            "tone": "neutral",
+            "success": true,
+            "statusLabel": "중립"
+          },
           {
             "date": "2026.10.19",
             "title": "임원ㆍ주요주주특정증권등소유상황보고서",
@@ -130,35 +146,19 @@
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
-          },
-          {
-            "date": "2026.10.13",
-            "title": "최대주주등소유주식변동신고서              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800651",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.10.13",
-            "title": "임원ㆍ주요주주특정증권등거래계획보고서",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000379",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
           }
         ],
         "tradeMemos": [
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
+            "note": "주식등의대량보유상황보고서(일반)",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "삼성전자",
             "action": "매수",
-            "note": "주식등의대량보유상황보고서(일반)",
+            "note": "임원ㆍ주요주주특정증권등소유상황보고서",
             "profit": "+ 공시 우호"
           }
         ],
@@ -800,7 +800,7 @@
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-10-23T08:04:46.701Z",
+    "generatedAt": "2026-10-23T13:39:09.036Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
