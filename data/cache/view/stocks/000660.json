@@ -1,24 +1,24 @@
 {
   "key": "view:stock:000660",
-  "updatedAt": "2026-10-25T23:43:41.834Z",
-  "expiresAt": "2026-10-26T00:03:41.834Z",
+  "updatedAt": "2026-10-26T02:20:11.660Z",
+  "expiresAt": "2026-10-26T02:40:11.660Z",
   "data": {
     "symbol": "SK하이닉스",
     "stockCode": "000660",
     "corpCode": "00164779",
     "companyName": "에스케이하이닉스(주)",
     "sector": "반도체",
-    "latestDisclosureDate": "2026.10.23",
-    "latestDisclosureTitle": "풍문또는보도에대한해명              ",
+    "latestDisclosureDate": "2026.10.26",
+    "latestDisclosureTitle": "풍문또는보도에대한해명(미확정)              ",
     "disclosureCount": 8,
     "revenueSummary": "매출액 97조 1,466억",
     "operatingIncomeSummary": "영업이익 47조 2,063억",
     "debtRatioSummary": "부채비율 46%",
     "hasPriceData": true,
-    "currentPriceLabel": "1,277,000원",
-    "priceChangeLabel": "+5,000원",
-    "priceChangeRateLabel": "+0.39%",
-    "priceAsOfLabel": "2026.10.23 기준",
+    "currentPriceLabel": "1,279,000원",
+    "priceChangeLabel": "+2,000원",
+    "priceChangeRateLabel": "+0.16%",
+    "priceAsOfLabel": "2026.10.26 기준",
     "priceSourceLabel": "Yahoo Finance 개인용 시세",
     "trend": "up",
     "statusLabel": "상승 우위",
@@ -26,15 +26,23 @@
     "upProbability": 62,
     "downProbability": 38,
     "volatilityRange": "±4.1%",
-    "rangeNote": "1,277,000원 · 전일 대비 +5,000원 (+0.39%)",
+    "rangeNote": "1,279,000원 · 전일 대비 +2,000원 (+0.16%)",
     "riskScore": 42,
     "riskStatusLabel": "안정 구간",
     "riskComment": "완만한 비중 확대 가능",
     "strategy": "분할 매수 관점 유지",
     "confidenceLabel": "최근 공시 8건 분석",
     "accuracyRate": "58.0%",
-    "recentNote": "최근 공시: 풍문또는보도에대한해명              ",
+    "recentNote": "최근 공시: 풍문또는보도에대한해명(미확정)              ",
     "history": [
+      {
+        "date": "2026.10.26",
+        "title": "풍문또는보도에대한해명(미확정)              ",
+        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800118",
+        "tone": "neutral",
+        "success": true,
+        "statusLabel": "중립"
+      },
       {
         "date": "2026.10.23",
         "title": "풍문또는보도에대한해명              ",
@@ -66,27 +74,19 @@
         "tone": "neutral",
         "success": true,
         "statusLabel": "중립"
-      },
-      {
-        "date": "2026.09.22",
-        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000361",
-        "tone": "neutral",
-        "success": true,
-        "statusLabel": "중립"
       }
     ],
     "tradeMemos": [
       {
         "symbol": "SK하이닉스",
         "action": "매수",
-        "note": "풍문또는보도에대한해명              ",
+        "note": "풍문또는보도에대한해명(미확정)              ",
         "profit": "+ 공시 우호"
       },
       {
         "symbol": "SK하이닉스",
         "action": "매수",
-        "note": "기업설명회(IR)개최(안내공시)              ",
+        "note": "풍문또는보도에대한해명              ",
         "profit": "+ 공시 우호"
       }
     ],
