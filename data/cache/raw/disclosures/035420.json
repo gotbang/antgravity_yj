@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-10-27T03:37:05.979Z",
-  "expiresAt": "2026-10-27T05:37:05.979Z",
+  "updatedAt": "2026-10-27T09:26:23.402Z",
+  "expiresAt": "2026-10-27T11:26:23.402Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인과의내부거래",
+      "rcept_no": "20261027000289",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20261027",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "타인에대한채무보증결정              ",
+      "rcept_no": "20261027800510",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20261027",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
+      "rcept_no": "20261027800446",
+      "flr_nm": "NAVER",
+      "rcept_dt": "20261027",
+      "rm": "유"
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -56,39 +89,6 @@
       "rcept_no": "20261021000229",
       "flr_nm": "정유한",
       "rcept_dt": "20261021",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261021000225",
-      "flr_nm": "최승락",
-      "rcept_dt": "20261021",
-      "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "기업설명회(IR)개최(안내공시)              ",
-      "rcept_no": "20261020800455",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20261020",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261016000318",
-      "flr_nm": "김성호",
-      "rcept_dt": "20261016",
       "rm": ""
     }
   ]
