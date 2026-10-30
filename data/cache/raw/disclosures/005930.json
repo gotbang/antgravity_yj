@@ -1,8 +1,41 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-10-30T03:34:03.416Z",
-  "expiresAt": "2026-10-30T05:34:03.416Z",
+  "updatedAt": "2026-10-30T10:34:29.165Z",
+  "expiresAt": "2026-10-30T12:34:29.165Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20261030000719",
+      "flr_nm": "윤주한",
+      "rcept_dt": "20261030",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "rcept_no": "20261030000716",
+      "flr_nm": "삼성물산",
+      "rcept_dt": "20261030",
+      "rm": ""
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인으로부터주식의취득",
+      "rcept_no": "20261030000586",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20261030",
+      "rm": "공"
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -54,39 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "특수관계인에대한증여",
       "rcept_no": "20261029000564",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20261029",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인에대한증여",
-      "rcept_no": "20261029000557",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20261029",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "주요사항보고서(자기주식처분결정)",
-      "rcept_no": "20261029000539",
-      "flr_nm": "삼성전자",
-      "rcept_dt": "20261029",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인과의보험거래",
-      "rcept_no": "20261029000525",
       "flr_nm": "삼성전자",
       "rcept_dt": "20261029",
       "rm": "공"
