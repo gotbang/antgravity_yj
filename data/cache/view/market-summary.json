@@ -1,11 +1,11 @@
 {
   "key": "view:market-summary",
-  "updatedAt": "2026-11-04T21:01:54.646Z",
-  "expiresAt": "2026-11-04T21:31:54.646Z",
+  "updatedAt": "2026-11-05T01:33:27.644Z",
+  "expiresAt": "2026-11-05T02:03:27.644Z",
   "data": {
     "moodTitle": "회복 기대",
     "moodDescription": "공시와 재무 흐름을 보면 전체적으로는 버틸 힘이 있는 구간이야.",
-    "fearGreedIndex": 47,
+    "fearGreedIndex": 49,
     "fearGreedLabel": "완만한 탐욕",
     "marketWarning": "공시 흐름은 비교적 안정적이지만 종목별 편차가 커서 개별 종목 확인이 중요해.",
     "strategies": [
@@ -15,12 +15,12 @@
     ],
     "marketDirectionLabel": "약상승 예상",
     "marketDirectionSummary": "공시와 재무 흐름을 함께 보면 완만한 회복 가능성이 있어 보여.",
-    "marketUpProbability": 57,
-    "marketDownProbability": 43,
-    "marketVolatilityRange": "±4.7%",
-    "marketRiskScore": 53,
-    "confidenceRecentAccuracy": "60.0%",
-    "confidenceOverallAccuracy": "65.0%",
+    "marketUpProbability": 60,
+    "marketDownProbability": 40,
+    "marketVolatilityRange": "±4.6%",
+    "marketRiskScore": 51,
+    "confidenceRecentAccuracy": "63.0%",
+    "confidenceOverallAccuracy": "68.0%",
     "marketHistory": [
       {
         "date": "2026.11.04",
@@ -63,8 +63,8 @@
         "statusLabel": "중립"
       }
     ],
-    "positiveNewsRatio": 50,
-    "negativeNewsRatio": 50,
+    "positiveNewsRatio": 64,
+    "negativeNewsRatio": 36,
     "keywords": [
       "최대주주등소유주식변동신고서",
       "자기주식처분결과보고서",
@@ -87,10 +87,10 @@
         "operatingIncomeSummary": "영업이익 43조 6,010억",
         "debtRatioSummary": "부채비율 30%",
         "hasPriceData": true,
-        "currentPriceLabel": "218,000원",
-        "priceChangeLabel": "-24,000원",
-        "priceChangeRateLabel": "-9.92%",
-        "priceAsOfLabel": "2026.11.04 기준",
+        "currentPriceLabel": "205,000원",
+        "priceChangeLabel": "-27,000원",
+        "priceChangeRateLabel": "-11.64%",
+        "priceAsOfLabel": "2026.11.05 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
         "statusLabel": "상승 우위",
@@ -98,7 +98,7 @@
         "upProbability": 66,
         "downProbability": 34,
         "volatilityRange": "±4.0%",
-        "rangeNote": "218,000원 · 전일 대비 -24,000원 (-9.92%)",
+        "rangeNote": "205,000원 · 전일 대비 -27,000원 (-11.64%)",
         "riskScore": 39,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -232,10 +232,10 @@
         "operatingIncomeSummary": "영업이익 47조 2,063억",
         "debtRatioSummary": "부채비율 46%",
         "hasPriceData": true,
-        "currentPriceLabel": "1,396,000원",
-        "priceChangeLabel": "-91,000원",
-        "priceChangeRateLabel": "-6.12%",
-        "priceAsOfLabel": "2026.11.04 기준",
+        "currentPriceLabel": "1,281,000원",
+        "priceChangeLabel": "-245,000원",
+        "priceChangeRateLabel": "-16.06%",
+        "priceAsOfLabel": "2026.11.05 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
         "statusLabel": "상승 우위",
@@ -243,7 +243,7 @@
         "upProbability": 73,
         "downProbability": 27,
         "volatilityRange": "±3.9%",
-        "rangeNote": "1,396,000원 · 전일 대비 -91,000원 (-6.12%)",
+        "rangeNote": "1,281,000원 · 전일 대비 -245,000원 (-16.06%)",
         "riskScore": 38,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -377,10 +377,10 @@
         "operatingIncomeSummary": "영업이익 11조 4,678억",
         "debtRatioSummary": "부채비율 189%",
         "hasPriceData": true,
-        "currentPriceLabel": "283,500원",
-        "priceChangeLabel": "-12,500원",
-        "priceChangeRateLabel": "-4.22%",
-        "priceAsOfLabel": "2026.11.04 기준",
+        "currentPriceLabel": "292,500원",
+        "priceChangeLabel": "0원",
+        "priceChangeRateLabel": "0.00%",
+        "priceAsOfLabel": "2026.11.05 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "up",
         "statusLabel": "약상승 우위",
@@ -388,7 +388,7 @@
         "upProbability": 57,
         "downProbability": 43,
         "volatilityRange": "±4.4%",
-        "rangeNote": "283,500원 · 전일 대비 -12,500원 (-4.22%)",
+        "rangeNote": "292,500원 · 전일 대비 0원 (0.00%)",
         "riskScore": 50,
         "riskStatusLabel": "안정 구간",
         "riskComment": "완만한 비중 확대 가능",
@@ -522,10 +522,10 @@
         "operatingIncomeSummary": "영업이익 2조 2,081억",
         "debtRatioSummary": "부채비율 142%",
         "hasPriceData": true,
-        "currentPriceLabel": "170,800원",
-        "priceChangeLabel": "-7,200원",
-        "priceChangeRateLabel": "-4.04%",
-        "priceAsOfLabel": "2026.11.04 기준",
+        "currentPriceLabel": "179,300원",
+        "priceChangeLabel": "+4,400원",
+        "priceChangeRateLabel": "+2.52%",
+        "priceAsOfLabel": "2026.11.05 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
         "trend": "down",
         "statusLabel": "하락 우위",
@@ -533,7 +533,7 @@
         "upProbability": 38,
         "downProbability": 62,
         "volatilityRange": "±5.6%",
-        "rangeNote": "170,800원 · 전일 대비 -7,200원 (-4.04%)",
+        "rangeNote": "179,300원 · 전일 대비 +4,400원 (+2.52%)",
         "riskScore": 79,
         "riskStatusLabel": "변동성 확대 구간",
         "riskComment": "분할 접근 권장",
@@ -660,69 +660,69 @@
         "corpCode": "00258801",
         "companyName": "(주)카카오",
         "sector": "플랫폼",
-        "latestDisclosureDate": "2026.11.03",
-        "latestDisclosureTitle": "기업설명회(IR)개최(안내공시)              ",
+        "latestDisclosureDate": "2026.11.05",
+        "latestDisclosureTitle": "주식소각결정              ",
         "disclosureCount": 8,
         "revenueSummary": "매출액 8조 991억",
         "operatingIncomeSummary": "영업이익 7,320억",
         "debtRatioSummary": "부채비율 182%",
         "hasPriceData": true,
-        "currentPriceLabel": "29,100원",
-        "priceChangeLabel": "-700원",
-        "priceChangeRateLabel": "-2.35%",
-        "priceAsOfLabel": "2026.11.04 기준",
+        "currentPriceLabel": "31,500원",
+        "priceChangeLabel": "+2,200원",
+        "priceChangeRateLabel": "+7.51%",
+        "priceAsOfLabel": "2026.11.05 기준",
         "priceSourceLabel": "Yahoo Finance 개인용 시세",
-        "trend": "neutral",
-        "statusLabel": "중립",
-        "forecastLabel": "중립 예상",
-        "upProbability": 53,
-        "downProbability": 47,
-        "volatilityRange": "±4.7%",
-        "rangeNote": "29,100원 · 전일 대비 -700원 (-2.35%)",
-        "riskScore": 57,
-        "riskStatusLabel": "경계 구간",
-        "riskComment": "관망 우선",
-        "strategy": "보유 관점 유지",
+        "trend": "up",
+        "statusLabel": "상승 우위",
+        "forecastLabel": "상승 예상",
+        "upProbability": 65,
+        "downProbability": 35,
+        "volatilityRange": "±4.3%",
+        "rangeNote": "31,500원 · 전일 대비 +2,200원 (+7.51%)",
+        "riskScore": 48,
+        "riskStatusLabel": "안정 구간",
+        "riskComment": "완만한 비중 확대 가능",
+        "strategy": "분할 매수 관점 유지",
         "confidenceLabel": "최근 공시 8건 분석",
-        "accuracyRate": "59.0%",
-        "recentNote": "최근 공시: 기업설명회(IR)개최(안내공시)              ",
+        "accuracyRate": "68.0%",
+        "recentNote": "최근 공시: 주식소각결정              ",
         "history": [
           {
-            "date": "2026.11.03",
-            "title": "기업설명회(IR)개최(안내공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800250",
+            "date": "2026.11.05",
+            "title": "주식소각결정              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800084",
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
           },
           {
-            "date": "2026.10.16",
-            "title": "[기재정정]기업설명회(IR)개최(안내공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800407",
-            "tone": "negative",
-            "success": false,
-            "statusLabel": "주의"
-          },
-          {
-            "date": "2026.10.14",
-            "title": "기업설명회(IR)개최(안내공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800334",
-            "tone": "neutral",
-            "success": true,
-            "statusLabel": "중립"
-          },
-          {
-            "date": "2026.10.14",
-            "title": "결산실적공시예고(안내공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800332",
+            "date": "2026.11.05",
+            "title": "주요사항보고서(자기주식취득결정)",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000008",
             "tone": "positive",
             "success": true,
             "statusLabel": "긍정"
           },
           {
-            "date": "2026.10.08",
+            "date": "2026.11.05",
+            "title": "영업(잠정)실적(공정공시)              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800008",
+            "tone": "positive",
+            "success": true,
+            "statusLabel": "긍정"
+          },
+          {
+            "date": "2026.11.05",
+            "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800007",
+            "tone": "positive",
+            "success": true,
+            "statusLabel": "긍정"
+          },
+          {
+            "date": "2026.11.03",
             "title": "기업설명회(IR)개최(안내공시)              ",
-            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800604",
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800250",
             "tone": "neutral",
             "success": true,
             "statusLabel": "중립"
@@ -732,28 +732,28 @@
           {
             "symbol": "카카오",
             "action": "매수",
-            "note": "기업설명회(IR)개최(안내공시)              ",
+            "note": "주식소각결정              ",
             "profit": "+ 공시 우호"
           },
           {
             "symbol": "카카오",
-            "action": "매도",
-            "note": "[기재정정]기업설명회(IR)개최(안내공시)              ",
-            "profit": "- 공시 주의"
+            "action": "매수",
+            "note": "주요사항보고서(자기주식취득결정)",
+            "profit": "+ 공시 우호"
           }
         ],
         "reasoning": [
           {
             "title": "변동성 상태",
-            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.7%로 해석하고 있어."
+            "description": "최근 공시 8건을 기준으로 변동 범위를 ±4.3%로 해석하고 있어."
           },
           {
             "title": "추세 강도",
-            "description": "1건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
+            "description": "4건의 우호 신호와 1건의 경계 신호를 함께 보고 있어."
           },
           {
             "title": "과거 유사 패턴 성공률",
-            "description": "현재 점수 기준 예상 적중률은 61% 수준으로 보고 있어."
+            "description": "현재 점수 기준 예상 적중률은 73% 수준으로 보고 있어."
           }
         ],
         "strategyGuide": [
@@ -780,27 +780,27 @@
         ],
         "consensus": {
           "targetPrice": "OpenDART 미제공",
-          "opinion": "보수적 해석",
+          "opinion": "우호적 해석",
           "coverage": "공시 기반"
         },
         "technicalIndicators": [
           {
             "label": "최근 공시 톤",
-            "value": "중립",
+            "value": "상승 우위",
             "description": "공시 감정 해석"
           },
           {
             "label": "리스크 점수",
-            "value": "57",
+            "value": "48",
             "description": "100점 기준"
           }
         ],
-        "backtestReturn": "47.0%",
+        "backtestReturn": "60.0%",
         "backtestDescription": "최근 공시 신호를 단순 추적했을 때의 참고 수익률이야.",
         "backtestWarning": "공시 기반 참고치일 뿐 실제 수익률을 보장하지 않아."
       }
     ],
-    "generatedAt": "2026-11-04T21:01:54.646Z",
+    "generatedAt": "2026-11-05T01:33:27.644Z",
     "sourceLabel": "OpenDART 기반 재무/공시 해석 + Yahoo Finance 개인용 시세"
   }
 }
