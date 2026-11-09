@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-11-09T06:57:08.291Z",
-  "expiresAt": "2026-11-09T08:57:08.291Z",
+  "updatedAt": "2026-11-09T17:05:35.324Z",
+  "expiresAt": "2026-11-09T19:05:35.324Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20261109000357",
+      "flr_nm": "이승애",
+      "rcept_dt": "20261109",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "특수관계인에대한부동산임대",
       "rcept_no": "20261029000463",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20261029",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인과의내부거래",
-      "rcept_no": "20261029000456",
       "flr_nm": "현대자동차",
       "rcept_dt": "20261029",
       "rm": "공"
