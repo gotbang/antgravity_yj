@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-11-11T23:13:14.987Z",
-  "expiresAt": "2026-11-12T01:13:14.987Z",
+  "updatedAt": "2026-11-12T03:57:30.995Z",
+  "expiresAt": "2026-11-12T05:57:30.995Z",
   "data": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20261112000017",
+      "flr_nm": "송기재",
+      "rcept_dt": "20261112",
+      "rm": ""
+    },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
@@ -77,17 +88,6 @@
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
       "rcept_no": "20261106000193",
       "flr_nm": "송호영",
-      "rcept_dt": "20261106",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261106000100",
-      "flr_nm": "우준명",
       "rcept_dt": "20261106",
       "rm": ""
     }
