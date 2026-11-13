@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:035720",
-  "updatedAt": "2026-11-13T01:16:24.105Z",
-  "expiresAt": "2026-11-13T03:16:24.105Z",
+  "updatedAt": "2026-11-13T08:18:07.287Z",
+  "expiresAt": "2026-11-13T10:18:07.287Z",
   "data": [
+    {
+      "corp_code": "00258801",
+      "corp_name": "카카오",
+      "stock_code": "035720",
+      "corp_cls": "Y",
+      "report_nm": "분기보고서 (2026.09)",
+      "rcept_no": "20261113001344",
+      "flr_nm": "카카오",
+      "rcept_dt": "20261113",
+      "rm": ""
+    },
     {
       "corp_code": "00258801",
       "corp_name": "카카오",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "[기재정정]주요사항보고서(회사분할결정)",
       "rcept_no": "20261105000098",
-      "flr_nm": "카카오",
-      "rcept_dt": "20261105",
-      "rm": ""
-    },
-    {
-      "corp_code": "00258801",
-      "corp_name": "카카오",
-      "stock_code": "035720",
-      "corp_cls": "Y",
-      "report_nm": "[기재정정]주요사항보고서(회사합병결정)",
-      "rcept_no": "20261105000084",
       "flr_nm": "카카오",
       "rcept_dt": "20261105",
       "rm": ""
