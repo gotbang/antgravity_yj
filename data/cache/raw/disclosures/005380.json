@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:005380",
-  "updatedAt": "2026-11-16T06:56:00.973Z",
-  "expiresAt": "2026-11-16T08:56:00.973Z",
+  "updatedAt": "2026-11-16T16:39:28.705Z",
+  "expiresAt": "2026-11-16T18:39:28.705Z",
   "data": [
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "corp_cls": "Y",
+      "report_nm": "분기보고서 (2026.09)",
+      "rcept_no": "20261116001437",
+      "flr_nm": "현대자동차",
+      "rcept_dt": "20261116",
+      "rm": ""
+    },
     {
       "corp_code": "00164742",
       "corp_name": "현대자동차",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "특수관계인으로부터채권매수",
       "rcept_no": "20261029000483",
-      "flr_nm": "현대자동차",
-      "rcept_dt": "20261029",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00164742",
-      "corp_name": "현대자동차",
-      "stock_code": "005380",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인에대한출자",
-      "rcept_no": "20261029000476",
       "flr_nm": "현대자동차",
       "rcept_dt": "20261029",
       "rm": "공"
