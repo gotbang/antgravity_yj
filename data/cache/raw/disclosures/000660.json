@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-11-23T02:55:51.157Z",
-  "expiresAt": "2026-11-23T04:55:51.157Z",
+  "updatedAt": "2026-11-23T11:34:00.994Z",
+  "expiresAt": "2026-11-23T13:34:00.994Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20261123000192",
+      "flr_nm": "윤풍영",
+      "rcept_dt": "20261123",
+      "rm": ""
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "현금ㆍ현물배당결정              ",
       "rcept_no": "20261028800045",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20261028",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "rcept_no": "20261028800036",
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20261028",
       "rm": "유"
