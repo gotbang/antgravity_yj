@@ -1,8 +1,19 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-11-25T02:51:09.240Z",
-  "expiresAt": "2026-11-25T04:51:09.240Z",
+  "updatedAt": "2026-11-25T11:53:15.527Z",
+  "expiresAt": "2026-11-25T13:53:15.527Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "기업가치제고계획(자율공시)              ",
+      "rcept_no": "20261125800766",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20261125",
+      "rm": "유"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -76,17 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
       "rcept_no": "20261028800048",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20261028",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "현금ㆍ현물배당결정              ",
-      "rcept_no": "20261028800045",
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20261028",
       "rm": "유"
