@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:000660",
-  "updatedAt": "2026-11-26T22:03:49.105Z",
-  "expiresAt": "2026-11-27T00:03:49.105Z",
+  "updatedAt": "2026-11-27T04:21:24.303Z",
+  "expiresAt": "2026-11-27T06:21:24.303Z",
   "data": [
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "특수관계인에대한증여",
+      "rcept_no": "20261127000377",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20261127",
+      "rm": "공"
+    },
+    {
+      "corp_code": "00164779",
+      "corp_name": "SK하이닉스",
+      "stock_code": "000660",
+      "corp_cls": "Y",
+      "report_nm": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+      "rcept_no": "20261127000257",
+      "flr_nm": "SK하이닉스",
+      "rcept_dt": "20261127",
+      "rm": "공"
+    },
     {
       "corp_code": "00164779",
       "corp_name": "SK하이닉스",
@@ -65,28 +87,6 @@
       "corp_cls": "Y",
       "report_nm": "[기재정정]기업설명회(IR)개최(안내공시)              ",
       "rcept_no": "20261028800052",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20261028",
-      "rm": "유"
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "주요사항보고서(자기주식취득결정)",
-      "rcept_no": "20261028000014",
-      "flr_nm": "SK하이닉스",
-      "rcept_dt": "20261028",
-      "rm": ""
-    },
-    {
-      "corp_code": "00164779",
-      "corp_name": "SK하이닉스",
-      "stock_code": "000660",
-      "corp_cls": "Y",
-      "report_nm": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
-      "rcept_no": "20261028800048",
       "flr_nm": "SK하이닉스",
       "rcept_dt": "20261028",
       "rm": "유"
