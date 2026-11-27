@@ -1,7 +1,7 @@
 {
   "key": "raw:disclosures:005930",
-  "updatedAt": "2026-11-27T04:21:24.360Z",
-  "expiresAt": "2026-11-27T06:21:24.360Z",
+  "updatedAt": "2026-11-27T14:04:58.181Z",
+  "expiresAt": "2026-11-27T16:04:58.181Z",
   "data": [
     {
       "corp_code": "00126380",
@@ -9,8 +9,8 @@
       "stock_code": "005930",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261127000388",
-      "flr_nm": "문창성",
+      "rcept_no": "20261127002010",
+      "flr_nm": "조용선",
       "rcept_dt": "20261127",
       "rm": ""
     },
@@ -20,8 +20,8 @@
       "stock_code": "005930",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261127000031",
-      "flr_nm": "이응규",
+      "rcept_no": "20261127001958",
+      "flr_nm": "정창규",
       "rcept_dt": "20261127",
       "rm": ""
     },
@@ -31,8 +31,8 @@
       "stock_code": "005930",
       "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261127000021",
-      "flr_nm": "김봉수",
+      "rcept_no": "20261127001928",
+      "flr_nm": "양효순",
       "rcept_dt": "20261127",
       "rm": ""
     },
@@ -41,9 +41,31 @@
       "corp_name": "삼성전자",
       "stock_code": "005930",
       "corp_cls": "Y",
+      "report_nm": "기타경영사항(자율공시)              ",
+      "rcept_no": "20261127800973",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20261127",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
+      "report_nm": "기타경영사항(자율공시)              ",
+      "rcept_no": "20261127800969",
+      "flr_nm": "삼성전자",
+      "rcept_dt": "20261127",
+      "rm": "유"
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "corp_cls": "Y",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261127000008",
-      "flr_nm": "김지훈",
+      "rcept_no": "20261127001860",
+      "flr_nm": "조태훈",
       "rcept_dt": "20261127",
       "rm": ""
     },
@@ -52,44 +74,22 @@
       "corp_name": "삼성전자",
       "stock_code": "005930",
       "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261127000007",
-      "flr_nm": "이윤수",
+      "report_nm": "특수관계인과의보험거래",
+      "rcept_no": "20261127001858",
+      "flr_nm": "삼성전자",
       "rcept_dt": "20261127",
-      "rm": ""
+      "rm": "공"
     },
     {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
       "stock_code": "005930",
       "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261127000004",
-      "flr_nm": "정민용",
+      "report_nm": "특수관계인과의보험거래",
+      "rcept_no": "20261127001851",
+      "flr_nm": "삼성전자",
       "rcept_dt": "20261127",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261126000250",
-      "flr_nm": "최수민",
-      "rcept_dt": "20261126",
-      "rm": ""
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "corp_cls": "Y",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "rcept_no": "20261118000151",
-      "flr_nm": "GOYAL SIDDHARTH",
-      "rcept_dt": "20261118",
-      "rm": ""
+      "rm": "공"
     }
   ]
 }

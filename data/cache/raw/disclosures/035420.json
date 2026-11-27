@@ -1,8 +1,30 @@
 {
   "key": "raw:disclosures:035420",
-  "updatedAt": "2026-11-27T04:21:24.542Z",
-  "expiresAt": "2026-11-27T06:21:24.542Z",
+  "updatedAt": "2026-11-27T14:04:59.106Z",
+  "expiresAt": "2026-11-27T16:04:59.106Z",
   "data": [
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20261127001600",
+      "flr_nm": "오성권",
+      "rcept_dt": "20261127",
+      "rm": ""
+    },
+    {
+      "corp_code": "00266961",
+      "corp_name": "NAVER",
+      "stock_code": "035420",
+      "corp_cls": "Y",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "rcept_no": "20261127001578",
+      "flr_nm": "이종주",
+      "rcept_dt": "20261127",
+      "rm": ""
+    },
     {
       "corp_code": "00266961",
       "corp_name": "NAVER",
@@ -68,28 +90,6 @@
       "flr_nm": "임동아",
       "rcept_dt": "20261113",
       "rm": ""
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "특수관계인으로부터주식의취득",
-      "rcept_no": "20261113000789",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20261113",
-      "rm": "공"
-    },
-    {
-      "corp_code": "00266961",
-      "corp_name": "NAVER",
-      "stock_code": "035420",
-      "corp_cls": "Y",
-      "report_nm": "영업(잠정)실적(공정공시)              ",
-      "rcept_no": "20261112800028",
-      "flr_nm": "NAVER",
-      "rcept_dt": "20261112",
-      "rm": "유"
     }
   ]
 }
